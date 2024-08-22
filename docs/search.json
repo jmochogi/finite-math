@@ -1,0 +1,548 @@
+[
+  {
+    "objectID": "course-syllabus.html",
+    "href": "course-syllabus.html",
+    "title": "MATH 104 - Finite Mathematics",
+    "section": "",
+    "text": "Introduction to differential calculus, mathematics of finance, and linear programming. Additional topics at the instructor’s discretion. Intended for students in the School of Business.\n\n\n\nThis course is centered around problem solving. The majority of class time will be spent working on problems individually and collaboratively, sharing your ideas/solutions, asking and investigating questions. Research shows that some of the deepest learning comes out of analyzing misconceptions and methods that don’t work, so we will strive to make failures productive. I may give mini–lectures to set the context for the class activities, but my main role will be to support and facilitate your engagement with the mathematics during explorations. This course will be place a lot of emphasis on real-life applications of mathematics and will require you to create your own mathematics problems (problem posing) to demonstrate understanding of the concepts learned.\n\n\n\nPrerequisites include math placement in group 3 or higher, math placement assessment score of 46 or greater, or completion of MATH 10000 or MATH 18000 with a grade of C- or better. (F,S,Y).\nWorkload Expectation:\nThis is a 4-credit course. Credit is earned at Ithaca College in credit hours as measured by the Carnegie unit. The Carnegie unit is defined as one hour of classroom instruction and two hours of assignments outside the classroom, for a period of 15 weeks for each unit (credit).\n\n\n\n\n\n\nDay\nRoom/Hall\nTime\n\n\n\n\nMonday\nWilliams Hall 310\n11:00 - 11:50 am\n\n\nWednesday\nWilliams Hall 310\n11:00 - 11:50 am\n\n\nThursday\nWilliams Hall 310\n10:50 - 11:40 am\n\n\nFriday\nWilliams Hall 310\n11:00 - 11:50 am\n\n\n\n\n\n\nA central goal of this course is for you to develop an understanding of the tools used to solve real-life problems that businesses face on a day-to-day basis. These problems include making decisions on production policies that would maximize profits, deciding on shipment plans that would minimize costs, among other. You will also learn to use ideas from calculus (e.g., functions) to model and solve problems arising from various business situations. Finally, you will learn how to manage your personal finances by delving into the ideas of interest rates as they operate in investments (e.g., share deposits, certificates of deposits) and borrowing situations (e.g., car loans and mortgages). More specific, after taking this course, you should be able to:\n\nDecide on optimal production and shipment plans for companies.\nUse ideas from functions to model and solve problems arising in business situations.\nCritique various investment and borrowing/lending models offered by financial institutions based on the nature of their interest rates.\nCompare and contrast various mortgages plans and retirement saving plans.\nUse appropriate technology to solve complex problems involving financial planning.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#about-the-course",
+    "href": "course-syllabus.html#about-the-course",
+    "title": "MATH 104 - Finite Mathematics",
+    "section": "",
+    "text": "Introduction to differential calculus, mathematics of finance, and linear programming. Additional topics at the instructor’s discretion. Intended for students in the School of Business.\n\n\n\nThis course is centered around problem solving. The majority of class time will be spent working on problems individually and collaboratively, sharing your ideas/solutions, asking and investigating questions. Research shows that some of the deepest learning comes out of analyzing misconceptions and methods that don’t work, so we will strive to make failures productive. I may give mini–lectures to set the context for the class activities, but my main role will be to support and facilitate your engagement with the mathematics during explorations. This course will be place a lot of emphasis on real-life applications of mathematics and will require you to create your own mathematics problems (problem posing) to demonstrate understanding of the concepts learned.\n\n\n\nPrerequisites include math placement in group 3 or higher, math placement assessment score of 46 or greater, or completion of MATH 10000 or MATH 18000 with a grade of C- or better. (F,S,Y).\nWorkload Expectation:\nThis is a 4-credit course. Credit is earned at Ithaca College in credit hours as measured by the Carnegie unit. The Carnegie unit is defined as one hour of classroom instruction and two hours of assignments outside the classroom, for a period of 15 weeks for each unit (credit).\n\n\n\n\n\n\nDay\nRoom/Hall\nTime\n\n\n\n\nMonday\nWilliams Hall 310\n11:00 - 11:50 am\n\n\nWednesday\nWilliams Hall 310\n11:00 - 11:50 am\n\n\nThursday\nWilliams Hall 310\n10:50 - 11:40 am\n\n\nFriday\nWilliams Hall 310\n11:00 - 11:50 am\n\n\n\n\n\n\nA central goal of this course is for you to develop an understanding of the tools used to solve real-life problems that businesses face on a day-to-day basis. These problems include making decisions on production policies that would maximize profits, deciding on shipment plans that would minimize costs, among other. You will also learn to use ideas from calculus (e.g., functions) to model and solve problems arising from various business situations. Finally, you will learn how to manage your personal finances by delving into the ideas of interest rates as they operate in investments (e.g., share deposits, certificates of deposits) and borrowing situations (e.g., car loans and mortgages). More specific, after taking this course, you should be able to:\n\nDecide on optimal production and shipment plans for companies.\nUse ideas from functions to model and solve problems arising in business situations.\nCritique various investment and borrowing/lending models offered by financial institutions based on the nature of their interest rates.\nCompare and contrast various mortgages plans and retirement saving plans.\nUse appropriate technology to solve complex problems involving financial planning.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#course-resources",
+    "href": "course-syllabus.html#course-resources",
+    "title": "MATH 104 - Finite Mathematics",
+    "section": "Course Resources",
+    "text": "Course Resources\n\nTextbooks\nThere is no textbook to purchase for this course. For the most part, we will use the coursepack (notes) available at https://jmochogi.quarto.pub/fmathematics/.\n\n\nComputing:\n\nExcel: We will use MS excel for some parts of the course. No prior knowledge of this software is required.\nCalculators: You may need to have a calculator to perform quick computations. You may use the online calculator tools such as Geogebra or Desmos. Note that during Class quizzes, you will have limited access to digital calculators so you may need to use a physical one. Class quizzes will be closed book but exams will be open-book and open-notes. Mobile phone calculators are not allowed.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#assessment",
+    "href": "course-syllabus.html#assessment",
+    "title": "MATH 104 - Finite Mathematics",
+    "section": "Assessment",
+    "text": "Assessment\nYour learning will be assessed in a variety of ways including Attendance and Participation (AP), CPA’s, Labs, Problem Sets (PS), Projects, Exams, and a final Portfolio (takes the place of a final exam). Below are the details on these components.\n\nAttendance and Participation (AP)\nYou’re expected to attend all classes and participate during class discussions. Consistent attendance and participation are strong indicators of success in MAT 104. You will be responsible for all course material, announcements, quizzes, and exams made in class, whether you attended that day’s class or not. I may post the announcements and materials on Canvas and/or send them out as emails. If you anticipate needing to miss more than four class sessions, please make an appointment with me to discuss any restrictions on your availability early in the semester so we can find ways for you to participate and be successful in the course. Your attendance & participation will be gauged based on the following metrics:\n\nPunctuality to class and number of classes attended\nPreparedness for class (you will generally be considered prepared if you do the CPAs)\nLevel of engagement: Includes working collaboratively with others, sharing your thoughts during class discussions, and asking/answering questions.\nContributing to online collaboration work and discussion forums.\n\nPlease check the college attendance policy on the college-wide policies section.\n\n\nClass Preparation Assignments (CPAs)\nYou will read a short part of the course pack and/or watch a video in preparation for certain classes. After reading and/or watching, you will have a short assignment to complete in canvas. CPAs are an important part of your learning because they prepare you to participate in class meaningfully and to ask important questions to support your deeper understanding of the material.\nNote: CPAs will generally be graded for completion and effort. From time to time, there will be one question on the CPA that will be graded for accuracy. This question is meant to gauge the extent to which you understood the material on your own and answers may be discussed in class.\n\n\nProblem Posing\nThere will be a Problem Posing (PP) assignment at the end of every chapter. Problem posing is an opportunity for you to reflect on the material you have learned and to put it in use by creating problems of your own. You are welcome to use the problems done in class as a guide in creating your own problems. If you use problems from external sources (such as the internet) as a basis for generating your own problems, be sure to disclose the source.\n\n\nClass Quizzes\nThere will be a short quiz almost every week (usually Fridays) during the semester. The quizzes are meant to keep you up to speed with the material of the week. The quizzes will be closed-book and closed-notes.\n\n\nMidterm Exams\nThere will be three mid-term exams during the semester. Each mid-term exam will take about 50 minutes to complete and may draw partly from various student presentations. In order to do well on the test, you should pay close attention to student presentations even if it is not your group presenting. If something is not clear to you, please ask follow-up questions during the presentation or on Canvas discussion board. Information about the areas to be tested in the midterm exams will be provided before every exam. I will provide review problems ahead of time for you to complete out of class and then come to class ready to share your solutions with other students. These problems will not be graded but feedback will be provided during class presentations. Any errors that you make will be great opportunities to learn.\n\n\nProjects\nThere will be one major group project for this course this semester. Your group will be given an opportunity to choose a topic from a wide range of topics. You will have time in class to meet and discuss issues regarding your project before you present and submit it. During these times, I will provide you with feedback that you will use to improve your project in order to earn the best possible grade.\n\n\nFinal Portfolio\nThe final exam will consist of a portfolio with the following:\n\nAn oral presentation: you will be given a problem to work on and write a clear solution, submit to canvas, then come in for a 15-20 min meeting to explain your work.\nA one-page concept map illustrating the main ideas learned in the course and the relationships between them. I will provide examples of concept maps from other courses.\nAn essay (600 to 800 words) reflecting on your main takeaways from the course and how you would apply the knowledge gained in your field or other real-life situations.\n\n\n\nGrading Policy\nYour final letter grade in the course will be weighted by category as follows:\n\n\n\nCategory\nPercentage\n\n\n\n\nAttendance and Participation\n5%\n\n\nClass Preparation Assignments\n10%\n\n\nProblem Posing\n15%\n\n\nClass Quizzes\n10%\n\n\nMidterm Exams\n20%\n\n\nProjects\n15%\n\n\nFinal Oral Presentation\n15%\n\n\n\nThe final letter grade will be determined based on the following thresholds:\n\n\n\nLetter Grade\nFinal Course Grade\n\n\n\n\nA\n\\(\\ge\\) 93\n\n\nA-\n90 - 92.99\n\n\nB+\n87 - 89.99\n\n\nB\n83 - 86.99\n\n\nB-\n80 - 82.99\n\n\nC+\n77 - 79.99\n\n\nC\n73 - 76.99\n\n\nC-\n70 - 72.99\n\n\nD+\n67 - 69.99\n\n\nD\n63 - 66.99\n\n\nD-\n60 - 62.99\n\n\nF\n\\(&lt;\\) 60",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#course-policies",
+    "href": "course-syllabus.html#course-policies",
+    "title": "MATH 104 - Finite Mathematics",
+    "section": "Course policies",
+    "text": "Course policies\n\nAcademic honesty\nThe point is very simple - you should not cheat. You should not present “someone” else’s work as your own.\nAbide by the following guidelines:\n\nCollaboration:\n\nWork that is not assigned as a collaborative assignment should not be completed collaboratively. This does not mean you should not seek support from peers. If you seek help from your peers, be sure that you write your own solutions, otherwise the work will be similar and flagged for cheating. Submitting similar work will be considered a violation of the academic integrity policy by all students involved.\nFor team assignments, you may collaborate freely within your team. Each group will submit one document contained agreed upon responses. No multiple file submissions.\n\nOn individual assignments you may not directly share work with another student in this class, and on team assignments you may not directly share work with another team in this class.\n\nOnline resources: In this century, the internet is a go to place for many things. While much of the information on the internet is useful, I expect that you will use it responsibly. The course policy is that you may use online resources (e.g., StackOverflow, Wolfram Alpha, etc.) but you must explicitly cite where you obtained any solutions you directly use (or use as inspiration).\nUse of generative artificial intelligence (AI): Generative AI tools such as ChatGPT should be treated as other online resources. There are two guiding principles that govern how you can use AI in this course:\n\nCognitive dimension: Using AI tools should make you more efficient and productive rather than hampering your ability to think clearly and critically.\nEthical dimension: Students using AI should be transparent about their use and make sure it aligns with academic integrity. You are ultimately responsible for the work you turn in; it should reflect your understanding of the course content. AI is an integral part of this course and we will practice using generative AI tools responsibly without losing sight of the learning objectives.\n✅ AI tools: If you use AI in any way for course assignments, be sure to disclose it in your submission. Follow these guidelines for citing AI-generated content.\n❌ AI warning  AI-generated content may be inaccurate and even misleading in some cases. You will likely be temoted to use AI to write essays for this class but be warned that doing so in akin to copying and pasting someone else’s work. I suggest you use AI only to check your grammar or to generate an initial document that you should then sit down and edit to make sure it meets the need. Your experiences in this course will be unique and AI does not have any knowledge about these so it cannot generate a great essay.\n\n\nIf you are unsure if the use of a particular resource complies with the academic honesty policy, please contact your instructor.\n\n\nLate Work\nThe due date & time for all assignments will be posted on Canvas and/or emailed out and/or announced in class. To enable me to prepare for class meetings and give you feedback, I will not accept late work except under extreme circumstances. If you know that you won’t be able to turn in an assignment on time, reach out to me in writing (email) at least one day before the due date to discuss your options. Note that there will be no extensions on CPA’s.\n\n\nMobile devices & Other Technologies\nThis class allows use of technology devices (e.g., computers, tablets, etc.) only for purposes of the course. Such purpose includes taking notes, completing OneNote collaborative activities, among others. However, there will be moments (e.g., brief interactive discussion, completing paper activities) when I require that students put away (or turn off) their technology devices. Use of these devices for purposes other than the one for the course is prohibited. Research on this matter shows that it distracts you as well as other students in class. Two violations per week will result in a 0 score on the next attendance and participation grade. Persistent violation may necessitate further action to prevent you from distracting other students.\n\n\nTeams\nThis class will mostly run through small group work (teams). You will be randomly assigned to a team at the start of the semester. About midway into the semester, I will switch people teams based partly on my professional judgement. I will allow you to suggest members you would like to work with but there are no guarantees that you will get grouped with all members of your choice. I generally seek to have mixed ability teams and to ensure that everyone has a chance to work with different people. It is expected that every team member will contribute equally on team assignments.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#getting-support",
+    "href": "course-syllabus.html#getting-support",
+    "title": "MATH 104 - Finite Mathematics",
+    "section": "Getting Support",
+    "text": "Getting Support\nThere are various resources available to help you succeed in this course. Should you feel like you are struggling too much, please don’t hesitate to reach out to me so we can discuss possible ways forward. Below are some academic support services available to you.\n\nOpen Hours\nI will be available during open hours (Mon 12.00 - 01.00 pm) to answer questions or concerns that you may have in the course. You can simply walk in during the stated time above. More times may be available but you will need to check my schedule on this link. Open hours may be held in-person or virtually depending on circumstances of the day. Below are the zoom link and passcode for virtual meetings:\nZoom Link: click here\nPasscode: 850 424\n\n\nMath Tutoring Sessions\nThe mathematics department is committed to the success of all students enrolled in mathematics courses. Free one-on-one support for your mathematics coursework is available during select daytime and evening hours Monday-Friday at the Mathematics Room (Williams Hall 209). The Mathematics Room is staffed by mathematics faculty and vetted students. Student tutors offer support to fellow students in courses numbered 200 and below while math faculty offer support in any of the math courses. For more information and the schedule, please visit the Math Support Center.\n\n\nTutoring and Academic Enrichment Services\nAs a supplement to faculty advising and office hours, Tutoring and Academic Enrichment Services offers exceptional peer resources free of charge. Learning Coaches provide content-specific peer tutoring in a variety of courses. Peer Success Coaches mentor students who wish to develop collegiate-level academic and social engagement skills. To access these courses and for more information, please visit the Center for Student Success.\n\n\nWriting Center\nThe Writing Center aims to help students from all disciplines, backgrounds, and experiences to develop greater independence as writers. We are committed to helping students see writing as central to critical and creative thinking. The physical location in Smiddy 107 will not be open to clients. For more information and scheduling appointments please visit the writing center website.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#tips-for-success",
+    "href": "course-syllabus.html#tips-for-success",
+    "title": "MATH 104 - Finite Mathematics",
+    "section": "Tips for Success",
+    "text": "Tips for Success\nHere are a few basic suggestions for how to succeed in this course:\n\nKeep up with Homework\nIt is absolutely essential that you understand how to solve the assigned homework problems/exercises and, more importantly, how and why the skills and techniques presented in the course are used in solving the problems/exercises. I suggest that you begin working on the how as soon as possible. Do not pile your haw or work near the deadline. The advantage of getting the homework done on time is that you will get timely feedback that will help you understand the material better and hence do well in other assessment categories such as exams.\n\n\nAttend Class\nAs noted earlier, attendance is a critical part of your success in this course. You should try to attend every class because it is during class time that we will delve deeper into the course material and practice with applications.\n\n\nStay Caught Up\nMost concepts in this course build on each other cumulatively and you need to stay on top of the material at every stage. If you are having difficulty, don’t expect that the problem will take care of itself and disappear later. Contact me immediately and discuss the problem.\n\n\nCollaborate with Peers\nMany students benefit from sharing their work with others or by having their work questioned by their peers. You should attempt homework problems ahead of time by yourself and then note down any difficulties/questions that you can discuss with your peers. Even if you have no difficulties, you may still learn different and perhaps more efficient ways of solving the same problem during collaborative work. Below are some of the ways through which you can do this: - Canvas Discussion Forums & One Note Collaboration Space - You can post questions and answer others’ questions here. I encourage you to scan hand-written work (if necessary) and upload it alongside your question so people can see how you are thinking.\n\nZoom sessions – If you cannot meet in person, you can initiate Zoom sessions for collaborating. Zoom whiteboards are available to write on or you may simply have discussions. You can record these for later playback. If you want to invite me to your Zoom session, please send me an email with the link ahead of time and I will let you know if I am available to join.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#college-wide-policies",
+    "href": "course-syllabus.html#college-wide-policies",
+    "title": "MATH 104 - Finite Mathematics",
+    "section": "College-wide Policies",
+    "text": "College-wide Policies\n\nAttendance Policy\nStudents at Ithaca College are expected to attend all classes, and they are responsible for work missed during any absence from class. At the beginning of each semester, instructors must provide the students in their courses with written guidelines regarding possible penalties for failure to attend class. These guidelines may vary from course to course but are subject to the following conditions:\n\nIn accordance with Federal Law, students with a disability documented through Student Accessibility Services (SAS) may require reasonable accommodations to ensure equitable access. A student with an attendance accommodation, who misses a scheduled course time due to a documented disability, must be provided an equivalent opportunity to make up missed time and/or coursework within a reasonable time-frame. An accommodation that affects attendance is not an attendance waiver and no accommodation can fundamentally alter a course requirement. If a faculty member thinks an attendance-related accommodation would result in a fundamental alteration, concerns and potential alternatives should be discussed with SAS.\nIn accordance with New York State law, students who miss class due to their religious beliefs shall be excused from class or examinations on that day. The faculty member is responsible for providing the student with an equivalent opportunity to make up any examination, study, or work requirement that the student may have missed. Any such work is to be completed within a reasonable time frame, as determined by the faculty member.\nAny student who misses class due to a family or individual health emergency or to a required appearance in a court of law shall be excused. If the emergency is prolonged or if the student is incapacitated, the student or a family member/legal guardian should report the absence to the Dean of Students or the Dean of the academic school where the student’s program is housed. Students may consider a leave of absence, medical leave of absence, selected course withdrawals, etc., if they miss a significant portion of classwork. (Note: Graduate students may not take a leave of absence.)\nA student may be excused to participate in local, state, or federal elections. The student is responsible to make up any work that is missed due to the absence. Any such work is to be completed within a reasonable time frame, as determined by the faculty member.\n\nA student may be excused for participation in College-authorized co-curricular and extracurricular activities if, in the instructor’s judgment, this does not impair the specific student’s or the other students’ ability to succeed in the course. For all absences except those due to religious beliefs, the course instructor has the right to determine if the number of absences has been excessive in view of the nature of the class that was missed and the stated attendance policy.\nStudents should notify their instructors as soon as possible of any anticipated absences.\n\n\nStudent Accessibility Services\nIn compliance with Section 504 of the Rehabilitation Act of 1973 and the Americans with Disabilities Act, reasonable accommodation will be provided to students with documented disabilities on a case-by-case basis. Students must register with Student Accessibility Services and provide appropriate documentation to Ithaca College before any academic adjustment will be provided. Please note that accommodations are not retroactive, so timely contact with Student Accessibility Services is encouraged. To discuss accommodations or the accommodation process, students should schedule to meet with a SAS specialist. 607-274-1005 | sas@ithaca.edu.\n\n\nMental Health statement\nThe Ithaca College Center for Counseling and Psychological Services (CAPS) promotes and fosters the academic, personal, and interpersonal development of Ithaca College students by providing short-term individual, group, and relationship counseling, crisis intervention, educational programs to the campus community, and consultation for faculty, staff, parents, and students. Their team of licensed and licensed-eligible professionals value inclusivity, and they are dedicated to creating a diverse, accessible, and welcoming environment that is safe and comfortable for all those they serve and with whom they interact. CAPS sees students in-person at their offices in the Hammond Health building (side entrance), but Telehealth meetings through Zoom can be arranged in some circumstances. Staff in the office will answer questions by phone at 607-274-3136; please leave a voicemail if you do not reach a live person. You can also reach the office via email at counseling@ithaca.edu. CAPS hours remain Monday-Friday 8:30 a.m. to 5:00 p.m. After-hours connections to a live counselor are available by calling the CAPS number and following the prompts.\nIn the event I suspect you need additional support, expect that I will express to you my concerns. It is not my intent to know the details of what might be troubling you, but simply to let you know I am concerned and that help, if needed, is available. Remember, getting help is a smart and courageous thing to do.\n\n\nAcademic Integrity\nThe College is an academic community, which values academic integrity and takes seriously its responsibility for upholding academic honesty. All members of the academic community have an obligation to uphold high intellectual and ethical standards. All forms of dishonesty including cheating and plagiarism are unacceptable. Failure to appropriately cite material used in a paper is plagiarism. The minimum penalty for cheating or plagiarism is a zero for the test or paper in question. Referral to college judiciaries is also possible. For more information on academic integrity and academic dishonesty, please refer to the Student Handbook, the College Catalog and the Code of Student Conduct and Related Policies or ask your instructor.\n\n\nTitle IX\nAt Ithaca College, we believe that every individual has the right to be treated with respect and dignity and we support the creation and maintenance of a safe and positive living and learning environment. Students who experience sexual violence (including dating violence, stalking and sexual assault), sexual harassment, or discrimination based on gender or sexual identity) are encouraged to report their experience to the Title IX Coordinator, lkoenig@ithaca.edu to explore formal and informal reporting options, and explore the support and resources available. The Title IX Coordinator will work with you to determine the best way to proceed and enhance the safety of our community. For more information go to: https://www.ithaca.edu/share.\nInformation shared in class assignments, class discussions, and at public events do not constitute an official disclosure, and faculty and staff do not have to report these to the Title IX Coordinator. Faculty and staff should be sure that access to campus and community resources related to sexual misconduct are available to students in the case these subjects do arise. Any other disclosure to faculty and staff can be reported to the Title IX Coordinator.\n\n\nAcademic Advising Center\nStudents are asked to consult with their faculty advisor, or the advising contact within their school, for all advising matters. Faculty advisors will be able to assist students with most advising questions, or they may collaborate with the dean’s office for more complicated matters. Students can find the name of their assigned faculty advisor in Homer or in Degree Works.\n\n\nDiversity and Inclusion\nIthaca College values diversity because it enriches our community and the myriad experiences that characterize an Ithaca College education. Diversity encompasses multiple dimensions, including but not limited to race, culture, nationality, ethnicity, religion, ideas, beliefs, geographic origin, class, sexual orientation, gender, gender identity and expression, disability, and age. We are dedicated to addressing current and past injustices and promoting excellence and equity. Ithaca College continually strives to build an inclusive and welcoming community of individuals with diverse talents and skills from a multitude of backgrounds who are committed to civility, mutual respect, social justice, and the free and open exchange of ideas. We commit ourselves to change, growth, and actions that embrace diversity as an integral part of the educational experience and of the community we create.Please learn more about Ithaca College’s commitment to diversity, equity and inclusion: https://www.ithaca.edu/diversity-and-inclusion/diversity-statement.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#important-dates",
+    "href": "course-syllabus.html#important-dates",
+    "title": "MATH 104 - Finite Mathematics",
+    "section": "Important dates",
+    "text": "Important dates\n\nAug 26: Classes begin, Request S/D/F Option\nSep 01: Last day to Drop/add a course\nSep 02: No classes (Labor Day)\nSep 13: Last day to request S/D/F Option\nSep 27: Last Day to Withdraw with “W”, Revoke S/D/F Option\nOct 08: Project 1 Presentations\nOct 09: Exam 1 (in-class)\nOct 10: Exam 1 take-home due\nOct 13: Midterm grades available online\nOct 17-18: Fall break - No classes\nNov 01: Last Day to Withdraw with “W”\nNov 15: Exam 2 (in-class)\nNov 16: Exam 2 take-home due\nNov 23-Dec 1: Thanksgiving Break - No classes\nDec 06: Project 2 presentations\nDec 11: Last day of classes\nDec 11: Final portfolio due\n\nAssignment deadlines are listed on the course schedule and in Canvas. Class ends on April 24, there is no final exam.\nFor more important dates, see the full Ithaca College Calendar.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "homework/hw4.html",
+    "href": "homework/hw4.html",
+    "title": "Homeowrk 1",
+    "section": "",
+    "text": "Coming soon!",
+    "crumbs": [
+      "Homework",
+      "Homework 4"
+    ]
+  },
+  {
+    "objectID": "homework/hw2.html",
+    "href": "homework/hw2.html",
+    "title": "Homeowrk 1",
+    "section": "",
+    "text": "Coming soon!",
+    "crumbs": [
+      "Homework",
+      "Homework 2"
+    ]
+  },
+  {
+    "objectID": "course-faq.html",
+    "href": "course-faq.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "If you have an iPhone, you can use the Notes app to scan a document to a PDF. To do this, follow the following steps:\n\nOpen the Notes app\nCreate a new note and name it.\nTap the camera icon and select “Scan Documents”. I suggest you use the manual capture option as this allows you to capture only once the camera is in focus.\nPosition your phone over the document and tap the shutter button. Make sure the camera is directly over the document and is in focus.\nContinue to the next page if there are multiple pages.\nTap “Save” when you are finished scanning all the pages.\n\nIf you have an Android device, you can use the Google Drive app to scan a document to a PDF. To do this, follow the following steps:\n\nOpen the Google Drive app\nTap the “+” icon in the bottom right corner\nTap “Scan”\nPosition your phone over the document and tap the shutter button. Make sure the camera is directly over the document and is in focus.\nContinue to the next page if there are multiple pages.\nTap the checkmark when you are finished scanning all the pages.",
+    "crumbs": [
+      "Course information",
+      "FAQ"
+    ]
+  },
+  {
+    "objectID": "course-faq.html#how-do-i-use-my-mobile-device-to-scan-a-document-to-a-pdf",
+    "href": "course-faq.html#how-do-i-use-my-mobile-device-to-scan-a-document-to-a-pdf",
+    "title": "FAQ",
+    "section": "",
+    "text": "If you have an iPhone, you can use the Notes app to scan a document to a PDF. To do this, follow the following steps:\n\nOpen the Notes app\nCreate a new note and name it.\nTap the camera icon and select “Scan Documents”. I suggest you use the manual capture option as this allows you to capture only once the camera is in focus.\nPosition your phone over the document and tap the shutter button. Make sure the camera is directly over the document and is in focus.\nContinue to the next page if there are multiple pages.\nTap “Save” when you are finished scanning all the pages.\n\nIf you have an Android device, you can use the Google Drive app to scan a document to a PDF. To do this, follow the following steps:\n\nOpen the Google Drive app\nTap the “+” icon in the bottom right corner\nTap “Scan”\nPosition your phone over the document and tap the shutter button. Make sure the camera is directly over the document and is in focus.\nContinue to the next page if there are multiple pages.\nTap the checkmark when you are finished scanning all the pages.",
+    "crumbs": [
+      "Course information",
+      "FAQ"
+    ]
+  },
+  {
+    "objectID": "course-faq.html#how-do-i-export-my-assignment-pdf-from-rstudio-to-upload-to-canvas",
+    "href": "course-faq.html#how-do-i-export-my-assignment-pdf-from-rstudio-to-upload-to-canvas",
+    "title": "FAQ",
+    "section": "How do I export my assignment PDF from RStudio to upload to Canvas?",
+    "text": "How do I export my assignment PDF from RStudio to upload to Canvas?\nGo to your Files tab, check the box next to the file you want to download, then click on the blue gear icon on the Files tab to reveal the drop down menu, and select Export… If you have selected multiple files to export, RStudio will zip them up into a single zip file for you. If you’ve selected just a single file, it will only download that. The downloaded file will go to wherever files you download off the internet goes on your computer (usually your Downloads folder).",
+    "crumbs": [
+      "Course information",
+      "FAQ"
+    ]
+  },
+  {
+    "objectID": "course-faq.html#how-do-i-upload-a-quarto-file-.qmd-to-rstudio-cloud",
+    "href": "course-faq.html#how-do-i-upload-a-quarto-file-.qmd-to-rstudio-cloud",
+    "title": "FAQ",
+    "section": "How do I upload a quarto file (.qmd) to RStudio cloud?",
+    "text": "How do I upload a quarto file (.qmd) to RStudio cloud?\nEasy! Just go to your Files tab, click on the blue Upload button, and select the file you want to upload. RStudio will upload the file and you can then open it by clicking on it. Watch the following video for a demonstration.",
+    "crumbs": [
+      "Course information",
+      "FAQ"
+    ]
+  },
+  {
+    "objectID": "course-faq.html#how-can-i-submit-my-assignment-to-canvas",
+    "href": "course-faq.html#how-can-i-submit-my-assignment-to-canvas",
+    "title": "FAQ",
+    "section": "How can I submit my assignment to Canvas?",
+    "text": "How can I submit my assignment to Canvas?\nThe instructions for submitting your assignment to Canvas can be found here. Please preview your submission to make sure it is the correct file before submitting.",
+    "crumbs": [
+      "Course information",
+      "FAQ"
+    ]
+  },
+  {
+    "objectID": "course-faq.html#can-i-use-a-local-install-of-r-and-rstudio-instead-of-using-the-rstudio-containers",
+    "href": "course-faq.html#can-i-use-a-local-install-of-r-and-rstudio-instead-of-using-the-rstudio-containers",
+    "title": "FAQ",
+    "section": "Can I use a local install of R and RStudio instead of using the RStudio containers?",
+    "text": "Can I use a local install of R and RStudio instead of using the RStudio containers?\nThe short answer is, I’d rather you didn’t, to save yourself some headache. But, the long answer is, sure! But you will need to install a specific versions of R and RStudio for everything to work as expected. You will also need to install the R packages we’re using as well as have Git installed on your computer. These are not extremely challenging things to get right, but they are not trivial either, particularly on certain operating systems. Myself and the course TA are always happy to provide help with any computational questions when you’re working in the posit cloud. If you’re working on your local setup, we can’t guarantee being able to resolve your issues, though we’re happy to try.\nIf you want to take this path, here is what you need to do:\n\nDownload and install R: https://cran.r-project.org/\nDownload and install RStudio: https://posit.co/download/rstudio-desktop/\nInstall Quarto: https://quarto.org/docs/download/prerelease.html\nInstall Git: https://happygitwithr.com/install-git.html\nInstall any necessary packages with install.packages(\"xxx\"), where xxx is the name of the package.\n\nAnd I’d like to reiterate again that successful installation of these software is not a learning goal of this course. So if any of this seems tedious or intimidating in any way, just use the online computing environment (posit cloud).",
+    "crumbs": [
+      "Course information",
+      "FAQ"
+    ]
+  },
+  {
+    "objectID": "project/final_project.html",
+    "href": "project/final_project.html",
+    "title": "Real world appllication",
+    "section": "",
+    "text": "Coming soon",
+    "crumbs": [
+      "Projects",
+      "Project 2"
+    ]
+  },
+  {
+    "objectID": "exam-review/exam-1-review.html",
+    "href": "exam-review/exam-1-review.html",
+    "title": "Exam 1 Review",
+    "section": "",
+    "text": "Come back later!",
+    "crumbs": [
+      "Exam review",
+      "Exam 1"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MATH 246: Intermediate Statistics",
+    "section": "",
+    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\n\n\n\n\n\n\n\n\nWEEK\nDATE\nPREPARE\nTOPIC\nMATERIALS\nDUE OR ASSIGN\n\n\n\n\n1\nMon, Aug 26\n\n\n\nIntroductions & Syllabus\n\n🖥️ Welcome slides \n\n\n\n\n\n\nWed, Aug 28\n📘fmath - chp 1.1-1.3\n\nIntro to Functions: Linear Functions (LFs)  Notation, Structure of LFs\n\n\n\n\n\n\n\n\n\nThu, Aug 29\n📘fmath - chp 1.4-1.5\n\nIntro to Functions: Increasing and Decreasing functions Domain and Range\n\n\n\n\n\n\n\n\n\nFri, Aug 30\n📘fmath - chp 2.1-2.3\n\nRate of Change \nForms: point-slope form, …\n\n\n\n\n\n\n\n2\nMon, Sep 2\n\n\n\nNo class - Labor Day holiday\n\n\n\n\n\n\n\n\n\nWed, Sep 4\n📘fmath - chp 3.1-3.3\n\nApplications of Linear Functions \n\nSupply and demand\nCost Analysis\nBreak-even analysis\n\n\n\n\n\n\n\n\n\n\nThu, Sep 5\n\n\n\nVoce Thread Thursday (VTT)\nPost video by end of class\n\n\n\n\n\n\n\n\n\nFri, Sep 6\n\n\n\nCatchup & review\n\n🖥️ SLR slides \n\nQuiz 1 in class\n\n\n\n3\nMon, Sep 9\n📘 fmath - chp 4.1-4.3.1 \n\nLinear Programming I:\n\nMixture charts\nConstraint inequalities\n\n\n\n\n\nHomework 1 due at 11.59 pm\n\n\n\n\n\nWed, Sep 11\n📘 fmath - chp 4.3.2 - 4.3.3 \n\nLinear Programming I:\n\nFeasible region\nOptimum production Policy\n\n\n\n\n\n\n\n\n\n\nThu, Sep 12\n\n\n\nVoiceThread Thursday :\n\nComplete individaul VT video\n\n\n\n\n\n\n\n\n\n\nFri, Sep 13\n📘 fmath - chp 4.3.4 \n\nCatchup time\n\n\n\n\nQuiz 2 in class\n\n\n\n4\nMon, Sep 16\n\n\n\nProblem Posing (PP)\n\nProblem elements\nPP types\n\n\n🖥️ MLR slides \n\n\n\n\n\n\nWed, Sep 18\n📘 fmath - chp 5.1-5.2 (step 2) \n\nLinear Programming II:\n\nSimplex Method (&gt; 2 variables)\nSlack variables\nSimplex Tableau\n\n\n\n\n\n\n\n\n\n\nThu, Sep 19\n\n\n\nRequired Canvas Discussion Forum\n\n\n\n\n\n\n\n\n\nFri, Sep 20\n📘 fmath - chp 5.2 (step 3-7) \n\nLinear programming II\n\n\n\n\nQuiz 3 in class\n\n\n\n5\nMon, Sep 23\n📘 fmath - chp 5.3 \n\nLinear Programming II:\n\nImplementing the simplex algorithm\n\nBy hand\n\n\n\n\n\n\n\n\n\n\n\nWed, Sep 25\n💻 Simplex Online Calculator\n\nLinear Programming II:\n\nImplementing Simplex method\n\nUse of technology\n\n\n\n\n\n\n\n\n\n\n\nThu, Sep 26\n\n\n\nVTT\n\n\n\n\n\n\n\n\n\nFri, Sep 27\n\n\n\nCatchup Time\n\n\n\n\nQuiz 4 in class\nHomework 2 due at 11.59 pm\n\n\n\n6\nMon, Sep 30\n📘 fmath - chp 6.1 \n\nThe Transportation Problem (TP): \n\nTP tableau\nRim conditions\nOptimal Strategy\n\n\n\n\n\n\n\n\n\n\nWed, Oct 2\n📘 fmath - chp 6.2  🎥 NWCR Algorithm \n\nThe Transportation Problem: \n\nThe Northewest Corner Rule (NWCR)\n\n\n\n\n\n\n\n\n\n\nThu, Oct 3\n\n\n\nVTT\n\n\n\n\n\n\n\n\n\nFri, Oct 4\n📘 fmath - chp 6.3 \n\nThe Transportation Problem: \n\nThe Stepping Stone Method\n\n\n\n\n\nQuiz 5 - take home\n\n\n\n7\nMon, Oct 7\n📘 fmath - chp 7.1-7.3.1\n\nGame Theory\n\nThe payoff matrix\nZero-sum games\n\n\n\n\n\n\n\n\n\n\nWed, Oct 9\n\n\n\nGame Theory\n\nDominated Strategies\nSimplifeied Payoff matrix\n\n\n\n\n\n\n\n\n\n\nThu, Oct 10\n\n\n\nVTT\n\n\n\n\n\n\n\n\n\nFri, Oct 11\n\n\n\nQuiz 6\nStrictly Determined Games\n\n\n\n\n\n\n\n8\nMon, Oct 14\nTBD\n\nGame Theory\nMixed strategies\n\n\n\n\n\n\n\n\n\nWed, Oct 16\n\n\n\nExam 1 Review\n\n\n\n\nHomework 3 due at 11.59 pm\n\n\n\n\n\nThu, Oct 17\n\n\n\n🌴 No classes - Fall Break\n\n\n\n\n\n\n\n\n\nFri, Oct 18\n\n\n\n🌴 No classes - Fall Break\n\n\n\n\n\n\n\n9\nMon, Oct 21\nSee Exam 1 review and course pack\n\nExam 1\n\n\n\n\n\n\n\n\n\nWed, Oct 23\n📘 fmath - chp 9.1-9.2\n\nMathematics of Finance\nSimple Interest (SI)\nFuture Value\n\n\n\n\n\n\n\n\n\nThu, Oct 24\n\n\n\nVTT\n\n\n\n\n\n\n\n\n\nFri, Oct 25\n📘 fmath - chp 9.4\n\nExact vs Approx. Time\n\n\n\n\nQuiz 6 in class\n\n\n\n10\nMon, Oct 28\n📘 fmath - chp 9.6\n\nConsumer Price Index: \n\nInflation\n\n\n\n\n\n\n\n\n\n\nWed, Oct 30\n📘 fmath - chp 10.1 - 10.2\n\nCompound Interest\nIntro to compound interest\nFuture value for compound interest\n\n\n\n\n\n\n\n\n\nThu, Oct 31\n\n\n\nVTT\n\n\n\n\n\n\n\n\n\nFri, Nov 1\n\n\n\nCompound Interest\nAPR vs APY\n\n\n\n\nQuiz 7 in class\nHomework 4 due at 11.59 pm\n\n\n\n11\nMon, Nov 4\n📘 fmath - chp 11.1 - 11.2\n\nAnnuities:\n\nIntro to Annuitiers\nFuture Value of an annuity\n\n\n\n\n\n\n\n\n\n\nWed, Nov 6\n📘 fmath - chp 11.3\n\nAnnuities:\n\nFormula for Future Value\n\n\n\n\n\n\n\n\n\n\nThu, Nov 7\n\n\n\nVTT\n\n\n\n\n\n\n\n\n\nFri, Nov 8\n📘 fmath - chp 11.5\n\nPresent value of an annuity\n\n\n\n\nQuiz 8 in class\nHomework 5 due at 11.59 pm\n\n\n\n12\nMon, Nov 11\n📘 fmath - chp 11.6\n\nAnnuities:\n\nFormula for the  present Value of an annuity\n\n\n\n\n\n\n\n\n\n\nWed, Nov 13\nTBD\n\nAnnuities:\n\nApplications:\n\nLoan amortization\nHome buying\nStudent laon repayment\n\n\n\n\n\n\n\n\n\n\n\nThu, Nov 14\nTBD\nVTT Quiz\n\n\n\nQuiz 9 in class\n\n\n\n\n\nFri, Nov 15\n\n\n\nAnnuities:\n\nApplications:\n\nRetirement planning\n\n\n\n\n\n\n\n\n\n13\nMon, Nov 18\n\n\n\nCatchup\n\n\n\n\nHomework 6 due at 11.59 pm\n\n\n\n\n\nWed, Nov 20\n\n\n\nExam 2 Review session\n\n\n\n\n\n\n\n\n\nThu, Nov 21\n\n\n\nExam 2 (in-class) \n\n\n\n\n\n\n\n\n\nFri, Nov 22\n\n\n\nStudent check-ins\n\n\n\n\n\n\n\n14\nMon, Nov 25\n\n\n\n🌴 No classes - Thanksgiving Break\n\n\n\n\n\n\n\n\n\nWed, Nov 27\n\n\n\n🌴 No classes - Thanksgiving Break\n\n\n\n\n\n\n\n\n\nThu, Nov 28\n\n\n\n🌴 No classes - Thanksgiving Break\n\n\n\n\n\n\n\n\n\nFri, Nov 29\n\n\n\n\n\n\n\n\n\n\n15\nMon, Dec 2\n\n\n\nProject Time (in-class)\n\n\n\n\n\n\n\n\n\nWed, Dec 4\n\n\n\nProject Time (in-class)\n\n\n\n\n\n\n\n\n\nThu, Dec 5\n\n\n\nProject presentations\n\n\n\n\n\n\n\n\n\nFri, Dec 6\n\n\n\nProject presentations\n\n\n\n\n\n\n\n16\nMon, Dec 9\n\n\n\nFinal Oral presentations begins\n\n\n\n\n\n\n\n\n\nWed, Dec 11\n\n\n\nFinal Oral presentations begins\n\n\n\n\n\n\n\n\n\nThu, Dec 12",
+    "crumbs": [
+      "Course information",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "course-downloads/hw.html",
+    "href": "course-downloads/hw.html",
+    "title": "MATH 104",
+    "section": "",
+    "text": "coming soon!",
+    "crumbs": [
+      "Downloads",
+      "Homework"
+    ]
+  },
+  {
+    "objectID": "course-downloads/templates.html",
+    "href": "course-downloads/templates.html",
+    "title": "MATH 104",
+    "section": "",
+    "text": "Coming soon!",
+    "crumbs": [
+      "Downloads",
+      "Templates"
+    ]
+  },
+  {
+    "objectID": "course-overview.html",
+    "href": "course-overview.html",
+    "title": "About the Course",
+    "section": "",
+    "text": "Intermediate statistics with R. This course covers statistical methods not typically covered in introductory statistics courses. We shall use your statistical background to learn about modern statistical techniques to design, implement, analyze, and communicate research. We begin by reintroducing the key ideas (e.g., data and data distributions, confidence intervals, and hypothesis testing) using modern approaches where applicable and then extend these techniques to more sophisticated statistical analysis tools like multiple regression and Analysis of Variance (ANOVA). Real world applications will be emphasized.",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#course-objectives",
+    "href": "course-overview.html#course-objectives",
+    "title": "About the Course",
+    "section": "Course Objectives",
+    "text": "Course Objectives\nUpon successful completion of this course, students will be able to:\n\nImplement the model-simulate-evaluate process to address data-driven questions on real-world topics.\nChoose and use various statistical analysis techniques (exploratory and inferential) in a variety of “real life” contexts including study design.\nCritically analyze the use of statistics in research, in the media, and in various day-to-day life situations.\nCommunicate statistical ideas effectively and in context without relying on statistical jargon.\nUse technology (e.g., R) to perform statistical explorations and manipulations.\nEffectively collaborate with peers on projects and presentations.",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#meeting-times-location",
+    "href": "course-overview.html#meeting-times-location",
+    "title": "About the Course",
+    "section": "Meeting Times & Location",
+    "text": "Meeting Times & Location\n\n\n\nDay\nRoom/Hall\nTime\n\n\n\n\nMonday\nWilliams Hall 202\n11:45 am - 1:00 pm\n\n\nWednesday\nWilliams Hall 202\n8:30 - 9:45 am\n\n\nFriday\nWilliams Hall 202\n10:05 - 11:20 am",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#prerequisites",
+    "href": "course-overview.html#prerequisites",
+    "title": "About the Course",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nPrerequisites include math placement in group 1, or 3, or completion of MATH 14400, MATH 14500, MATH 21600 or PSYC 207 with a grade of C- (minus) or better. Attributes: QL, LA, NS (non-ICC).",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#workload-expectations",
+    "href": "course-overview.html#workload-expectations",
+    "title": "About the Course",
+    "section": "Workload Expectations",
+    "text": "Workload Expectations\nThis is a 3 credits course. Credit is earned at Ithaca College in credit hours as measured by the Carnegie unit. The Carnegie unit is defined as one hour of classroom instruction and two hours of assignments outside the classroom, for a period of 15 weeks for each unit (credit).",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "exam-review/exam-2-review.html",
+    "href": "exam-review/exam-2-review.html",
+    "title": "Exam 2 Review",
+    "section": "",
+    "text": "coming soon!",
+    "crumbs": [
+      "Exam review",
+      "Exam 2"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "project/first_project.html",
+    "href": "project/first_project.html",
+    "title": "First Project",
+    "section": "",
+    "text": "The goal of this project is for you to demonstrate proficiency in the material we have covered in this class (and beyond, if you like) and apply them to a ‘novel’ dataset of your choosing in a meaningful way. You are not asked to do an exhaustive data analysis by generating every statistic/visualizations that we have learned of in the course. Rather, I expect you to demonstrate skills in asking meaningful questions and answering them using carefully selected data analysis techniques and tools. These analyses must be done in R in a reproducible manner (quarto).\nMultiple data frames are available but your group will choose just one to use for this project. After choosing the data frame, your will need to brainstorm on several issues about the data such as the sample and sampling methods that might have been used to gather the data, a possible target population, variables and their types (numerical vs categorical), among others. Your team will then come up with a research topic/goal and two research questions (directly related to the topic) that you will answer by conducting the analyses. Your analyses should include data visualizations, numerical statistics, and regression models. All these must be appropriately linked to help tell a coherent story.",
+    "crumbs": [
+      "Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "project/first_project.html#project-proposal",
+    "href": "project/first_project.html#project-proposal",
+    "title": "First Project",
+    "section": "Milestone 1 - Proposal",
+    "text": "Milestone 1 - Proposal\nThere are two main purposes of the project proposal:\n\nTo help you think about the project early, so you can get a head start on finding data, reading relevant literature, thinking about the questions you wish to answer, etc.\nTo ensure that the data you wish to analyze, methods you plan to use, and the scope of your analysis are feasible and will allow you to be successful for this project.\n\nThe project proposal will be due roughly one week after the project is assigned. It must contain the following details:\n\nTeam members and their roles: List the names of all team members and their roles in the project. Roles can include Data cleaning/wrangling, Data analysis (performing the analyses in RStudio), Writing (e.g., abstract, intro, literature review, findings, conclusion), Proof reading and typo fixing, Team leader (e.g., setting up meetings, follow up, communicate with professor), etc.\nResearch topic and Questions: As indicated earlier, this is a short statement that describes the general area of interest that your research questions will be addressing. You should have at least two research questions that you will answer by conducting the analyses.\nData: Describe the data you will be using. This should include the source of the data, the number of observations and variables, and a brief description of the variables and their types (e.g., numerical, categorical). You should also include a brief description of the data collection process. Note that the data collection process may not be available for all data sets. In this case, you are allowed to speculate (reasonably) on the data collection process and be sure to mention that in your proposal.\nAnalysis plan: Describe the analyses you plan to conduct. This should include the types of visualizations you plan to create, the numerical summaries you plan to calculate, and the regression models you plan to fit. You should also describe how you plan to link these analyses together to tell a coherent story.\n\nInstructions and grading criteria for this milestone are outlined in the grading rubric for Milestone 1.",
+    "crumbs": [
+      "Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "project/first_project.html#milestone-2---first-draft",
+    "href": "project/first_project.html#milestone-2---first-draft",
+    "title": "First Project",
+    "section": "Milestone 2 - First Draft",
+    "text": "Milestone 2 - First Draft\nYour project draft is a completed project, that we shall use to obtain feedback from the professor and peers in class. The draft should include the following sections:\n\nAbstract: This section should provide a brief overview of the research topic, questions, data, and analyses you are conducting. It should also provide a brief overview of the results you have obtained. Think of the abstract as an executive summary of your work that someone can read and understand without reading the rest of the report. You should write the abstract last, after you have completed the rest of the report.\nIntroduction: This section should introduce the research topic and questions you are addressing. It should also provide a brief overview of the data you are using and the analyses you plan to conduct. Cite a few sources that are relevant to your research topic.\nLiterature Review: This section should provide a brief overview of the literature related to your research topic. You should cite at least 5 sources and synthesize their methods and findings in relation to your own research. Guidelines for writing an effective literature review can be found here.\nMethods: This section should describe the data you are using and the analyses you plan to conduct. It should include the following subsections:\n\nData Description: This section should describe the data you are using. This should include the source of the data, the number of observations and variables, and a brief description of the variables and their types (e.g., numerical, categorical). You should also include a brief description of the data collection process. Note that the data collection process may not be available for all data sets. In this case, you are allowed to speculate (reasonably) on the data collection process and be sure to mention that in your proposal.\nResearch Questions and Analyses: This section should list the research questions you are addressing. You should also describe the variables of interest in your data set that will help you answer these questions. Discuus the methids you plan to use for each question and why you think they are appropriate.\nData Cleaning: This section should describe the steps you took to clean the data. This may include removing missing values, transforming variables, etc. Depending on your data set, you may not need to do much data cleaning. If this is the case, you should still describe the steps you took to clean the data, even if they are minimal.\n\nData Analysis and Results: This is one of the most important heavily weighted parts of your project. The analyses should be sound and justified appropriately (under methods). Here, you just need to implement the analyses described under the methodology section of your paper. Your analyses should demonstrate a thorough understanding of statistical concepts learned in this course (and beyond, if you like). Your data analyses must include both numerical statistics and data visualizations. You must also use regression modelling (linear or logistic) techniques as part of your analyses. Interpretations of visualizations created as well as the models created must be made in a coherent manner and in the context of the research questions. These are the results/findings of your project.\nConclusion: This section should summarize the research questions you addressed, the data you used, the analyses you conducted, and the results you obtained. Findings of your study must be tied back to those reported in the literature review; for example, do your findings concur with previous studies or do they contradict them? It should also discuss the implications of your results and suggest directions for future research. Be sure to state any limitations of your study and what would be done differently if you were to do the study again.\nReferences: This section should list all the sources you cited in your report. Use APA format for your references.\n\nInstructions and grading criteria for this milestone are outlined in Milestone 2: Proposal.",
+    "crumbs": [
+      "Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "project/first_project.html#peer-review",
+    "href": "project/first_project.html#peer-review",
+    "title": "First Project",
+    "section": "Milestone 3 - Peer review",
+    "text": "Milestone 3 - Peer review\nCritically reviewing others’ work is a crucial part of the scientific process, and MATH 246 is no exception. Your team will be assigned at least one project from another team to review. Team members should read individually before meeting during which the team will come up with collective feedback for the other team. The peer review process will be double blinded, meaning that you will not know who is reviewing your project, and you will not know whose project you are reviewing. This feedback is intended to help you create a high quality final project, as well as give you experience reading and constructively critiquing the work of others.\nInstructions and grading criteria for this milestone are outlined in Milestone 3: Peer review.",
+    "crumbs": [
+      "Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "project/first_project.html#milestone-4---final-writeup",
+    "href": "project/first_project.html#milestone-4---final-writeup",
+    "title": "First Project",
+    "section": "Milestone 4 - Final Writeup",
+    "text": "Milestone 4 - Final Writeup\nThe final write-up is the culmination of your project. It should include all the sections of the first draft, but with revisions based on the feedback you received from your peers and the professor. The final write-up should be a polished document that clearly communicates your research topic, questions, data, analyses, and results. The final write-up should be written in a clear, concise, and professional manner. It should be free of grammatical errors and typos. The final write-up should also include a title page with the title of your project, the names of all team members, and the date. A quarto template for the final write-up will be provided.\nInstructions and grading criteria for this milestone are outlined in Milestone 4: Writeup + presentation.",
+    "crumbs": [
+      "Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "project/first_project.html#milestone-5---presentation",
+    "href": "project/first_project.html#milestone-5---presentation",
+    "title": "First Project",
+    "section": "Milestone 5 - Presentation",
+    "text": "Milestone 5 - Presentation\nThe final milestone is a presentation of your project. The presentation should be about 10 minutes long and should include slides that summarize the key points and findings of your project. The presentation should be clear, concise, and professional. The presentation will be graded on the clarity of the slides, the clarity of the presentation, and the ability to communicate your research topic, questions, data, analyses, and results to an audience. The presentation will be followed by a question and answer session with the professor and your peers.",
+    "crumbs": [
+      "Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "project/first_project.html#overall-grading",
+    "href": "project/first_project.html#overall-grading",
+    "title": "First Project",
+    "section": "Overall grading",
+    "text": "Overall grading\nThe overall grade breakdown by milestone (\\(M_i\\)) is as follows:\n\n\n\nTotal\n100 pts\n\n\n\n\nM1: Project Proposal\n10 pts\n\n\nM2: First Draft\n20 pts\n\n\nM3: Peer Review\n10 pts\n\n\nM4: Final Writeup\n40 pts\n\n\nM5: Slides + Presentation\n10 pts\n\n\nCollaboration & Teamwork\n10 pts",
+    "crumbs": [
+      "Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "project/first_project.html#grading-milestone-details",
+    "href": "project/first_project.html#grading-milestone-details",
+    "title": "First Project",
+    "section": "Grading Milestone details",
+    "text": "Grading Milestone details\n\n\\(M_1\\) - Project Proposal\n\nCompletion (2pts) - Did the team complete all parts of the proposal as required?\nContent (2pts) - What is the quality of research and/or policy question and relevancy of data to those questions?\nCorrectness (2pts) - Are the statistical procedures sound and reasonable for the stated questions?\nCommunication & Writing (2pts) - What is the quality of the statistical presentation, writing, and explanations?\nCreativity and Critical Thought (2pts) - Is the project carefully thought out? Are the limitations carefully considered? Does it appear that time and effort went into the planning and implementation of the project?\n\n\n\n\\(M_2\\) - First Draft\n\nAbstract (2 pts) - Does the abstract provide a brief overview of the research topic, questions, data, and analyses you are conducting?\nIntroduction (2 pts) - Does the introduction articulate the research topic and questions you are addressing? Does it provide a brief overview of the data? Does it provide a couple of citations to help you make the case for your chosen topic of study?\nLiterature Review (3 pts) - Does the literature review provide relevant in-text citations? Does it examine and synthesize the sources in context of the current study?\nMethods (3 pts) - Does the methods section describe the sample, the data, and the analysis methods used? Does it justify the choice of analysis methods? Does it describe the data cleaning processes?\nData Analysis and Results (6 pts) - Are the analyses implemented correctly? Are the interpretations for both research questions done correctly and in context of the study? Do the analyses demonstrate a thorough understanding of statistical concepts learned in the course?\nConclusion (2 pts) - Does the conclusion summarize the research questions you addressed, the data you used, the analyses you conducted, and the results you obtained? Does it discuss the implications of your results and suggest directions for future research?\nReferences (2 pts) - Are all the sources you cited in your report listed in the references section? Are they in APA format?\n\n\n\n\\(M_3\\) - Peer Review\nPeer reviews will be graded on the extent to which it comprehensively and constructively addresses the components of the reviewee’s team’s report.\nOnly the team members participating in the review process are eligible for points for the peer review. Teams may choose to meet in-person or virtually. The team should submit a single review document that includes the following:\n\nQuality of feedback (3pts) - Did the team provide constructive and actionable feedback? Please note that actionable does not mean telling the reviewee team what to do, but rather providing feedback that the reviewee team can use to improve its work.\nCorrectness (2pts) - Are the critiques provided sound and reasonable?\nCommunication & Writing (2pts) - Is the feedback report understandable and free from grammatical errors and typos?\nCompletion (2pts) - Did the team complete the review as required?\n\n\n\n\\(M_4\\) - Final Writeup\nThe grading of the final writeup follows the same grading criteria as Milestone 2 but gets additional points. To get maximum points on milestone 4, you should address the feedback given to you on your project draft by your peers and/or professor. If there is any feedback that you think does not need to be addressed, please provide a justification for why you think so.\n\nAbstract (4 pts) - Does the abstract provide a brief overview of the research topic, questions, data, and analyses you are conducting?\nIntroduction (4 pts) - Does the introduction articulate the research topic and questions you are addressing? Does it provide a brief overview of the data? Does it provide a couple of citations to help you make the case for your chosen topic of study?\nLiterature Review (6 pts) - Does the literature review provide relevant in-text citations? Does it examine and synthesize the sources in context of the current study?\nMethods (6 pts) - Does the methods section describe the sample, the data, and the analysis methods used? Does it justify the choice of analysis methods? Does it describe the data cleaning processes?\nData Analysis and Results (14 pts) - Are the analyses implemented correctly? Are the interpretations for both research questions done correctly and in context of the study? Do the analyses demonstrate a thorough understanding of statistical concepts learned in the course?\nConclusion (4 pts) - Does the conclusion summarize the research questions you addressed, the data you used, the analyses you conducted, and the results you obtained? Does it discuss the implications of your results and suggest directions for future research?\nReferences (2 pts) - Are all the sources you cited in your report listed in the references section? Are they in APA format?\n\n\n\n\\(M_5\\) - Presentation\n\nSlides (3 pts) - Are the slides clear, well-organized, and concise? Do they summarize the key points and findings of the project?\nPresentation (4 pts) - Is the presentation clear and does it show a thorough understanding of the material learned? Are speakers audible enough and facing the audience? Are they engaging and do they maintain eye contact with the audience?\nQuestion and Answer (Q&A) (3 pts) - How well does the team answer questions about their project? Are they able to communicate their research topic, questions, data, analyses, and results to an audience?",
+    "crumbs": [
+      "Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "project/first_project.html#submission",
+    "href": "project/first_project.html#submission",
+    "title": "First Project",
+    "section": "Submission",
+    "text": "Submission\nSubmissions for all milestones should be made through Canvas. You will see the assignments created in Canvas for each milestone with more detailed instructions.",
+    "crumbs": [
+      "Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "homework/hw1.html",
+    "href": "homework/hw1.html",
+    "title": "Homeowrk 1",
+    "section": "",
+    "text": "Coming soon!",
+    "crumbs": [
+      "Homework",
+      "Homework 1"
+    ]
+  },
+  {
+    "objectID": "homework/hw3.html",
+    "href": "homework/hw3.html",
+    "title": "Homeowrk 1",
+    "section": "",
+    "text": "Coming soon!",
+    "crumbs": [
+      "Homework",
+      "Homework 3"
+    ]
+  },
+  {
+    "objectID": "course-support.html",
+    "href": "course-support.html",
+    "title": "Course Support",
+    "section": "",
+    "text": "There are various resources available to help you succeed in this course and in college in general. Should you feel like you are struggling too much, please don’t hesitate to reach out to me so we can discuss possible ways forward. Below are some support services available to you.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#open-hours",
+    "href": "course-support.html#open-hours",
+    "title": "Course Support",
+    "section": "Open Hours",
+    "text": "Open Hours\n\nI will be available during open hours (Mon 12.00 - 01.00 pm) to answer questions or concerns that you may have in the course. You can simply walk in during the stated time above. Even if you don’t have any question, you can just stop by to say hi. If the above posted times don’t work for you, please click this link to see more options. Open hours may be held in-person or virtually depending on your preference and the circumstances of the day. Below are the zoom link and passcode for virtual meetings:\nZoom Link: click here\nPasscode: 850 424",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#mathematics-support-center",
+    "href": "course-support.html#mathematics-support-center",
+    "title": "Course Support",
+    "section": "Mathematics Support Center",
+    "text": "Mathematics Support Center\nThe mathematics department is committed to the success of all students enrolled in mathematics courses. Free one-on-one support for your mathematics coursework is available during select daytime and evening hours Monday-Friday at the Mathematics Room (Williams Hall 209). The Mathematics Room is staffed by mathematics faculty and vetted students. Student tutors offer support to fellow students in courses numbered 200 and below while math faculty offer support in any of the math courses. For more information and the schedule, please visit the Math Support Center.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#discussion-forums",
+    "href": "course-support.html#discussion-forums",
+    "title": "Course Support",
+    "section": "Discussion Forums",
+    "text": "Discussion Forums\nHave a question that can’t wait for office hours? Prefer to write out your question in detail rather than asking in person? The Canvas Discussion forums, might be the best venue for these! There is a chance another student has already asked a similar question, so please check the other posts on before asking a new question. If you know the answer to a question that is posted, I encourage you to respond! In Canvas discussion section, anybody is able to start threads and others can jump in with replies.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#email",
+    "href": "course-support.html#email",
+    "title": "Course Support",
+    "section": "Email",
+    "text": "Email\nPlease refrain from emailing any course content questions (those should go to Canvas Discussion forums), and only use email for questions about personal matters that may not be appropriate for the public course forum (e.g., illness, accommodations, etc.). My email address is jgeteregechi@ithaca.edu.\nIf there is a question that’s not appropriate for the public forum, you are welcome to email me directly. If you email me, please include “MATH 246” in the subject line. Barring extenuating circumstances, I will respond to MATH 246 emails within 48 hours Monday - Friday. Response time may be slower for emails sent Friday evening - Sunday. If I take too long, please reach out again or talk to me before or after class as I may have missed your email.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#tutoring-and-academic-enrichment-services",
+    "href": "course-support.html#tutoring-and-academic-enrichment-services",
+    "title": "Course Support",
+    "section": "Tutoring and Academic Enrichment Services",
+    "text": "Tutoring and Academic Enrichment Services\nAs a supplement to faculty advising and office hours, Tutoring and Academic Enrichment Services offers exceptional peer resources free of charge. Learning Coaches provide content-specific peer tutoring in a variety of courses. Peer Success Coaches mentor students who wish to develop collegiate-level academic and social engagement skills. To access these courses and for more information, please visit the Center for Student Success.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#writing-center",
+    "href": "course-support.html#writing-center",
+    "title": "Course Support",
+    "section": "Writing Center",
+    "text": "Writing Center\nThe Writing Center aims to help students from all disciplines, backgrounds, and experiences to develop greater independence as writers. We are committed to helping students see writing as central to critical and creative thinking. The physical location in Smiddy 107 will not be open to clients. For more information and scheduling appointments please visit the writing center website.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#mental-health-and-wellness",
+    "href": "course-support.html#mental-health-and-wellness",
+    "title": "Course Support",
+    "section": "Mental health and wellness",
+    "text": "Mental health and wellness\nIf your mental health concerns and/or stressful events negatively affect your daily emotional state, academic performance, or ability to participate in your daily activities, many resources are available to help you through difficult times. Please visit the Mental Health Services for more information. Ithaca College encourages all students to access these resources.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#course-costs",
+    "href": "course-support.html#course-costs",
+    "title": "Course Support",
+    "section": "Course costs",
+    "text": "Course costs\n\nTextbooks: The textbooks for this course are open-source and freely available on the web.\nLaptops: Each student is expected to have a laptop they can bring to each lecture and lab.\nSoftware subscriptions:\n\nRStudio: RStudio cloud (posit cloud) is available for a $5 per month subscription for students. I may be able to have funds to sign up about 16 students this semester. The criteria is to have at least two group members with a full licence for the semester. Although the software has a free version, it allows only 25 hours of use per month. The positive side is that it does come with all the functionality that we will need for the course.\nGitHub: You will need to sign up for a free GitHub account. We will not use GitHub as much but you will need to sign up for a student developer pack to get access to GitHub copilot for free as a student. Be sure to use your Ithaca College email while signing up.\nGitHub Copilot: GitHub Copilot is free for students. You will need to sign up for the student developer pack before you sign up for a free GitHub copilot account.\n\nThe detailed instructions for signing up for GitHub copilot are available on this site",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#assistance-with-zoom-or-canvas",
+    "href": "course-support.html#assistance-with-zoom-or-canvas",
+    "title": "Course Support",
+    "section": "Assistance with Zoom or Canvas",
+    "text": "Assistance with Zoom or Canvas\nFor technical help with Canvas or Zoom, contact the Ithaca College IT support team at (607) 274-1000 or email them at servicedesk@ithaca.edu",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  }
+]
