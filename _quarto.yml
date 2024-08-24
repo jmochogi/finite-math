@@ -17,7 +17,7 @@ website:
     image: "img/twitter-card.png"
 
   sidebar:
-    background: "#3A5883" # Pantone Chambray Blue - Spring 2024, darkened to pass contrast checks
+    background: "#129daa" # Pantone Chambray Blue - Spring 2024, darkened to pass contrast checks
     logo: "img/logo.jpeg"
     pinned: true
     align: center
@@ -121,14 +121,14 @@ website:
   page-footer:
     right: 'This page is built with[Quarto](https://quarto.org/).'
     left: "&copy; Copyright 2024, Joash Geteregechi"
-    background: "#3A5883" # Pantone Chambray Blue - Spring 2024, darkened to pass contrast checks
+    background: "#0a5961" # Pantone Chambray Blue - Spring 2024, darkened to pass contrast checks
 
 format:
   html:
     theme:
       light: [cosmo, style/math104.scss]
       dark: [cosmo, style/math104.scss, style/dark.scss]
-    linkcolor: "#3A5883" # Pantone Chambray Blue - Spring 2024, darkened to pass contrast checks
+    linkcolor: "#0a5961" # Pantone Chambray Blue - Spring 2024, darkened to pass contrast checks
     toc: true
     code-copy: true
     code-overflow: wrap
