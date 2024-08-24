@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>MATH 104 – Homeowrk 1</title>
+<title>MATH 104 – Homeowrk 2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,13 +70,42 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="MATH 104 - Homeowrk 1">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="MATH 104 - Homeowrk 2">
 <meta property="og:description" content="Homepage for MATH 104 - Finite Mathematics, Fall 2024.">
 <meta property="og:site_name" content="MATH 104">
-<meta name="twitter:title" content="MATH 104 - Homeowrk 1">
+<meta name="twitter:title" content="MATH 104 - Homeowrk 2">
 <meta name="twitter:description" content="Homepage for MATH 104 - Finite Mathematics, Fall 2024.">
-<meta name="twitter:image" content="https://jmochogi.github.io/intermediate-stats/homework/img/twitter-card.png">
+<meta name="twitter:image" content="https://jmochogi.github.io/finite-math/homework/img/twitter-card.png">
 <meta name="twitter:creator" content="@jmochogi">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -105,10 +134,10 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="../index.html" class="sidebar-logo-link">
-      <img src="../img/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="../img/logo.jpeg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
-    <a href="https://github.com/jmochogi/intermediate-stats" title="GitHub repository" class="quarto-navigation-tool px-1" aria-label="GitHub repository"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/jmochogi/finite-math" title="GitHub repository" class="quarto-navigation-tool px-1" aria-label="GitHub repository"><i class="bi bi-github"></i></a>
     <a href="https://calendly.com/jmochogi/20min" title="Office hours" class="quarto-navigation-tool px-1" aria-label="Office hours"><i class="bi bi-life-preserver"></i></a>
     <a href="https://canvas.ithaca.edu/" title="Canvas Discussions" class="quarto-navigation-tool px-1" aria-label="Canvas Discussions"><i class="bi bi-chat-dots-fill"></i></a>
     <a href="https://ithaca.zoom.us/j/3364817575?pwd=WlA1S3hJWWZNTTFoWUVaZlA1clhtdz09" title="Zoom link" class="quarto-navigation-tool px-1" aria-label="Zoom link"><i class="bi bi-camera-reels-fill"></i></a>
@@ -273,15 +302,24 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#problem-1" id="toc-problem-1" class="nav-link active" data-scroll-target="#problem-1">Problem 1</a></li>
+  <li><a href="#problem-2" id="toc-problem-2" class="nav-link" data-scroll-target="#problem-2">Problem 2</a></li>
+  <li><a href="#problem-3" id="toc-problem-3" class="nav-link" data-scroll-target="#problem-3">Problem 3</a></li>
+  <li><a href="#problem-4" id="toc-problem-4" class="nav-link" data-scroll-target="#problem-4">Problem 4</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jmochogi/finite-math.git/edit/main/homework/hw2.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jmochogi/finite-math.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="hw2.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../homework/hw1.html">Homework</a></li><li class="breadcrumb-item"><a href="../homework/hw2.html">Homework 2</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Homeowrk 1</h1>
+<h1 class="title">Homeowrk 2</h1>
 </div>
 
 
@@ -298,9 +336,32 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Coming soon!</p>
+<section id="problem-1" class="level2">
+<h2 class="anchored" data-anchor-id="problem-1">Problem 1</h2>
+<p>For each of the following scenarios, create a mixture chart, minimum/resource constraint inequalities, and the profit function. State all corner coordinates of the feasible region and find the optimal production policy (OPP) and the maximum profit. Be sure to include units as necessary.</p>
+<ol type="a">
+<li><p>A paper recycling company uses scrap cloth and scrap paper to make two different grades of recycled paper. A single batch of grade A recycled paper is made from 25 lb of scrap cloth and 10 lb of scrap paper, whereas one batch of grade B recycled paper is made from 10 lb of scrap cloth and 20 lb of scrap paper. The company has 100 lb of scrap cloth and 120 lb of scrap paper on hand. A batch of grade A paper brings a profit of $500, whereas a batch of grade B paper brings a profit of $250. <br> <br><br></p></li>
+<li><p>Courtesy Calls is a company that makes telephone calls for businesses and charities. A profit of $0.50 is made for each business call and $0.40 for each charity call. It takes 4 min (on average) to make a business call and 6 min (on average) to make a charity call. There are 240 min of calling time to be distributed each day and Courtesy Calls must make at least 12 business calls and 10 charity calls every day. <br> <br><br></p></li>
+<li><p>A Textbook publisher prints Hardcover books for a profit of $120 per dozen, and Paperback books for a profit of $100 per dozen. Each day, the publisher must produce at least half a dozen of Hardcover books and a dozen of paperback books. To produce a dozen of Hardcover book requires 20 rolls of paper, 1 gallon of printer ink, and 0.45 gallon of glue. To produce a paperback book requires 30 rolls of paper, 1 gallon of printer ink, and 0.2 gallon of glue. There are 120 rolls of paper, 5 gallon of ink, and 2 gal of glue available.</p></li>
+</ol>
+</section>
+<section id="problem-2" class="level2">
+<h2 class="anchored" data-anchor-id="problem-2">Problem 2</h2>
+<p>Below are the minimum constraint inequalities, resource constraint inequalities, and the profit function. Create a “real-world” linear programming problem that would fit this information.</p>
+<p>Minimum constraints: <span class="math inline">\(x \geq 4\)</span> and <span class="math inline">\(y \geq 1.\)</span> <br></p>
+<p>Resource constraints: <span class="math inline">\(5x + 4y \leq 60\)</span> and <span class="math inline">\(0.95x + y \leq 12.\)</span> <br></p>
+<p>Objective function: <span class="math inline">\(P = 2x + 0.5y.\)</span></p>
+</section>
+<section id="problem-3" class="level2">
+<h2 class="anchored" data-anchor-id="problem-3">Problem 3</h2>
+<p>Solve the problem from Problem 2 using the graphical method. Be sure to include the feasible region, the corner coordinates, and the optimal production policy (OPP).</p>
+</section>
+<section id="problem-4" class="level2">
+<h2 class="anchored" data-anchor-id="problem-4">Problem 4</h2>
+<p>A factory manufactures chairs, tables and bookcases each requiring the use of three operations: Cutting, Assembly, and Finishing. The first operation can be used at most 600 hours; the second at most 500 hours; and the third at most 300 hours. A chair requires 1 hour of cutting, 1 hour of assembly, and 1 hour of finishing; a table needs 1 hour of cutting, 2 hours of assembly, and 1 hour of finishing; and a bookcase requires 3 hours of cutting, 1 hour of assembly, and 1 hour of finishing. If the profit is $20 per unit for a chair, $30 for a table, and $25 for a bookcase, how many units of each should be manufactured to maximize profit?</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -539,7 +600,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/jmochogi\.github\.io\/intermediate-stats\/");
+      var filterRegex = new RegExp("https:\/\/jmochogi\.github\.io\/finite-math\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -887,7 +948,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/jmochogi/intermediate-stats/edit/main/homework/hw2.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jmochogi/intermediate-stats/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jmochogi/finite-math.git/edit/main/homework/hw2.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jmochogi/finite-math.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with<a href="https://quarto.org/">Quarto</a>.</p>
 </div>

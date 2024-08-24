@@ -1,5 +1,40 @@
 ---
-title: "Homeowrk 1"
+title: "Homeowrk 2"
+format:
+  html: default
+  pdf: default
+#author: "Student Name"
 ---
 
-Coming soon!
+## Problem 1
+
+For each of the following scenarios, create a mixture chart, minimum/resource constraint inequalities, and the profit function. State all corner coordinates of the feasible region and find the optimal production policy (OPP) and the maximum profit. Be sure to include units as necessary.
+
+a. A paper recycling company uses scrap cloth and scrap paper to make two different grades of recycled paper. A single batch of grade A recycled paper is made from 25 lb of scrap cloth and 10 lb of scrap paper, whereas one batch of grade B recycled paper is made from 10 lb of scrap cloth and 20 lb of scrap paper. The company has 100 lb of scrap cloth and 120 lb of scrap paper on hand. A batch of grade A paper brings a profit of \$500, whereas a batch of grade B paper brings a profit of \$250. <br> <br><br>
+
+b. Courtesy Calls is a company that makes telephone calls for businesses and charities. A profit of \$0.50 is made for each business call and \$0.40 for each charity call. It takes 4 min (on average) to make a business call and 6 min (on average) to make a charity call. There are 240 min of calling time to be distributed each day and Courtesy Calls must make at least 12 business calls and 10 charity calls every day. <br> <br><br>
+
+c. A Textbook publisher prints Hardcover books for a profit of \$120 per dozen, and Paperback books for a profit of \$100 per dozen. Each day, the publisher must produce at least half a dozen of Hardcover books and a dozen of paperback books. To produce a dozen of Hardcover book requires 20 rolls of paper, 1 gallon of printer ink, and 0.45 gallon of glue. To produce a paperback book requires 30 rolls of paper, 1 gallon of printer ink, and 0.2 gallon of glue. There are 120 rolls of paper, 5 gallon of ink, and 2 gal of glue available.
+
+## Problem 2
+
+Below are the minimum constraint inequalities, resource constraint inequalities, and the profit function. Create a "real-world" linear programming problem that would fit this information.
+
+Minimum constraints: $x \geq 4$ and $y \geq 1.$ <br>
+
+Resource constraints: $5x + 4y \leq 60$ and $0.95x + y \leq 12.$ <br>
+
+Objective function: $P = 2x + 0.5y.$
+
+## Problem 3
+
+Solve the problem from Problem 2 using the graphical method. Be sure to include the feasible region, the corner coordinates, and the optimal production policy (OPP).
+
+
+## Problem 4
+
+A factory manufactures chairs, tables and bookcases each requiring the use of three operations: Cutting, Assembly, and Finishing. The first operation can be used at most 600 hours; the second at most 500 hours; and the third at most 300 hours. A chair requires 1 hour of cutting, 1 hour of assembly, and 1 hour of finishing; a table needs 1 hour of cutting, 2 hours of assembly, and 1 hour of finishing; and a bookcase requires 3 hours of cutting, 1 hour of assembly, and 1 hour of finishing. If the profit is \$20 per unit for a chair, \$30 for a table, and \$25 for a bookcase, how many units of each should be manufactured to maximize profit?
+
+
+
+

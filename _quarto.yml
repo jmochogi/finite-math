@@ -6,9 +6,9 @@ website:
   page-navigation: true
   title: "MATH 104"
   description: "Homepage for MATH 104 - Finite Mathematics, Fall 2024."
-  site-url: "https://jmochogi.github.io/intermediate-stats/"
+  site-url: "https://jmochogi.github.io/finite-math/"
 
-  repo-url: https://github.com/jmochogi/intermediate-stats
+  repo-url: https://github.com/jmochogi/finite-math.git
   repo-actions: [edit, issue]
 
   open-graph: true
@@ -18,12 +18,12 @@ website:
 
   sidebar:
     background: "#3A5883" # Pantone Chambray Blue - Spring 2024, darkened to pass contrast checks
-    logo: "img/logo.png"
+    logo: "img/logo.jpeg"
     pinned: true
     align: center
     tools:
       - icon: github
-        href: https://github.com/jmochogi/intermediate-stats
+        href: https://github.com/jmochogi/finite-math
         text: "GitHub repository"
       #- icon: code-square
        # href: https://cmgr.oit.duke.edu/containers

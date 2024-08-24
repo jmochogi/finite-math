@@ -1,1 +1,1 @@
-Sitemap: https://jmochogi.github.io/intermediate-stats/sitemap.xml
+Sitemap: https://jmochogi.github.io/finite-math/sitemap.xml

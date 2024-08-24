@@ -28,10 +28,10 @@ This is a 4-credit course. Credit is earned at Ithaca College in credit hours as
 
 | Day       | Room/Hall         | Time               |
 |-----------|-------------------|--------------------|
-| Monday    | Williams Hall 310 | 11:00 - 11:50 am   |
-| Wednesday | Williams Hall 310 | 11:00 - 11:50 am   |
-| Thursday  | Williams Hall 310 | 10:50 - 11:40 am   |
-| Friday    | Williams Hall 310 | 11:00 - 11:50 am   |
+| Monday    | Williams Hall 317 | 11:00 - 11:50 am   |
+| Wednesday | Williams Hall 317 | 11:00 - 11:50 am   |
+| Thursday  | Williams Hall 317 | 10:50 - 11:40 am   |
+| Friday    | Williams Hall 317 | 11:00 - 11:50 am   |
 
 ### Student Learning Objectives
 

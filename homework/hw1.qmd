@@ -1,4 +1,57 @@
 ---
-title: "Homeowrk 1"
+title: "Homework 1"
+format:
+  html: default
+  pdf: default
+#author: "Student Name"
 ---
-Coming soon!
+
+## Problem 1
+
+a.  A linear function has slope − ! and contains the point (−3, 5). Find the equation " for this function. Sketch the graph of this function.
+
+b.  Find the slope and the formula of a linear function passing through the points (0, −6) and (−1, −9).
+
+c.  Could the table below represent a linear function? How do you know? If the table represents a linear function, find the formula/equation of the function.
+
+    |     |       |      |     |       |
+    |-----|-------|------|-----|-------|
+    | $x$ | $-12$ | $-6$ | $0$ | $6$   |
+    | $y$ | $50$  | $26$ | $2$ | $-22$ |
+
+## Problem 2
+Working as an insurance salesperson, Ilya earns a base salary and a commission on each new policy, so Ilya’s weekly income,$I$, depends on the number of new policies, $n$, he sells during the week. Last week he sold 3 new policies, and earned \$760 for the week. The week before, he sold 5 new policies, and earned \$920. Find an equation for $I(n)$, and interpret the meaning of the slope and intercept.
+
+## Problem 3
+You want to choose one long distance telephone company from the following options:
+
+Company A charges \$0.39 per minute (no fixed monthly charges)
+
+Company B charges \$13.7 per month and \$0.22 per minute. 
+
+Company C charges a fixed rate of \$50 per month.
+
+Let $A(x)$, $B(x)$, and $C(x)$ be the cost of using each company for $x$ minutes on long distance calls.
+
+a.  Write a formula for the cost of using each company as a function of the number of minutes used, $x$.
+
+b.  If you spend 125 minutes talking long distance per month, which company would be the cheapest? Be sure to justify your answer.
+
+c. Jennifer, a subscriber for company $B$, paid \$120 for long distance calls last month. How many minutes did she spend on long distance calls?
+
+## Problem 4
+
+A local retailer has determined that the number of PortaBoy
+game systems, $x$, sold in a week is related to the price, $p$, in dollars of each system. 75 game systems were sold when the price was \$140. When the systems went on sale the following week, 150 systems were sold at $80 a piece.
+
+a. Find the equation of the line that represents the relationship between the number of game systems sold and the price of each system.
+
+b. How many game systems will be sold if the price is \$100?
+
+c. If the retailer wants to sell 150 PortaBoys next week, what should the price be?
+
+
+
+
+
+
