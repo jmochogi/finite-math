@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>MATH 104 – Homeowrk 2</title>
+<title>MATH 104 – HW 2: Linear Programming</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -100,11 +100,11 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="MATH 104 - Homeowrk 2">
-<meta property="og:description" content="Homepage for MATH 104 - Finite Mathematics, Fall 2024.">
+<meta property="og:title" content="MATH 104 - HW 2: Linear Programming">
+<meta property="og:description" content="Due: Sep 27, 2024">
 <meta property="og:site_name" content="MATH 104">
-<meta name="twitter:title" content="MATH 104 - Homeowrk 2">
-<meta name="twitter:description" content="Homepage for MATH 104 - Finite Mathematics, Fall 2024.">
+<meta name="twitter:title" content="MATH 104 - HW 2: Linear Programming">
+<meta name="twitter:description" content="Due: Sep 27, 2024">
 <meta name="twitter:image" content="https://jmochogi.github.io/finite-math/homework/img/twitter-card.png">
 <meta name="twitter:creator" content="@jmochogi">
 <meta name="twitter:card" content="summary_large_image">
@@ -311,6 +311,7 @@ window.Quarto = {
   <li><a href="#problem-2" id="toc-problem-2" class="nav-link" data-scroll-target="#problem-2">Problem 2</a></li>
   <li><a href="#problem-3" id="toc-problem-3" class="nav-link" data-scroll-target="#problem-3">Problem 3</a></li>
   <li><a href="#problem-4" id="toc-problem-4" class="nav-link" data-scroll-target="#problem-4">Problem 4</a></li>
+  <li><a href="#problem-5" id="toc-problem-5" class="nav-link" data-scroll-target="#problem-5">Problem 5</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/jmochogi/finite-math.git/edit/main/homework/hw2.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jmochogi/finite-math.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="hw2.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
@@ -319,7 +320,8 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../homework/hw1.html">Homework</a></li><li class="breadcrumb-item"><a href="../homework/hw2.html">Homework 2</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Homeowrk 2</h1>
+<h1 class="title">HW 2: Linear Programming</h1>
+<p class="subtitle lead">Due: Sep 27, 2024</p>
 </div>
 
 
@@ -340,9 +342,9 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="problem-1">Problem 1</h2>
 <p>For each of the following scenarios, create a mixture chart, minimum/resource constraint inequalities, and the profit function. State all corner coordinates of the feasible region and find the optimal production policy (OPP) and the maximum profit. Be sure to include units as necessary.</p>
 <ol type="a">
-<li><p>A paper recycling company uses scrap cloth and scrap paper to make two different grades of recycled paper. A single batch of grade A recycled paper is made from 25 lb of scrap cloth and 10 lb of scrap paper, whereas one batch of grade B recycled paper is made from 10 lb of scrap cloth and 20 lb of scrap paper. The company has 100 lb of scrap cloth and 120 lb of scrap paper on hand. A batch of grade A paper brings a profit of $500, whereas a batch of grade B paper brings a profit of $250. <br> <br><br></p></li>
-<li><p>Courtesy Calls is a company that makes telephone calls for businesses and charities. A profit of $0.50 is made for each business call and $0.40 for each charity call. It takes 4 min (on average) to make a business call and 6 min (on average) to make a charity call. There are 240 min of calling time to be distributed each day and Courtesy Calls must make at least 12 business calls and 10 charity calls every day. <br> <br><br></p></li>
-<li><p>A Textbook publisher prints Hardcover books for a profit of $120 per dozen, and Paperback books for a profit of $100 per dozen. Each day, the publisher must produce at least half a dozen of Hardcover books and a dozen of paperback books. To produce a dozen of Hardcover book requires 20 rolls of paper, 1 gallon of printer ink, and 0.45 gallon of glue. To produce a paperback book requires 30 rolls of paper, 1 gallon of printer ink, and 0.2 gallon of glue. There are 120 rolls of paper, 5 gallon of ink, and 2 gal of glue available.</p></li>
+<li>A paper recycling company uses scrap cloth and scrap paper to make two different grades of recycled paper. A single batch of grade A recycled paper is made from 25 lb of scrap cloth and 10 lb of scrap paper, whereas one batch of grade B recycled paper is made from 10 lb of scrap cloth and 20 lb of scrap paper. The company has 100 lb of scrap cloth and 120 lb of scrap paper on hand. A batch of grade A paper brings a profit of $500, whereas a batch of grade B paper brings a profit of $250. <br> <br><br> </li>
+<li>Courtesy Calls is a company that makes telephone calls for businesses and charities. A profit of $0.50 is made for each business call and $0.40 for each charity call. It takes 4 min (on average) to make a business call and 6 min (on average) to make a charity call. There are 240 min of calling time to be distributed each day and Courtesy Calls must make at least 12 business calls and 10 charity calls every day. <br> <br><br> </li>
+<li>A Textbook publisher prints Hardcover books for a profit of $120 per dozen, and Paperback books for a profit of $100 per dozen. Each day, the publisher must produce at least half a dozen of Hardcover books and a dozen of paperback books. To produce a dozen of Hardcover book requires 20 rolls of paper, 1 gallon of printer ink, and 0.45 gallon of glue. To produce a paperback book requires 30 rolls of paper, 1 gallon of printer ink, and 0.2 gallon of glue. There are 120 rolls of paper, 5 gallon of ink, and 2 gal of glue available. </li>
 </ol>
 </section>
 <section id="problem-2" class="level2">
@@ -350,15 +352,24 @@ window.Quarto = {
 <p>Below are the minimum constraint inequalities, resource constraint inequalities, and the profit function. Create a “real-world” linear programming problem that would fit this information.</p>
 <p>Minimum constraints: <span class="math inline">\(x \geq 4\)</span> and <span class="math inline">\(y \geq 1.\)</span> <br></p>
 <p>Resource constraints: <span class="math inline">\(5x + 4y \leq 60\)</span> and <span class="math inline">\(0.95x + y \leq 12.\)</span> <br></p>
-<p>Objective function: <span class="math inline">\(P = 2x + 0.5y.\)</span></p>
+<p>Objective function: <span class="math inline">\(P = 2x + 0.5y.\)</span> </p>
 </section>
 <section id="problem-3" class="level2">
 <h2 class="anchored" data-anchor-id="problem-3">Problem 3</h2>
-<p>Solve the problem from Problem 2 using the graphical method. Be sure to include the feasible region, the corner coordinates, and the optimal production policy (OPP).</p>
+<p>Solve the problem from Problem 2 using the graphical method. Be sure to include the feasible region, the corner coordinates, and the optimal production policy (OPP). </p>
 </section>
 <section id="problem-4" class="level2">
 <h2 class="anchored" data-anchor-id="problem-4">Problem 4</h2>
-<p>A factory manufactures chairs, tables and bookcases each requiring the use of three operations: Cutting, Assembly, and Finishing. The first operation can be used at most 600 hours; the second at most 500 hours; and the third at most 300 hours. A chair requires 1 hour of cutting, 1 hour of assembly, and 1 hour of finishing; a table needs 1 hour of cutting, 2 hours of assembly, and 1 hour of finishing; and a bookcase requires 3 hours of cutting, 1 hour of assembly, and 1 hour of finishing. If the profit is $20 per unit for a chair, $30 for a table, and $25 for a bookcase, how many units of each should be manufactured to maximize profit?</p>
+<p>A factory manufactures chairs, tables and bookcases each requiring the use of three operations: Cutting, Assembly, and Finishing. The first operation can be used at most 600 hours; the second at most 500 hours; and the third at most 300 hours. A chair requires 1 hour of cutting, 1 hour of assembly, and 1 hour of finishing; a table needs 1 hour of cutting, 2 hours of assembly, and 1 hour of finishing; and a bookcase requires 3 hours of cutting, 1 hour of assembly, and 1 hour of finishing. If the profit is $20 per unit for a chair, $30 for a table, and $25 for a bookcase, how many units of each should be manufactured to maximize profit? </p>
+</section>
+<section id="problem-5" class="level2">
+<h2 class="anchored" data-anchor-id="problem-5">Problem 5</h2>
+<p>KeepFit company makes different kinds of bikes - road bikes, mountain bikes, and hybrid bikes. Each road, mountain, and hybrid bike require 18, 28, and 35 units of steel and 13, 22, and 16 units of aluminum, respectively. The company has 91,750 units of steel and 41,500 units of aluminum available. The profit is $9 for each road bike, $13 for each mountain bike, and $23 for each hybrid bike.</p>
+<ol type="a">
+<li><p>Create a well-labelled mixture chart for the above scenario.<br><br><br> </p></li>
+<li><p>Write the minimum constraint inequalities, resource constraint inequalities, and the profit function.<br><br><br> </p></li>
+<li><p>Find the optimal production policy (OPP) and the maximum profit.<br><br><br></p></li>
+</ol>
 
 
 </section>

@@ -112,9 +112,9 @@
   {
     "objectID": "homework/hw2.html",
     "href": "homework/hw2.html",
-    "title": "Homeowrk 2",
+    "title": "HW 2: Linear Programming",
     "section": "",
-    "text": "For each of the following scenarios, create a mixture chart, minimum/resource constraint inequalities, and the profit function. State all corner coordinates of the feasible region and find the optimal production policy (OPP) and the maximum profit. Be sure to include units as necessary.\n\nA paper recycling company uses scrap cloth and scrap paper to make two different grades of recycled paper. A single batch of grade A recycled paper is made from 25 lb of scrap cloth and 10 lb of scrap paper, whereas one batch of grade B recycled paper is made from 10 lb of scrap cloth and 20 lb of scrap paper. The company has 100 lb of scrap cloth and 120 lb of scrap paper on hand. A batch of grade A paper brings a profit of $500, whereas a batch of grade B paper brings a profit of $250.  \nCourtesy Calls is a company that makes telephone calls for businesses and charities. A profit of $0.50 is made for each business call and $0.40 for each charity call. It takes 4 min (on average) to make a business call and 6 min (on average) to make a charity call. There are 240 min of calling time to be distributed each day and Courtesy Calls must make at least 12 business calls and 10 charity calls every day.  \nA Textbook publisher prints Hardcover books for a profit of $120 per dozen, and Paperback books for a profit of $100 per dozen. Each day, the publisher must produce at least half a dozen of Hardcover books and a dozen of paperback books. To produce a dozen of Hardcover book requires 20 rolls of paper, 1 gallon of printer ink, and 0.45 gallon of glue. To produce a paperback book requires 30 rolls of paper, 1 gallon of printer ink, and 0.2 gallon of glue. There are 120 rolls of paper, 5 gallon of ink, and 2 gal of glue available.",
+    "text": "For each of the following scenarios, create a mixture chart, minimum/resource constraint inequalities, and the profit function. State all corner coordinates of the feasible region and find the optimal production policy (OPP) and the maximum profit. Be sure to include units as necessary.\n\nA paper recycling company uses scrap cloth and scrap paper to make two different grades of recycled paper. A single batch of grade A recycled paper is made from 25 lb of scrap cloth and 10 lb of scrap paper, whereas one batch of grade B recycled paper is made from 10 lb of scrap cloth and 20 lb of scrap paper. The company has 100 lb of scrap cloth and 120 lb of scrap paper on hand. A batch of grade A paper brings a profit of $500, whereas a batch of grade B paper brings a profit of $250.   \nCourtesy Calls is a company that makes telephone calls for businesses and charities. A profit of $0.50 is made for each business call and $0.40 for each charity call. It takes 4 min (on average) to make a business call and 6 min (on average) to make a charity call. There are 240 min of calling time to be distributed each day and Courtesy Calls must make at least 12 business calls and 10 charity calls every day.   \nA Textbook publisher prints Hardcover books for a profit of $120 per dozen, and Paperback books for a profit of $100 per dozen. Each day, the publisher must produce at least half a dozen of Hardcover books and a dozen of paperback books. To produce a dozen of Hardcover book requires 20 rolls of paper, 1 gallon of printer ink, and 0.45 gallon of glue. To produce a paperback book requires 30 rolls of paper, 1 gallon of printer ink, and 0.2 gallon of glue. There are 120 rolls of paper, 5 gallon of ink, and 2 gal of glue available.",
     "crumbs": [
       "Homework",
       "Homework 2"
@@ -123,9 +123,9 @@
   {
     "objectID": "homework/hw2.html#problem-1",
     "href": "homework/hw2.html#problem-1",
-    "title": "Homeowrk 2",
+    "title": "HW 2: Linear Programming",
     "section": "",
-    "text": "For each of the following scenarios, create a mixture chart, minimum/resource constraint inequalities, and the profit function. State all corner coordinates of the feasible region and find the optimal production policy (OPP) and the maximum profit. Be sure to include units as necessary.\n\nA paper recycling company uses scrap cloth and scrap paper to make two different grades of recycled paper. A single batch of grade A recycled paper is made from 25 lb of scrap cloth and 10 lb of scrap paper, whereas one batch of grade B recycled paper is made from 10 lb of scrap cloth and 20 lb of scrap paper. The company has 100 lb of scrap cloth and 120 lb of scrap paper on hand. A batch of grade A paper brings a profit of $500, whereas a batch of grade B paper brings a profit of $250.  \nCourtesy Calls is a company that makes telephone calls for businesses and charities. A profit of $0.50 is made for each business call and $0.40 for each charity call. It takes 4 min (on average) to make a business call and 6 min (on average) to make a charity call. There are 240 min of calling time to be distributed each day and Courtesy Calls must make at least 12 business calls and 10 charity calls every day.  \nA Textbook publisher prints Hardcover books for a profit of $120 per dozen, and Paperback books for a profit of $100 per dozen. Each day, the publisher must produce at least half a dozen of Hardcover books and a dozen of paperback books. To produce a dozen of Hardcover book requires 20 rolls of paper, 1 gallon of printer ink, and 0.45 gallon of glue. To produce a paperback book requires 30 rolls of paper, 1 gallon of printer ink, and 0.2 gallon of glue. There are 120 rolls of paper, 5 gallon of ink, and 2 gal of glue available.",
+    "text": "For each of the following scenarios, create a mixture chart, minimum/resource constraint inequalities, and the profit function. State all corner coordinates of the feasible region and find the optimal production policy (OPP) and the maximum profit. Be sure to include units as necessary.\n\nA paper recycling company uses scrap cloth and scrap paper to make two different grades of recycled paper. A single batch of grade A recycled paper is made from 25 lb of scrap cloth and 10 lb of scrap paper, whereas one batch of grade B recycled paper is made from 10 lb of scrap cloth and 20 lb of scrap paper. The company has 100 lb of scrap cloth and 120 lb of scrap paper on hand. A batch of grade A paper brings a profit of $500, whereas a batch of grade B paper brings a profit of $250.   \nCourtesy Calls is a company that makes telephone calls for businesses and charities. A profit of $0.50 is made for each business call and $0.40 for each charity call. It takes 4 min (on average) to make a business call and 6 min (on average) to make a charity call. There are 240 min of calling time to be distributed each day and Courtesy Calls must make at least 12 business calls and 10 charity calls every day.   \nA Textbook publisher prints Hardcover books for a profit of $120 per dozen, and Paperback books for a profit of $100 per dozen. Each day, the publisher must produce at least half a dozen of Hardcover books and a dozen of paperback books. To produce a dozen of Hardcover book requires 20 rolls of paper, 1 gallon of printer ink, and 0.45 gallon of glue. To produce a paperback book requires 30 rolls of paper, 1 gallon of printer ink, and 0.2 gallon of glue. There are 120 rolls of paper, 5 gallon of ink, and 2 gal of glue available.",
     "crumbs": [
       "Homework",
       "Homework 2"
@@ -134,7 +134,7 @@
   {
     "objectID": "homework/hw2.html#problem-2",
     "href": "homework/hw2.html#problem-2",
-    "title": "Homeowrk 2",
+    "title": "HW 2: Linear Programming",
     "section": "Problem 2",
     "text": "Problem 2\nBelow are the minimum constraint inequalities, resource constraint inequalities, and the profit function. Create a “real-world” linear programming problem that would fit this information.\nMinimum constraints: \\(x \\geq 4\\) and \\(y \\geq 1.\\) \nResource constraints: \\(5x + 4y \\leq 60\\) and \\(0.95x + y \\leq 12.\\) \nObjective function: \\(P = 2x + 0.5y.\\)",
     "crumbs": [
@@ -145,7 +145,7 @@
   {
     "objectID": "homework/hw2.html#problem-3",
     "href": "homework/hw2.html#problem-3",
-    "title": "Homeowrk 2",
+    "title": "HW 2: Linear Programming",
     "section": "Problem 3",
     "text": "Problem 3\nSolve the problem from Problem 2 using the graphical method. Be sure to include the feasible region, the corner coordinates, and the optimal production policy (OPP).",
     "crumbs": [
@@ -156,7 +156,7 @@
   {
     "objectID": "homework/hw2.html#problem-4",
     "href": "homework/hw2.html#problem-4",
-    "title": "Homeowrk 2",
+    "title": "HW 2: Linear Programming",
     "section": "Problem 4",
     "text": "Problem 4\nA factory manufactures chairs, tables and bookcases each requiring the use of three operations: Cutting, Assembly, and Finishing. The first operation can be used at most 600 hours; the second at most 500 hours; and the third at most 300 hours. A chair requires 1 hour of cutting, 1 hour of assembly, and 1 hour of finishing; a table needs 1 hour of cutting, 2 hours of assembly, and 1 hour of finishing; and a bookcase requires 3 hours of cutting, 1 hour of assembly, and 1 hour of finishing. If the profit is $20 per unit for a chair, $30 for a table, and $25 for a bookcase, how many units of each should be manufactured to maximize profit?",
     "crumbs": [
@@ -187,55 +187,11 @@
     ]
   },
   {
-    "objectID": "course-faq.html#how-do-i-export-my-assignment-pdf-from-rstudio-to-upload-to-canvas",
-    "href": "course-faq.html#how-do-i-export-my-assignment-pdf-from-rstudio-to-upload-to-canvas",
-    "title": "FAQ",
-    "section": "How do I export my assignment PDF from RStudio to upload to Canvas?",
-    "text": "How do I export my assignment PDF from RStudio to upload to Canvas?\nGo to your Files tab, check the box next to the file you want to download, then click on the blue gear icon on the Files tab to reveal the drop down menu, and select Export… If you have selected multiple files to export, RStudio will zip them up into a single zip file for you. If you’ve selected just a single file, it will only download that. The downloaded file will go to wherever files you download off the internet goes on your computer (usually your Downloads folder).",
-    "crumbs": [
-      "Course information",
-      "FAQ"
-    ]
-  },
-  {
-    "objectID": "course-faq.html#how-do-i-upload-a-quarto-file-.qmd-to-rstudio-cloud",
-    "href": "course-faq.html#how-do-i-upload-a-quarto-file-.qmd-to-rstudio-cloud",
-    "title": "FAQ",
-    "section": "How do I upload a quarto file (.qmd) to RStudio cloud?",
-    "text": "How do I upload a quarto file (.qmd) to RStudio cloud?\nEasy! Just go to your Files tab, click on the blue Upload button, and select the file you want to upload. RStudio will upload the file and you can then open it by clicking on it. Watch the following video for a demonstration.",
-    "crumbs": [
-      "Course information",
-      "FAQ"
-    ]
-  },
-  {
-    "objectID": "course-faq.html#how-can-i-submit-my-assignment-to-canvas",
-    "href": "course-faq.html#how-can-i-submit-my-assignment-to-canvas",
-    "title": "FAQ",
-    "section": "How can I submit my assignment to Canvas?",
-    "text": "How can I submit my assignment to Canvas?\nThe instructions for submitting your assignment to Canvas can be found here. Please preview your submission to make sure it is the correct file before submitting.",
-    "crumbs": [
-      "Course information",
-      "FAQ"
-    ]
-  },
-  {
-    "objectID": "course-faq.html#can-i-use-a-local-install-of-r-and-rstudio-instead-of-using-the-rstudio-containers",
-    "href": "course-faq.html#can-i-use-a-local-install-of-r-and-rstudio-instead-of-using-the-rstudio-containers",
-    "title": "FAQ",
-    "section": "Can I use a local install of R and RStudio instead of using the RStudio containers?",
-    "text": "Can I use a local install of R and RStudio instead of using the RStudio containers?\nThe short answer is, I’d rather you didn’t, to save yourself some headache. But, the long answer is, sure! But you will need to install a specific versions of R and RStudio for everything to work as expected. You will also need to install the R packages we’re using as well as have Git installed on your computer. These are not extremely challenging things to get right, but they are not trivial either, particularly on certain operating systems. Myself and the course TA are always happy to provide help with any computational questions when you’re working in the posit cloud. If you’re working on your local setup, we can’t guarantee being able to resolve your issues, though we’re happy to try.\nIf you want to take this path, here is what you need to do:\n\nDownload and install R: https://cran.r-project.org/\nDownload and install RStudio: https://posit.co/download/rstudio-desktop/\nInstall Quarto: https://quarto.org/docs/download/prerelease.html\nInstall Git: https://happygitwithr.com/install-git.html\nInstall any necessary packages with install.packages(\"xxx\"), where xxx is the name of the package.\n\nAnd I’d like to reiterate again that successful installation of these software is not a learning goal of this course. So if any of this seems tedious or intimidating in any way, just use the online computing environment (posit cloud).",
-    "crumbs": [
-      "Course information",
-      "FAQ"
-    ]
-  },
-  {
     "objectID": "project/final_project.html",
     "href": "project/final_project.html",
-    "title": "Real world appllication",
+    "title": "Longterm Financial Planning",
     "section": "",
-    "text": "Coming soon",
+    "text": "Come back later!",
     "crumbs": [
       "Projects",
       "Project 2"
@@ -363,95 +319,7 @@
     "href": "project/first_project.html",
     "title": "First Project",
     "section": "",
-    "text": "The goal of this project is for you to demonstrate proficiency in the material we have covered in this class (and beyond, if you like) and apply them to a ‘novel’ dataset of your choosing in a meaningful way. You are not asked to do an exhaustive data analysis by generating every statistic/visualizations that we have learned of in the course. Rather, I expect you to demonstrate skills in asking meaningful questions and answering them using carefully selected data analysis techniques and tools. These analyses must be done in R in a reproducible manner (quarto).\nMultiple data frames are available but your group will choose just one to use for this project. After choosing the data frame, your will need to brainstorm on several issues about the data such as the sample and sampling methods that might have been used to gather the data, a possible target population, variables and their types (numerical vs categorical), among others. Your team will then come up with a research topic/goal and two research questions (directly related to the topic) that you will answer by conducting the analyses. Your analyses should include data visualizations, numerical statistics, and regression models. All these must be appropriately linked to help tell a coherent story.",
-    "crumbs": [
-      "Projects",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "project/first_project.html#project-proposal",
-    "href": "project/first_project.html#project-proposal",
-    "title": "First Project",
-    "section": "Milestone 1 - Proposal",
-    "text": "Milestone 1 - Proposal\nThere are two main purposes of the project proposal:\n\nTo help you think about the project early, so you can get a head start on finding data, reading relevant literature, thinking about the questions you wish to answer, etc.\nTo ensure that the data you wish to analyze, methods you plan to use, and the scope of your analysis are feasible and will allow you to be successful for this project.\n\nThe project proposal will be due roughly one week after the project is assigned. It must contain the following details:\n\nTeam members and their roles: List the names of all team members and their roles in the project. Roles can include Data cleaning/wrangling, Data analysis (performing the analyses in RStudio), Writing (e.g., abstract, intro, literature review, findings, conclusion), Proof reading and typo fixing, Team leader (e.g., setting up meetings, follow up, communicate with professor), etc.\nResearch topic and Questions: As indicated earlier, this is a short statement that describes the general area of interest that your research questions will be addressing. You should have at least two research questions that you will answer by conducting the analyses.\nData: Describe the data you will be using. This should include the source of the data, the number of observations and variables, and a brief description of the variables and their types (e.g., numerical, categorical). You should also include a brief description of the data collection process. Note that the data collection process may not be available for all data sets. In this case, you are allowed to speculate (reasonably) on the data collection process and be sure to mention that in your proposal.\nAnalysis plan: Describe the analyses you plan to conduct. This should include the types of visualizations you plan to create, the numerical summaries you plan to calculate, and the regression models you plan to fit. You should also describe how you plan to link these analyses together to tell a coherent story.\n\nInstructions and grading criteria for this milestone are outlined in the grading rubric for Milestone 1.",
-    "crumbs": [
-      "Projects",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "project/first_project.html#milestone-2---first-draft",
-    "href": "project/first_project.html#milestone-2---first-draft",
-    "title": "First Project",
-    "section": "Milestone 2 - First Draft",
-    "text": "Milestone 2 - First Draft\nYour project draft is a completed project, that we shall use to obtain feedback from the professor and peers in class. The draft should include the following sections:\n\nAbstract: This section should provide a brief overview of the research topic, questions, data, and analyses you are conducting. It should also provide a brief overview of the results you have obtained. Think of the abstract as an executive summary of your work that someone can read and understand without reading the rest of the report. You should write the abstract last, after you have completed the rest of the report.\nIntroduction: This section should introduce the research topic and questions you are addressing. It should also provide a brief overview of the data you are using and the analyses you plan to conduct. Cite a few sources that are relevant to your research topic.\nLiterature Review: This section should provide a brief overview of the literature related to your research topic. You should cite at least 5 sources and synthesize their methods and findings in relation to your own research. Guidelines for writing an effective literature review can be found here.\nMethods: This section should describe the data you are using and the analyses you plan to conduct. It should include the following subsections:\n\nData Description: This section should describe the data you are using. This should include the source of the data, the number of observations and variables, and a brief description of the variables and their types (e.g., numerical, categorical). You should also include a brief description of the data collection process. Note that the data collection process may not be available for all data sets. In this case, you are allowed to speculate (reasonably) on the data collection process and be sure to mention that in your proposal.\nResearch Questions and Analyses: This section should list the research questions you are addressing. You should also describe the variables of interest in your data set that will help you answer these questions. Discuus the methids you plan to use for each question and why you think they are appropriate.\nData Cleaning: This section should describe the steps you took to clean the data. This may include removing missing values, transforming variables, etc. Depending on your data set, you may not need to do much data cleaning. If this is the case, you should still describe the steps you took to clean the data, even if they are minimal.\n\nData Analysis and Results: This is one of the most important heavily weighted parts of your project. The analyses should be sound and justified appropriately (under methods). Here, you just need to implement the analyses described under the methodology section of your paper. Your analyses should demonstrate a thorough understanding of statistical concepts learned in this course (and beyond, if you like). Your data analyses must include both numerical statistics and data visualizations. You must also use regression modelling (linear or logistic) techniques as part of your analyses. Interpretations of visualizations created as well as the models created must be made in a coherent manner and in the context of the research questions. These are the results/findings of your project.\nConclusion: This section should summarize the research questions you addressed, the data you used, the analyses you conducted, and the results you obtained. Findings of your study must be tied back to those reported in the literature review; for example, do your findings concur with previous studies or do they contradict them? It should also discuss the implications of your results and suggest directions for future research. Be sure to state any limitations of your study and what would be done differently if you were to do the study again.\nReferences: This section should list all the sources you cited in your report. Use APA format for your references.\n\nInstructions and grading criteria for this milestone are outlined in Milestone 2: Proposal.",
-    "crumbs": [
-      "Projects",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "project/first_project.html#peer-review",
-    "href": "project/first_project.html#peer-review",
-    "title": "First Project",
-    "section": "Milestone 3 - Peer review",
-    "text": "Milestone 3 - Peer review\nCritically reviewing others’ work is a crucial part of the scientific process, and MATH 246 is no exception. Your team will be assigned at least one project from another team to review. Team members should read individually before meeting during which the team will come up with collective feedback for the other team. The peer review process will be double blinded, meaning that you will not know who is reviewing your project, and you will not know whose project you are reviewing. This feedback is intended to help you create a high quality final project, as well as give you experience reading and constructively critiquing the work of others.\nInstructions and grading criteria for this milestone are outlined in Milestone 3: Peer review.",
-    "crumbs": [
-      "Projects",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "project/first_project.html#milestone-4---final-writeup",
-    "href": "project/first_project.html#milestone-4---final-writeup",
-    "title": "First Project",
-    "section": "Milestone 4 - Final Writeup",
-    "text": "Milestone 4 - Final Writeup\nThe final write-up is the culmination of your project. It should include all the sections of the first draft, but with revisions based on the feedback you received from your peers and the professor. The final write-up should be a polished document that clearly communicates your research topic, questions, data, analyses, and results. The final write-up should be written in a clear, concise, and professional manner. It should be free of grammatical errors and typos. The final write-up should also include a title page with the title of your project, the names of all team members, and the date. A quarto template for the final write-up will be provided.\nInstructions and grading criteria for this milestone are outlined in Milestone 4: Writeup + presentation.",
-    "crumbs": [
-      "Projects",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "project/first_project.html#milestone-5---presentation",
-    "href": "project/first_project.html#milestone-5---presentation",
-    "title": "First Project",
-    "section": "Milestone 5 - Presentation",
-    "text": "Milestone 5 - Presentation\nThe final milestone is a presentation of your project. The presentation should be about 10 minutes long and should include slides that summarize the key points and findings of your project. The presentation should be clear, concise, and professional. The presentation will be graded on the clarity of the slides, the clarity of the presentation, and the ability to communicate your research topic, questions, data, analyses, and results to an audience. The presentation will be followed by a question and answer session with the professor and your peers.",
-    "crumbs": [
-      "Projects",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "project/first_project.html#overall-grading",
-    "href": "project/first_project.html#overall-grading",
-    "title": "First Project",
-    "section": "Overall grading",
-    "text": "Overall grading\nThe overall grade breakdown by milestone (\\(M_i\\)) is as follows:\n\n\n\nTotal\n100 pts\n\n\n\n\nM1: Project Proposal\n10 pts\n\n\nM2: First Draft\n20 pts\n\n\nM3: Peer Review\n10 pts\n\n\nM4: Final Writeup\n40 pts\n\n\nM5: Slides + Presentation\n10 pts\n\n\nCollaboration & Teamwork\n10 pts",
-    "crumbs": [
-      "Projects",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "project/first_project.html#grading-milestone-details",
-    "href": "project/first_project.html#grading-milestone-details",
-    "title": "First Project",
-    "section": "Grading Milestone details",
-    "text": "Grading Milestone details\n\n\\(M_1\\) - Project Proposal\n\nCompletion (2pts) - Did the team complete all parts of the proposal as required?\nContent (2pts) - What is the quality of research and/or policy question and relevancy of data to those questions?\nCorrectness (2pts) - Are the statistical procedures sound and reasonable for the stated questions?\nCommunication & Writing (2pts) - What is the quality of the statistical presentation, writing, and explanations?\nCreativity and Critical Thought (2pts) - Is the project carefully thought out? Are the limitations carefully considered? Does it appear that time and effort went into the planning and implementation of the project?\n\n\n\n\\(M_2\\) - First Draft\n\nAbstract (2 pts) - Does the abstract provide a brief overview of the research topic, questions, data, and analyses you are conducting?\nIntroduction (2 pts) - Does the introduction articulate the research topic and questions you are addressing? Does it provide a brief overview of the data? Does it provide a couple of citations to help you make the case for your chosen topic of study?\nLiterature Review (3 pts) - Does the literature review provide relevant in-text citations? Does it examine and synthesize the sources in context of the current study?\nMethods (3 pts) - Does the methods section describe the sample, the data, and the analysis methods used? Does it justify the choice of analysis methods? Does it describe the data cleaning processes?\nData Analysis and Results (6 pts) - Are the analyses implemented correctly? Are the interpretations for both research questions done correctly and in context of the study? Do the analyses demonstrate a thorough understanding of statistical concepts learned in the course?\nConclusion (2 pts) - Does the conclusion summarize the research questions you addressed, the data you used, the analyses you conducted, and the results you obtained? Does it discuss the implications of your results and suggest directions for future research?\nReferences (2 pts) - Are all the sources you cited in your report listed in the references section? Are they in APA format?\n\n\n\n\\(M_3\\) - Peer Review\nPeer reviews will be graded on the extent to which it comprehensively and constructively addresses the components of the reviewee’s team’s report.\nOnly the team members participating in the review process are eligible for points for the peer review. Teams may choose to meet in-person or virtually. The team should submit a single review document that includes the following:\n\nQuality of feedback (3pts) - Did the team provide constructive and actionable feedback? Please note that actionable does not mean telling the reviewee team what to do, but rather providing feedback that the reviewee team can use to improve its work.\nCorrectness (2pts) - Are the critiques provided sound and reasonable?\nCommunication & Writing (2pts) - Is the feedback report understandable and free from grammatical errors and typos?\nCompletion (2pts) - Did the team complete the review as required?\n\n\n\n\\(M_4\\) - Final Writeup\nThe grading of the final writeup follows the same grading criteria as Milestone 2 but gets additional points. To get maximum points on milestone 4, you should address the feedback given to you on your project draft by your peers and/or professor. If there is any feedback that you think does not need to be addressed, please provide a justification for why you think so.\n\nAbstract (4 pts) - Does the abstract provide a brief overview of the research topic, questions, data, and analyses you are conducting?\nIntroduction (4 pts) - Does the introduction articulate the research topic and questions you are addressing? Does it provide a brief overview of the data? Does it provide a couple of citations to help you make the case for your chosen topic of study?\nLiterature Review (6 pts) - Does the literature review provide relevant in-text citations? Does it examine and synthesize the sources in context of the current study?\nMethods (6 pts) - Does the methods section describe the sample, the data, and the analysis methods used? Does it justify the choice of analysis methods? Does it describe the data cleaning processes?\nData Analysis and Results (14 pts) - Are the analyses implemented correctly? Are the interpretations for both research questions done correctly and in context of the study? Do the analyses demonstrate a thorough understanding of statistical concepts learned in the course?\nConclusion (4 pts) - Does the conclusion summarize the research questions you addressed, the data you used, the analyses you conducted, and the results you obtained? Does it discuss the implications of your results and suggest directions for future research?\nReferences (2 pts) - Are all the sources you cited in your report listed in the references section? Are they in APA format?\n\n\n\n\\(M_5\\) - Presentation\n\nSlides (3 pts) - Are the slides clear, well-organized, and concise? Do they summarize the key points and findings of the project?\nPresentation (4 pts) - Is the presentation clear and does it show a thorough understanding of the material learned? Are speakers audible enough and facing the audience? Are they engaging and do they maintain eye contact with the audience?\nQuestion and Answer (Q&A) (3 pts) - How well does the team answer questions about their project? Are they able to communicate their research topic, questions, data, analyses, and results to an audience?",
-    "crumbs": [
-      "Projects",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "project/first_project.html#submission",
-    "href": "project/first_project.html#submission",
-    "title": "First Project",
-    "section": "Submission",
-    "text": "Submission\nSubmissions for all milestones should be made through Canvas. You will see the assignments created in Canvas for each milestone with more detailed instructions.",
+    "text": "Come back later!",
     "crumbs": [
       "Projects",
       "Project 1"
@@ -462,7 +330,7 @@
     "href": "homework/hw1.html",
     "title": "Homework 1",
     "section": "",
-    "text": "A linear function has slope − ! and contains the point (−3, 5). Find the equation ” for this function. Sketch the graph of this function.\nFind the slope and the formula of a linear function passing through the points (0, −6) and (−1, −9).\nCould the table below represent a linear function? How do you know? If the table represents a linear function, find the formula/equation of the function.\n\n\n\n\\(x\\)\n\\(-12\\)\n\\(-6\\)\n\\(0\\)\n\\(6\\)\n\n\n\\(y\\)\n\\(50\\)\n\\(26\\)\n\\(2\\)\n\\(-22\\)",
+    "text": "A linear function has slope − 1 and contains the point (−3, 5). Find the equation for this function. Sketch the graph of this function. \nFind the slope and the formula of a linear function passing through the points (0, −6) and (−1, −9). \nCould the table below represent a linear function? How do you know? If the table represents a linear function, find the formula/equation of the function.\n\n\n\n\\(x\\)\n-\\(12\\)\n-\\(6\\)\n\\(0\\)\n\\(6\\)\n\n\n\\(y\\)\n\\(50\\)\n\\(26\\)\n\\(2\\)\n-\\(22\\)",
     "crumbs": [
       "Homework",
       "Homework 1"
@@ -473,7 +341,7 @@
     "href": "homework/hw1.html#problem-1",
     "title": "Homework 1",
     "section": "",
-    "text": "A linear function has slope − ! and contains the point (−3, 5). Find the equation ” for this function. Sketch the graph of this function.\nFind the slope and the formula of a linear function passing through the points (0, −6) and (−1, −9).\nCould the table below represent a linear function? How do you know? If the table represents a linear function, find the formula/equation of the function.\n\n\n\n\\(x\\)\n\\(-12\\)\n\\(-6\\)\n\\(0\\)\n\\(6\\)\n\n\n\\(y\\)\n\\(50\\)\n\\(26\\)\n\\(2\\)\n\\(-22\\)",
+    "text": "A linear function has slope − 1 and contains the point (−3, 5). Find the equation for this function. Sketch the graph of this function. \nFind the slope and the formula of a linear function passing through the points (0, −6) and (−1, −9). \nCould the table below represent a linear function? How do you know? If the table represents a linear function, find the formula/equation of the function.\n\n\n\n\\(x\\)\n-\\(12\\)\n-\\(6\\)\n\\(0\\)\n\\(6\\)\n\n\n\\(y\\)\n\\(50\\)\n\\(26\\)\n\\(2\\)\n-\\(22\\)",
     "crumbs": [
       "Homework",
       "Homework 1"
@@ -495,7 +363,7 @@
     "href": "homework/hw1.html#problem-3",
     "title": "Homework 1",
     "section": "Problem 3",
-    "text": "Problem 3\nYou want to choose one long distance telephone company from the following options:\nCompany A charges $0.39 per minute (no fixed monthly charges)\nCompany B charges $13.7 per month and $0.22 per minute.\nCompany C charges a fixed rate of $50 per month.\nLet \\(A(x)\\), \\(B(x)\\), and \\(C(x)\\) be the cost of using each company for \\(x\\) minutes on long distance calls.\n\nWrite a formula for the cost of using each company as a function of the number of minutes used, \\(x\\).\nIf you spend 125 minutes talking long distance per month, which company would be the cheapest? Be sure to justify your answer.\nJennifer, a subscriber for company \\(B\\), paid $120 for long distance calls last month. How many minutes did she spend on long distance calls?",
+    "text": "Problem 3\nYou want to choose one long distance telephone company from the following options:\nCompany A charges $0.39 per minute (no fixed monthly charges)\nCompany B charges $13.7 per month and $0.22 per minute.\nCompany C charges a fixed rate of $50 per month.\nLet \\(A(x)\\), \\(B(x)\\), and \\(C(x)\\) be the cost of using each company for \\(x\\) minutes on long distance calls.\n\nWrite a formula for the cost of using each company as a function of the number of minutes used, \\(x\\). \nIf you spend 125 minutes talking long distance per month, which company would be the cheapest? Be sure to justify your answer. \nJennifer, a subscriber for company \\(B\\), paid $120 for long distance calls last month. How many minutes did she spend on long distance calls?",
     "crumbs": [
       "Homework",
       "Homework 1"
@@ -506,7 +374,29 @@
     "href": "homework/hw1.html#problem-4",
     "title": "Homework 1",
     "section": "Problem 4",
-    "text": "Problem 4\nA local retailer has determined that the number of PortaBoy game systems, \\(x\\), sold in a week is related to the price, \\(p\\), in dollars of each system. 75 game systems were sold when the price was $140. When the systems went on sale the following week, 150 systems were sold at $80 a piece.\n\nFind the equation of the line that represents the relationship between the number of game systems sold and the price of each system.\nHow many game systems will be sold if the price is $100?\nIf the retailer wants to sell 150 PortaBoys next week, what should the price be?",
+    "text": "Problem 4\nA local retailer has determined that the number of PortaBoy game systems, \\(x\\), sold in a week is related to the price, \\(p\\), in dollars of each system. 75 game systems were sold when the price was $140. When the systems went on sale the following week, 150 systems were sold at $80 a piece.\n\nFind the equation of the line that represents the relationship between the number of game systems sold and the price of each system. \nHow many game systems will be sold if the price is $100? \nIf the retailer wants to sell 150 PortaBoys next week, what should the price be?",
+    "crumbs": [
+      "Homework",
+      "Homework 1"
+    ]
+  },
+  {
+    "objectID": "homework/hw1.html#problem-5",
+    "href": "homework/hw1.html#problem-5",
+    "title": "Homework 1",
+    "section": "Problem 5",
+    "text": "Problem 5\nThe supply function for a product is given by \\(s(p) = 1000 + 25p\\), where \\(p\\) is the price in dollars per pound. The equilibrium price is $2 and the demand is $13 when the supply is 225 pounds.\n\nFind the demand function, \\(d(p)\\), for the product.\n\n\nFind the equilibrium quantity.",
+    "crumbs": [
+      "Homework",
+      "Homework 1"
+    ]
+  },
+  {
+    "objectID": "homework/hw1.html#problem-6",
+    "href": "homework/hw1.html#problem-6",
+    "title": "Homework 1",
+    "section": "Problem 6",
+    "text": "Problem 6\nYou decide to start a small online shop selling branded water bottles. The fixed costs for your production line is $525, and your total cost to produce 1000 bottles is $2675. Your bottles sell for $4.95 each.\n\nFind the cost function, \\(C(x)\\) for your production. \nHow many bottles must you sell to break even? \nHow many bottles must you sell to make a profit of $1000?",
     "crumbs": [
       "Homework",
       "Homework 1"
@@ -631,6 +521,17 @@
     "crumbs": [
       "Course information",
       "Support"
+    ]
+  },
+  {
+    "objectID": "homework/hw2.html#problem-5",
+    "href": "homework/hw2.html#problem-5",
+    "title": "HW 2: Linear Programming",
+    "section": "Problem 5",
+    "text": "Problem 5\nKeepFit company makes different kinds of bikes - road bikes, mountain bikes, and hybrid bikes. Each road, mountain, and hybrid bike require 18, 28, and 35 units of steel and 13, 22, and 16 units of aluminum, respectively. The company has 91,750 units of steel and 41,500 units of aluminum available. The profit is $9 for each road bike, $13 for each mountain bike, and $23 for each hybrid bike.\n\nCreate a well-labelled mixture chart for the above scenario. \nWrite the minimum constraint inequalities, resource constraint inequalities, and the profit function. \nFind the optimal production policy (OPP) and the maximum profit.",
+    "crumbs": [
+      "Homework",
+      "Homework 2"
     ]
   }
 ]

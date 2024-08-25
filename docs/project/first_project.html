@@ -70,35 +70,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <meta property="og:title" content="MATH 104 - First Project">
 <meta property="og:description" content="Homepage for MATH 104 - Finite Mathematics, Fall 2024.">
@@ -302,37 +273,8 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">Project Overview</a></li>
-  <li><a href="#research-topic-and-questions" id="toc-research-topic-and-questions" class="nav-link" data-scroll-target="#research-topic-and-questions">Research Topic and Questions</a></li>
-  <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
-  <li><a href="#project-timeline" id="toc-project-timeline" class="nav-link" data-scroll-target="#project-timeline">Project Timeline</a>
-  <ul class="collapse">
-  <li><a href="#project-proposal" id="toc-project-proposal" class="nav-link" data-scroll-target="#project-proposal">Milestone 1 - Proposal</a></li>
-  <li><a href="#milestone-2---first-draft" id="toc-milestone-2---first-draft" class="nav-link" data-scroll-target="#milestone-2---first-draft">Milestone 2 - First Draft</a></li>
-  <li><a href="#peer-review" id="toc-peer-review" class="nav-link" data-scroll-target="#peer-review">Milestone 3 - Peer review</a></li>
-  <li><a href="#milestone-4---final-writeup" id="toc-milestone-4---final-writeup" class="nav-link" data-scroll-target="#milestone-4---final-writeup">Milestone 4 - Final Writeup</a></li>
-  <li><a href="#milestone-5---presentation" id="toc-milestone-5---presentation" class="nav-link" data-scroll-target="#milestone-5---presentation">Milestone 5 - Presentation</a></li>
-  </ul></li>
-  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a>
-  <ul class="collapse">
-  <li><a href="#overall-grading" id="toc-overall-grading" class="nav-link" data-scroll-target="#overall-grading">Overall grading</a></li>
-  <li><a href="#grading-milestone-details" id="toc-grading-milestone-details" class="nav-link" data-scroll-target="#grading-milestone-details">Grading Milestone details</a>
-  <ul class="collapse">
-  <li><a href="#m_1---project-proposal" id="toc-m_1---project-proposal" class="nav-link" data-scroll-target="#m_1---project-proposal"><span class="math inline">\(M_1\)</span> - Project Proposal</a></li>
-  <li><a href="#m_2---first-draft" id="toc-m_2---first-draft" class="nav-link" data-scroll-target="#m_2---first-draft"><span class="math inline">\(M_2\)</span> - First Draft</a></li>
-  <li><a href="#m_3---peer-review" id="toc-m_3---peer-review" class="nav-link" data-scroll-target="#m_3---peer-review"><span class="math inline">\(M_3\)</span> - Peer Review</a></li>
-  <li><a href="#m_4---final-writeup" id="toc-m_4---final-writeup" class="nav-link" data-scroll-target="#m_4---final-writeup"><span class="math inline">\(M_4\)</span> - Final Writeup</a></li>
-  <li><a href="#m_5---presentation" id="toc-m_5---presentation" class="nav-link" data-scroll-target="#m_5---presentation"><span class="math inline">\(M_5\)</span> - Presentation</a></li>
-  </ul></li>
-  <li><a href="#submission" id="toc-submission" class="nav-link" data-scroll-target="#submission">Submission</a></li>
-  </ul></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/jmochogi/finite-math.git/edit/main/project/first_project.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jmochogi/finite-math.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -356,193 +298,9 @@ window.Quarto = {
 </header>
 
 
-<section id="project-overview" class="level1">
-<h1>Project Overview</h1>
-<p>The goal of this project is for you to demonstrate proficiency in the material we have covered in this class (and beyond, if you like) and apply them to a ‘novel’ dataset of your choosing in a meaningful way. You are not asked to do an exhaustive data analysis by generating every statistic/visualizations that we have learned of in the course. Rather, I expect you to demonstrate skills in asking meaningful questions and answering them using carefully selected data analysis techniques and tools. These analyses must be done in R in a reproducible manner (quarto).</p>
-<p>Multiple data frames are available but your group will choose just one to use for this project. After choosing the data frame, your will need to brainstorm on several issues about the data such as the sample and sampling methods that might have been used to gather the data, a possible target population, variables and their types (numerical vs categorical), among others. Your team will then come up with a research topic/goal and two research questions (directly related to the topic) that you will answer by conducting the analyses. Your analyses should include data visualizations, numerical statistics, and regression models. All these must be appropriately linked to help tell a coherent story.</p>
-</section>
-<section id="research-topic-and-questions" class="level1">
-<h1>Research Topic and Questions</h1>
-<p>Your research topic is a short statement that describes the general area of interest that your research questions will be addressing. It should be broad enough to allow for multiple research questions to be asked, but specific enough to give a clear idea of what you are interested in. For example, if you are interested in the relationship between income and happiness, your research topic could be “<strong>The relationship between income and happiness in the United States</strong>.” This topic could then be used to generate multiple research questions, such as</p>
-<ul>
-<li><p><strong><em>Question 1:</em></strong> Is there a relationship between income and happiness in the United States?”</p></li>
-<li><p><strong><em>Question 2:</em></strong> How does the relationship between income and happiness vary by age group in the United States?</p></li>
-</ul>
-<p>At least one question should involve multiple predictor variables. Ideally, you want to perform model selection to identify the “best” predictors to include in the final model.</p>
-</section>
-<section id="the-data" class="level1">
-<h1>The Data</h1>
-<p>Multiple data sets are available online for you to choose from. If your team decides that you want to collect your own data, please contact me so we can talk about that. The following are possibke sources of datasets:</p>
-<ul>
-<li><p><a href="https://www.openintro.org/data/">openintro</a> website: Most of these data sets can be loaded into your work space as long as the openintro package is installed and running.</p></li>
-<li><p><a href="https://www.kaggle.com/datasets">Kaggle</a>: This is a platform for predictive modeling and analytics competitions in which companies and researchers post data and statisticians and data miners from all over the world compete to produce the best models.</p></li>
-</ul>
-<p>If your team decides to use existing data set, it important to understand that the data may have been collected for a different purpose and may not be perfect for your research questions. You will need to examine the data to see if it is appropriate for your research questions. If need be, you can modify your research questions appropriately for the purposes of this project.</p>
-</section>
-<section id="project-timeline" class="level1">
-<h1>Project Timeline</h1>
-<p>The four milestones for this project are as follows:</p>
-<ol type="1">
-<li>Milestone 1 - Project proposal.</li>
-<li>Milestone 2 - A first draft of your project write-up.</li>
-<li>Milestone 3 - Peer review, on another team’s first project.</li>
-<li>Milestone 4 - Completed project report with write up of your analysis.</li>
-<li>Milestone 5 - Presentation with slides summarizing key points and findings of your project.</li>
-</ol>
-<section id="project-proposal" class="level2">
-<h2 class="anchored" data-anchor-id="project-proposal">Milestone 1 - Proposal</h2>
-<p>There are two main purposes of the project proposal:</p>
-<ul>
-<li>To help you think about the project early, so you can get a head start on finding data, reading relevant literature, thinking about the questions you wish to answer, etc.</li>
-<li>To ensure that the data you wish to analyze, methods you plan to use, and the scope of your analysis are feasible and will allow you to be successful for this project.</li>
-</ul>
-<p>The project proposal will be due roughly one week after the project is assigned. It must contain the following details:</p>
-<ol type="1">
-<li><p><strong>Team members and their roles</strong>: List the names of all team members and their roles in the project. Roles can include Data cleaning/wrangling, Data analysis (performing the analyses in RStudio), Writing (e.g., abstract, intro, literature review, findings, conclusion), Proof reading and typo fixing, Team leader (e.g., setting up meetings, follow up, communicate with professor), etc.</p></li>
-<li><p><strong>Research topic and Questions</strong>: As indicated earlier, this is a short statement that describes the general area of interest that your research questions will be addressing. You should have at least two research questions that you will answer by conducting the analyses.</p></li>
-<li><p><strong>Data</strong>: Describe the data you will be using. This should include the source of the data, the number of observations and variables, and a brief description of the variables and their types (e.g., numerical, categorical). You should also include a brief description of the data collection process. Note that the data collection process may not be available for all data sets. In this case, you are allowed to speculate (reasonably) on the data collection process and be sure to mention that in your proposal.</p></li>
-<li><p><strong>Analysis plan</strong>: Describe the analyses you plan to conduct. This should include the types of visualizations you plan to create, the numerical summaries you plan to calculate, and the regression models you plan to fit. You should also describe how you plan to link these analyses together to tell a coherent story.</p></li>
-</ol>
-<p>Instructions and grading criteria for this milestone are outlined in the grading rubric for <a href="../project/2-proposal.html">Milestone 1</a>.</p>
-</section>
-<section id="milestone-2---first-draft" class="level2">
-<h2 class="anchored" data-anchor-id="milestone-2---first-draft">Milestone 2 - First Draft</h2>
-<p>Your project draft is a completed project, that we shall use to obtain feedback from the professor and peers in class. The draft should include the following sections:</p>
-<ol type="1">
-<li><p><strong>Abstract</strong>: This section should provide a brief overview of the research topic, questions, data, and analyses you are conducting. It should also provide a brief overview of the results you have obtained. Think of the abstract as an executive summary of your work that someone can read and understand without reading the rest of the report. You should write the abstract last, after you have completed the rest of the report.</p></li>
-<li><p><strong>Introduction</strong>: This section should introduce the research topic and questions you are addressing. It should also provide a brief overview of the data you are using and the analyses you plan to conduct. Cite a few sources that are relevant to your research topic.</p></li>
-<li><p><strong>Literature Review</strong>: This section should provide a brief overview of the literature related to your research topic. You should cite at least 5 sources and synthesize their methods and findings in relation to your own research. Guidelines for writing an effective literature review can be found <a href="https://www.scribbr.com/methodology/literature-review/">here</a>.</p></li>
-<li><p><strong>Methods</strong>: This section should describe the data you are using and the analyses you plan to conduct. It should include the following subsections:</p>
-<ul>
-<li><p><strong>Data Description</strong>: This section should describe the data you are using. This should include the source of the data, the number of observations and variables, and a brief description of the variables and their types (e.g., numerical, categorical). You should also include a brief description of the data collection process. Note that the data collection process may not be available for all data sets. In this case, you are allowed to speculate (reasonably) on the data collection process and be sure to mention that in your proposal.</p></li>
-<li><p><strong>Research Questions and Analyses</strong>: This section should list the research questions you are addressing. You should also describe the variables of interest in your data set that will help you answer these questions. Discuus the methids you plan to use for each question and why you think they are appropriate.</p></li>
-<li><p><strong>Data Cleaning</strong>: This section should describe the steps you took to clean the data. This may include removing missing values, transforming variables, etc. Depending on your data set, you may not need to do much data cleaning. If this is the case, you should still describe the steps you took to clean the data, even if they are minimal.</p></li>
-</ul></li>
-<li><p><strong>Data Analysis and Results</strong>: This is one of the most important heavily weighted parts of your project. The analyses should be sound and justified appropriately (under methods). Here, you just need to implement the analyses described under the methodology section of your paper. Your analyses should demonstrate a thorough understanding of statistical concepts learned in this course (and beyond, if you like). Your data analyses must include both numerical statistics and data visualizations. You must also use regression modelling (linear or logistic) techniques as part of your analyses. Interpretations of visualizations created as well as the models created must be made in a coherent manner and in the context of the research questions. These are the results/findings of your project.</p></li>
-<li><p><strong>Conclusion</strong>: This section should summarize the research questions you addressed, the data you used, the analyses you conducted, and the results you obtained. Findings of your study must be tied back to those reported in the literature review; for example, do your findings concur with previous studies or do they contradict them? It should also discuss the implications of your results and suggest directions for future research. Be sure to state any limitations of your study and what would be done differently if you were to do the study again.</p></li>
-<li><p><strong>References</strong>: This section should list all the sources you cited in your report. Use <a href="https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html">APA format</a> for your references.</p></li>
-</ol>
-<p>Instructions and grading criteria for this milestone are outlined in <a href="../project/2-proposal.html">Milestone 2: Proposal</a>.</p>
-</section>
-<section id="peer-review" class="level2">
-<h2 class="anchored" data-anchor-id="peer-review">Milestone 3 - Peer review</h2>
-<p>Critically reviewing others’ work is a crucial part of the scientific process, and MATH 246 is no exception. Your team will be assigned at least one project from another team to review. Team members should read individually before meeting during which the team will come up with collective feedback for the other team. The peer review process will be double blinded, meaning that you will not know who is reviewing your project, and you will not know whose project you are reviewing. This feedback is intended to help you create a high quality final project, as well as give you experience reading and constructively critiquing the work of others.</p>
-<p>Instructions and grading criteria for this milestone are outlined in <a href="../project/3-peer-review.html">Milestone 3: Peer review</a>.</p>
-</section>
-<section id="milestone-4---final-writeup" class="level2">
-<h2 class="anchored" data-anchor-id="milestone-4---final-writeup">Milestone 4 - Final Writeup</h2>
-<p>The final write-up is the culmination of your project. It should include all the sections of the first draft, but with revisions based on the feedback you received from your peers and the professor. The final write-up should be a polished document that clearly communicates your research topic, questions, data, analyses, and results. The final write-up should be written in a clear, concise, and professional manner. It should be free of grammatical errors and typos. The final write-up should also include a title page with the title of your project, the names of all team members, and the date. A quarto template for the final write-up will be provided.</p>
-<p>Instructions and grading criteria for this milestone are outlined in <a href="../project/4-writeup-presentation.html">Milestone 4: Writeup + presentation</a>.</p>
-</section>
-<section id="milestone-5---presentation" class="level2">
-<h2 class="anchored" data-anchor-id="milestone-5---presentation">Milestone 5 - Presentation</h2>
-<p>The final milestone is a presentation of your project. The presentation should be about 10 minutes long and should include slides that summarize the key points and findings of your project. The presentation should be clear, concise, and professional. The presentation will be graded on the clarity of the slides, the clarity of the presentation, and the ability to communicate your research topic, questions, data, analyses, and results to an audience. The presentation will be followed by a question and answer session with the professor and your peers.</p>
-</section>
-</section>
-<section id="grading" class="level1">
-<h1>Grading</h1>
-<section id="overall-grading" class="level2">
-<h2 class="anchored" data-anchor-id="overall-grading">Overall grading</h2>
-<p>The overall grade breakdown by milestone (<span class="math inline">\(M_i\)</span>) is as follows:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Total</th>
-<th>100 pts</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>M1: Project Proposal</strong></td>
-<td>10 pts</td>
-</tr>
-<tr class="even">
-<td><strong>M2: First Draft</strong></td>
-<td>20 pts</td>
-</tr>
-<tr class="odd">
-<td><strong>M3: Peer Review</strong></td>
-<td>10 pts</td>
-</tr>
-<tr class="even">
-<td><strong>M4: Final Writeup</strong></td>
-<td>40 pts</td>
-</tr>
-<tr class="odd">
-<td><strong>M5: Slides + Presentation</strong></td>
-<td>10 pts</td>
-</tr>
-<tr class="even">
-<td><strong>Collaboration &amp; Teamwork</strong></td>
-<td>10 pts</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="grading-milestone-details" class="level2">
-<h2 class="anchored" data-anchor-id="grading-milestone-details">Grading Milestone details</h2>
-<section id="m_1---project-proposal" class="level3">
-<h3 class="anchored" data-anchor-id="m_1---project-proposal"><span class="math inline">\(M_1\)</span> - Project Proposal</h3>
-<ul>
-<li><strong><em>Completion (2pts)</em></strong> - Did the team complete all parts of the proposal as required?</li>
-<li><strong><em>Content (2pts)</em></strong> - What is the quality of research and/or policy question and relevancy of data to those questions?</li>
-<li><strong><em>Correctness (2pts)</em></strong> - Are the statistical procedures sound and reasonable for the stated questions?</li>
-<li><strong><em>Communication &amp; Writing (2pts)</em></strong> - What is the quality of the statistical presentation, writing, and explanations?</li>
-<li><strong><em>Creativity and Critical Thought (2pts)</em></strong> - Is the project carefully thought out? Are the limitations carefully considered? Does it appear that time and effort went into the planning and implementation of the project?</li>
-</ul>
-</section>
-<section id="m_2---first-draft" class="level3">
-<h3 class="anchored" data-anchor-id="m_2---first-draft"><span class="math inline">\(M_2\)</span> - First Draft</h3>
-<ul>
-<li><strong><em>Abstract (2 pts)</em></strong> - Does the abstract provide a brief overview of the research topic, questions, data, and analyses you are conducting?</li>
-<li><strong><em>Introduction (2 pts)</em></strong> - Does the introduction articulate the research topic and questions you are addressing? Does it provide a brief overview of the data? Does it provide a couple of citations to help you make the case for your chosen topic of study?</li>
-<li><strong><em>Literature Review (3 pts)</em></strong> - Does the literature review provide relevant in-text citations? Does it examine and synthesize the sources in context of the current study?</li>
-<li><strong><em>Methods (3 pts)</em></strong> - Does the methods section describe the sample, the data, and the analysis methods used? Does it justify the choice of analysis methods? Does it describe the data cleaning processes?</li>
-<li><strong><em>Data Analysis and Results (6 pts)</em></strong> - Are the analyses implemented correctly? Are the interpretations for both research questions done correctly and in context of the study? Do the analyses demonstrate a thorough understanding of statistical concepts learned in the course?</li>
-<li><strong><em>Conclusion (2 pts)</em></strong> - Does the conclusion summarize the research questions you addressed, the data you used, the analyses you conducted, and the results you obtained? Does it discuss the implications of your results and suggest directions for future research?</li>
-<li><strong><em>References (2 pts)</em></strong> - Are all the sources you cited in your report listed in the references section? Are they in APA format?</li>
-</ul>
-</section>
-<section id="m_3---peer-review" class="level3">
-<h3 class="anchored" data-anchor-id="m_3---peer-review"><span class="math inline">\(M_3\)</span> - Peer Review</h3>
-<p>Peer reviews will be graded on the extent to which it <strong><em>comprehensively and constructively</em></strong> addresses the components of the reviewee’s team’s report.</p>
-<p>Only the team members participating in the review process are eligible for points for the peer review. Teams may choose to meet in-person or virtually. The team should submit a single review document that includes the following:</p>
-<ul>
-<li><strong><em>Quality of feedback (3pts)</em></strong> - Did the team provide <strong><em>constructive and actionable</em></strong> feedback? Please note that actionable does not mean telling the reviewee team what to do, but rather providing feedback that the reviewee team can use to improve its work.</li>
-<li><strong><em>Correctness (2pts)</em></strong> - Are the critiques provided sound and reasonable?</li>
-<li><strong><em>Communication &amp; Writing (2pts)</em></strong> - Is the feedback report understandable and free from grammatical errors and typos?</li>
-<li><strong><em>Completion (2pts)</em></strong> - Did the team complete the review as required?</li>
-</ul>
-</section>
-<section id="m_4---final-writeup" class="level3">
-<h3 class="anchored" data-anchor-id="m_4---final-writeup"><span class="math inline">\(M_4\)</span> - Final Writeup</h3>
-<p>The grading of the final writeup follows the same grading criteria as Milestone 2 but gets additional points. To get maximum points on milestone 4, you should address the feedback given to you on your project draft by your peers and/or professor. If there is any feedback that you think does not need to be addressed, please provide a justification for why you think so.</p>
-<ul>
-<li><strong><em>Abstract (4 pts)</em></strong> - Does the abstract provide a brief overview of the research topic, questions, data, and analyses you are conducting?</li>
-<li><strong><em>Introduction (4 pts)</em></strong> - Does the introduction articulate the research topic and questions you are addressing? Does it provide a brief overview of the data? Does it provide a couple of citations to help you make the case for your chosen topic of study?</li>
-<li><strong><em>Literature Review (6 pts)</em></strong> - Does the literature review provide relevant in-text citations? Does it examine and synthesize the sources in context of the current study?</li>
-<li><strong><em>Methods (6 pts)</em></strong> - Does the methods section describe the sample, the data, and the analysis methods used? Does it justify the choice of analysis methods? Does it describe the data cleaning processes?</li>
-<li><strong><em>Data Analysis and Results (14 pts)</em></strong> - Are the analyses implemented correctly? Are the interpretations for both research questions done correctly and in context of the study? Do the analyses demonstrate a thorough understanding of statistical concepts learned in the course?</li>
-<li><strong><em>Conclusion (4 pts)</em></strong> - Does the conclusion summarize the research questions you addressed, the data you used, the analyses you conducted, and the results you obtained? Does it discuss the implications of your results and suggest directions for future research?</li>
-<li><strong><em>References (2 pts)</em></strong> - Are all the sources you cited in your report listed in the references section? Are they in APA format?</li>
-</ul>
-</section>
-<section id="m_5---presentation" class="level3">
-<h3 class="anchored" data-anchor-id="m_5---presentation"><span class="math inline">\(M_5\)</span> - Presentation</h3>
-<ul>
-<li><strong><em>Slides (3 pts)</em></strong> - Are the slides clear, well-organized, and concise? Do they summarize the key points and findings of the project?</li>
-<li><strong><em>Presentation (4 pts)</em></strong> - Is the presentation clear and does it show a thorough understanding of the material learned? Are speakers audible enough and facing the audience? Are they engaging and do they maintain eye contact with the audience?</li>
-<li><strong><em>Question and Answer (Q&amp;A) (3 pts)</em></strong> - How well does the team answer questions about their project? Are they able to communicate their research topic, questions, data, analyses, and results to an audience?</li>
-</ul>
-</section>
-</section>
-<section id="submission" class="level2">
-<h2 class="anchored" data-anchor-id="submission">Submission</h2>
-<p>Submissions for all milestones should be made through Canvas. You will see the assignments created in Canvas for each milestone with more detailed instructions.</p>
+<p>Come back later!</p>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1129,7 +887,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jmochogi/finite-math.git/edit/main/project/first_project.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jmochogi/finite-math.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/jmochogi/finite-math.git/edit/main/project/first_project.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jmochogi/finite-math.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with<a href="https://quarto.org/">Quarto</a>.</p>
 </div>
