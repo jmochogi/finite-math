@@ -8,11 +8,9 @@ format:
 
 ## Problem 1
 
-a.  A linear function has slope − 1 and contains the point (−3, 5). Find the equation for this function. Sketch the graph of this function.<br><br><br>
-\vspace{3cm}
+a.  A linear function has slope − 1 and contains the point (−3, 5). Find the equation for this function. Sketch the graph of this function.<br><br><br> \vspace{3cm}
 
-b.  Find the slope and the formula of a linear function passing through the points (0, −6) and (−1, −9).<br><br><br>
-\vspace{3cm}
+b.  Find the slope and the formula of a linear function passing through the points (0, −6) and (−1, −9).<br><br><br> \vspace{3cm}
 
 c.  Could the table below represent a linear function? How do you know? If the table represents a linear function, find the formula/equation of the function.
 
@@ -20,13 +18,12 @@ c.  Could the table below represent a linear function? How do you know? If the t
     |-----|--------|-------|-----|--------|
     | $x$ | \-$12$ | \-$6$ | $0$ | $6$    |
     | $y$ | $50$   | $26$  | $2$ | \-$22$ |
-<br><br><br>
-\vspace{3cm}
+
+    <br><br><br> \vspace{3cm}
 
 ## Problem 2
 
-Working as an insurance salesperson, Ilya earns a base salary and a commission on each new policy, so Ilya’s weekly income,$I$, depends on the number of new policies, $n$, he sells during the week. Last week he sold 3 new policies, and earned \$760 for the week. The week before, he sold 5 new policies, and earned \$920. Find an equation for $I(n)$, and interpret the meaning of the slope and intercept.<br><br><br>
-\newpage
+Working as an insurance salesperson, Ilya earns a base salary and a commission on each new policy, so Ilya’s weekly income,$I$, depends on the number of new policies, $n$, he sells during the week. Last week he sold 3 new policies, and earned \$760 for the week. The week before, he sold 5 new policies, and earned \$920. Find an equation for $I(n)$, and interpret the meaning of the slope and intercept.<br><br><br> \newpage
 
 ## Problem 3
 
@@ -40,51 +37,36 @@ Company C charges a fixed rate of \$50 per month.
 
 Let $A(x)$, $B(x)$, and $C(x)$ be the cost of using each company for $x$ minutes on long distance calls.
 
-a.  Write a formula for the cost of using each company as a function of the number of minutes used, $x$.<br><br><br>
-\vspace{3cm}
+a.  Write a formula for the cost of using each company as a function of the number of minutes used, $x$.<br><br><br> \vspace{3cm}
 
-b.  If you spend 125 minutes talking long distance per month, which company would be the cheapest? Be sure to justify your answer.<br><br><br>
-\vspace{3cm}
+b.  If you spend 125 minutes talking long distance per month, which company would be the cheapest? Be sure to justify your answer.<br><br><br> \vspace{3cm}
 
-c.  Jennifer, a subscriber for company $B$, paid \$120 for long distance calls last month. How many minutes did she spend on long distance calls?<br><br><br>
-\newpage
+c.  Jennifer, a subscriber for company $B$, paid \$120 for long distance calls last month. How many minutes did she spend on long distance calls?<br><br><br> \newpage
 
 ## Problem 4
 
 A local retailer has determined that the number of PortaBoy game systems, $x$, sold in a week is related to the price, $p$, in dollars of each system. 75 game systems were sold when the price was \$140. When the systems went on sale the following week, 150 systems were sold at \$80 a piece.
 
-a.  Find the equation of the line that represents the relationship between the number of game systems sold and the price of each system.<br><br><br>
-\vspace{3cm}
+a.  Find the equation of the line that represents the relationship between the number of game systems sold and the price of each system.<br><br><br> \vspace{3cm}
 
-b.  How many game systems will be sold if the price is \$100?<br><br><br>
-\vspace{3cm}
+b.  How many game systems will be sold if the price is \$100?<br><br><br> \vspace{3cm}
 
-c.  If the retailer wants to sell 150 PortaBoys next week, what should the price be?<br><br><br>
-\newpage
+c.  If the retailer wants to sell 150 PortaBoys next week, what should the price be?<br><br><br> \newpage
 
 ## Problem 5
-The supply function for a product is given by $s(p) = 1000 + 25p$, where $p$ is the price in dollars per pound. The equilibrium price is \$2 and the demand is \$13 when the supply is 225 pounds.
 
-a. Find the demand function, $d(p)$, for the product.<br><br><br>
+The supply function for a product is given by $s(p) = 1000 + 25p$, where $p$ is the price in dollars per pound. The equilibrium price is \$2 and the demand is 225 lbs when the price is \$13.
+
+a.  Find the demand function, $d(p)$, for the product.<br><br><br>
 
 \vspace{3cm}
 
-b. Find the equilibrium quantity.<br><br><br>
-\newpage
+b.  Find the equilibrium quantity.<br><br><br> \newpage
 
 ## Problem 6
 
 You decide to start a small online shop selling branded water bottles. The fixed costs for your production line is \$525, and your total cost to produce 1000 bottles is \$2675. Your bottles sell for \$4.95 each.
 
-a. Find the cost function, $C(x)$ for your production.<br><br><br>
-\vspace{3cm}
-b. How many bottles must you sell to break even?<br><br><br>
-\vspace{3cm}
-c. How many bottles must you sell to make a profit of \$1000?<br><br><br>
-\vspace{3cm}
-
-
-
-
-
-
+a.  Find the cost function, $C(x)$ for your production.<br><br><br> \vspace{3cm}
+b.  How many bottles must you sell to break even?<br><br><br> \vspace{3cm}
+c.  How many bottles must you sell to make a profit of \$1000?<br><br><br> \vspace{3cm}

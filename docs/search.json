@@ -385,7 +385,7 @@
     "href": "homework/hw1.html#problem-5",
     "title": "Homework 1",
     "section": "Problem 5",
-    "text": "Problem 5\nThe supply function for a product is given by \\(s(p) = 1000 + 25p\\), where \\(p\\) is the price in dollars per pound. The equilibrium price is $2 and the demand is $13 when the supply is 225 pounds.\n\nFind the demand function, \\(d(p)\\), for the product.\n\n\nFind the equilibrium quantity.",
+    "text": "Problem 5\nThe supply function for a product is given by \\(s(p) = 1000 + 25p\\), where \\(p\\) is the price in dollars per pound. The equilibrium price is $2 and the demand is 225 lbs when the price is $13.\n\nFind the demand function, \\(d(p)\\), for the product.\n\n\nFind the equilibrium quantity.",
     "crumbs": [
       "Homework",
       "Homework 1"
