@@ -1,11 +1,16 @@
 ---
 title: "MATH 104 - Finite Mathematics"
 subtitle: "Fall 2024"
-author: "Dr. Joash Geteregechi <br> Office: Williams Hall 311E <br> Hours: Mon, Fri 12.00 - 01.00 pm, or by appointment."
 format:
-  html: default
+  #html: default
   pdf: default
 ---
+***Instructor:*** Dr. Joash Geteregechi, ***Open Hours:*** Mon, Fri 12.00 - 01.00 pm, or by [appt](https://calendly.com/jmochogi/20min). 
+
+***Room and Time:*** Williams Hall 317, MWF 11:00 - 11:50 am.
+
+***Course Website:*** [Click here](https://jmochogi.github.io/finite-math/).
+
 
 ## About the Course
 
@@ -76,13 +81,22 @@ You will read a short part of the course pack and/or watch a video in preparatio
 
 ***Note:*** CPAs will generally be graded for completion and effort. From time to time, there will be one question on the CPA that will be graded for accuracy. This question is meant to gauge the extent to which you understood the material on your own and answers may be discussed in class.
 
+### Class Quizzes
+
+There will be a short quiz almost every week (usually Fridays) during the semester. The quizzes are meant to keep you up to speed with the material of the week. The quizzes will be closed-book and closed-notes.
+
+### Voice Threads
+
+You will be required to create short audio/video files every week to share your thoughts on a particular topic/concept. I will provide feedback in form of audio/video as well as annotations on your work. In some cases, students will be able to see other students feedback and can give feedback in a respectful way. More details about this assessment will be provided in class.
+
+### Homework
+
+Out of class homework will be assigned every two weeks. The homework problems will be more non routine and may require you to think critically about the material. You will be required to submit your work on Canvas. Homework will be graded for accuracy and you will have about two weeks to finish and submit your work. The most important advice I can give on this is to start early and work on the problems in small chunks. If you get stuck, ask for help from me or your peers. See the course support section for more information on where to get help.
+
 ### Problem Posing 
 
 There will be a Problem Posing (PP) assignment at the end of every chapter. Problem posing is an opportunity for you to reflect on the material you have learned and to put it in use by creating problems of your own. You are welcome to use the problems done in class as a guide in creating your own problems. If you use problems from external sources (such as the internet) as a basis for generating your own problems, be sure to disclose the source.
 
-### Class Quizzes
-
-There will be a short quiz almost every week (usually Fridays) during the semester. The quizzes are meant to keep you up to speed with the material of the week. The quizzes will be closed-book and closed-notes.
 
 ### Midterm Exams
 
@@ -112,10 +126,12 @@ Your final letter grade in the course will be weighted by category as follows:
 |-------------------------------|------------|
 | Attendance and Participation  | 5%         |
 | Class Preparation Assignments | 10%        |
-| Problem Posing                | 15%        |
+| Problem Posing                | 10%        |
 | Class Quizzes                 | 10%        |
 | Midterm Exams                 | 20%        |
-| Projects                      | 15%        |
+| Projects                      | 10%        |
+| Voice Threads                 | 10%        |
+| Homework                      | 10%        |
 | Final Oral Presentation       | 15%        |
 
 The final letter grade will be determined based on the following thresholds:
