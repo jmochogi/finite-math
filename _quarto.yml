@@ -85,6 +85,12 @@ website:
             #text: Lab 6             
           #- href: labs/lab-7.qmd
             #text: Lab 7
+      - section: "Problem Posing"
+        contents:
+          - href: problem-posing/pp1.qmd
+            text: Problem Posing 1
+          - href: problem-posing/pp2.qmd
+            text: Problem Posing 2
             
       - section: "Projects"
         contents:
