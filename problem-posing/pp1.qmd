@@ -1,12 +1,13 @@
 ---
 title: "Problem Posing 1"
 format:
-  html: default
-  pdf: default
+ # html: default
+  #pdf: default
+  docx: default
 #author: "Student Name"
 ---
 
-## Instructions: 
+## Instructions:
 
 -   Download the pdf of this document. Look for a PDF link on the right of this page.
 

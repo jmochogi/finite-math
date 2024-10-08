@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>MATH 104 – Homeowrk 1</title>
+<title>MATH 104 – HW 3: Transportation Problem &amp; Game Theory</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,11 +71,11 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="MATH 104 - Homeowrk 1">
-<meta property="og:description" content="Homepage for MATH 104 - Finite Mathematics, Fall 2024.">
+<meta property="og:title" content="MATH 104 - HW 3: Transportation Problem &amp; Game Theory">
+<meta property="og:description" content="Due: Oct 16, 2024">
 <meta property="og:site_name" content="MATH 104">
-<meta name="twitter:title" content="MATH 104 - Homeowrk 1">
-<meta name="twitter:description" content="Homepage for MATH 104 - Finite Mathematics, Fall 2024.">
+<meta name="twitter:title" content="MATH 104 - HW 3: Transportation Problem &amp; Game Theory">
+<meta name="twitter:description" content="Due: Oct 16, 2024">
 <meta name="twitter:image" content="https://jmochogi.github.io/finite-math/homework/img/twitter-card.png">
 <meta name="twitter:creator" content="@jmochogi">
 <meta name="twitter:card" content="summary_large_image">
@@ -210,7 +210,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../problem-posing/pp1.html" class="sidebar-item-text sidebar-link">
+  <a href="../problem-posing/pp1.docx" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Problem Posing 1</span></a>
   </div>
 </li>
@@ -296,15 +296,24 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#problem-1" id="toc-problem-1" class="nav-link active" data-scroll-target="#problem-1">Problem 1</a></li>
+  <li><a href="#problem-2" id="toc-problem-2" class="nav-link" data-scroll-target="#problem-2">Problem 2</a></li>
+  <li><a href="#problem-3" id="toc-problem-3" class="nav-link" data-scroll-target="#problem-3">Problem 3</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jmochogi/finite-math.git/edit/main/homework/hw3.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jmochogi/finite-math.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="hw3.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../homework/hw1.html">Homework</a></li><li class="breadcrumb-item"><a href="../homework/hw3.html">Homework 3</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Homeowrk 1</h1>
+<h1 class="title">HW 3: Transportation Problem &amp; Game Theory</h1>
+<p class="subtitle lead">Due: Oct 16, 2024</p>
 </div>
 
 
@@ -321,9 +330,56 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Coming soon!</p>
+<section id="problem-1" class="level2">
+<h2 class="anchored" data-anchor-id="problem-1">Problem 1</h2>
+<p>Consider the tableau given below:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/t1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="300"></p>
+</figure>
+</div>
+<ol type="a">
+<li>Use the northwest corner rule to find an initial shipment plan. Find the cost associated with this plan. <br> <br><br> </li>
+<li>Is there a cheaper plan than the one you found in part (b) above? How do you know (show work and explain). <br> <br><br> </li>
+<li>If the plan is not the cheapest, use the stepping stone method to find the cheapest plan. Show all steps. </li>
+</ol>
+</section>
+<section id="problem-2" class="level2">
+<h2 class="anchored" data-anchor-id="problem-2">Problem 2</h2>
+<p>A company supplies water from its three water purification plants (P1, P2, and P3) to four different companies (C1, C2, C3, and C4) that resell the water to office buildings. The transportation costs from each plant to each company are given in the following table:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/c1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="300"></p>
+</figure>
+</div>
+<p>Additionally, each supplier has a supply limit, and each consumer has a demand requirement:</p>
+<ul>
+<li><p>P1 can supply 20 units.</p></li>
+<li><p>P2 can supply 25 units.</p></li>
+<li><p>P3 can supply 15 units.</p></li>
+<li><p>C1 demands 10 units.</p></li>
+<li><p>C2 demands 15 units.</p></li>
+<li><p>C3 demands 5 units.</p></li>
+<li><p>C4 demands 15 units.</p></li>
+</ul>
+<ol type="a">
+<li><p>Create a TP tableau to model the scenario. Be sure to label the tableau accordingly. <br><br></p></li>
+<li><p>Determine how many units should be transported from each supplier to consumers while minimizing the total transportation cost. What would be the minimum cost? Be sure to show/explain your work.</p></li>
+</ol>
+</section>
+<section id="problem-3" class="level2">
+<h2 class="anchored" data-anchor-id="problem-3">Problem 3</h2>
+<p>Sweet Melodies Band is planning to hold a concert and all tickets are already sold out. Since the weather is unpredictable, the band must decide in advance on three options: to hold the concert indoors, outdoors, or set up seats both indoors and outdoors. If the show is held outdoors, the band will make a profit of $23,000 when there is no rain and a loss of $17,000 if it rains. If the show is held indoors, the band will make a $16,000 profit whether it rains or not. If they decide to set up some seats indoors and some outdoors, the band will make $13,000 if it rains and $21,000 if it doesn’t rain.</p>
+<ol type="a">
+<li><p>Create a payoff matrix to model this scenario. Be sure to label the matrix accordingly. Use “Band Decision” as player 1 (i.e., rows) and “Weather” as player 2 (i.e., columns).<br> <br></p></li>
+<li><p>Find the optimum strategy for the band.<br> <br></p></li>
+<li><p>Is the game strictly determined? How do you know? <br> <br></p></li>
+<li><p>What is the value of the game?<br> <br></p></li>
+<li><p>Suppose the weather forecast shows that there is a 60% chance of rain. What would be the best decision for the band (i.e., what strategy would maximize the band’s profit)?</p></li>
+</ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -910,9 +966,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/jmochogi/finite-math.git/edit/main/homework/hw3.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jmochogi/finite-math.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jmochogi/finite-math.git/edit/main/homework/hw3.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jmochogi/finite-math.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
-<p>This page is built with<a href="https://quarto.org/">Quarto</a>.</p>
+<p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
   </div>
 </footer>

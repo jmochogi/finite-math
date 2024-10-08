@@ -125,7 +125,7 @@ website:
           - href: course-downloads/templates.qmd
             text: Templates
   page-footer:
-    right: 'This page is built with[Quarto](https://quarto.org/).'
+    right: 'This page is built with [Quarto](https://quarto.org/).'
     left: "&copy; Copyright 2024, Joash Geteregechi"
     background: "#0a5961" # Pantone Chambray Blue - Spring 2024, darkened to pass contrast checks
 

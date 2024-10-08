@@ -1,5 +1,72 @@
 ---
-title: "Homeowrk 1"
+title: "HW 3: Transportation Problem & Game Theory"
+subtitle: "Due: Oct 16, 2024"
+format:
+  html: default
+  pdf: default
+#author: "Student Name"
 ---
 
-Coming soon!
+## Problem 1
+
+Consider the tableau given below:
+
+![](/img/t1.png){fig-align="center" width="300"}
+
+a.  Use the northwest corner rule to find an initial shipment plan. Find the cost associated with this plan. <br> <br><br> \newpage
+b.  Is there a cheaper plan than the one you found in part (b) above? How do you know (show work and explain). <br> <br><br> \newpage
+c.  If the plan is not the cheapest, use the stepping stone method to find the cheapest plan. Show all steps. \newpage
+
+## Problem 2
+
+A company supplies water from its three water purification plants (P1, P2, and P3) to four different companies (C1, C2, C3, and C4) that resell the water to office buildings. The transportation costs from each plant to each company are given in the following table:
+
+![](/img/c1.png){fig-align="center" width="300"}
+
+Additionally, each supplier has a supply limit, and each consumer has a demand requirement:
+
+-    P1 can supply 20 units.
+
+-    P2 can supply 25 units.
+
+-    P3 can supply 15 units.
+
+-    C1 demands 10 units.
+
+-   C2 demands 15 units.
+
+-    C3 demands 5 units.
+
+-    C4 demands 15 units.
+
+a.  Create a TP tableau to model the scenario. Be sure to label the tableau accordingly. <br><br>
+
+    \newpage
+
+b.  Determine how many units should be transported from each supplier to consumers while minimizing the total transportation cost. What would be the minimum cost? Be sure to show/explain your work.
+
+\newpage
+
+## Problem 3
+
+Sweet Melodies Band is planning to hold a concert and all tickets are already sold out. Since the weather is unpredictable, the band must decide in advance on three options: to hold the concert indoors, outdoors, or set up seats both indoors and outdoors. If the show is held outdoors, the band will make a profit of \$23,000 when there is no rain and a loss of \$17,000 if it rains. If the show is held indoors, the band will make a \$16,000 profit whether it rains or not. If they decide to set up some seats indoors and some outdoors, the band will make \$13,000 if it rains and \$21,000 if it doesn’t rain.
+
+a.  Create a payoff matrix to model this scenario. Be sure to label the matrix accordingly. Use “Band Decision” as player 1 (i.e., rows) and “Weather” as player 2 (i.e., columns).<br> <br>
+
+    \vspace{3in}
+
+b.  Find the optimum strategy for the band.<br> <br>
+
+    \vspace{3in}
+
+c.  Is the game strictly determined? How do you know? <br> <br>
+
+    \vspace{3in}
+
+d.  What is the value of the game?<br> <br>
+
+    \vspace{3in}
+
+e.  Suppose the weather forecast shows that there is a 60% chance of rain. What would be the best decision for the band (i.e., what strategy would maximize the band's profit)?
+
+\newpage
