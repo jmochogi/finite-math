@@ -365,7 +365,7 @@
     "href": "homework/hw3.html",
     "title": "HW 3: Transportation Problem & Game Theory",
     "section": "",
-    "text": "Consider the tableau given below:\n\n\n\n\n\n\nUse the northwest corner rule to find an initial shipment plan. Find the cost associated with this plan.   \nUse the idea of indicator values to determine whether a cheaper plan than the one you found in (a) above exists. Be sure to show all work.   \nUse the stepping-stone method to find the optimal shipment plan (i.e., the cheapest plan). Show all steps and explain how you know that you have found the cheapest plan.",
+    "text": "Consider the tableau given below:\n\n\n\n\n\n\nUse the northwest corner rule to find an initial shipment plan. Find the cost associated with this plan.   \nUse the idea of indicator values to determine whether a cheaper plan than the one you found in (a) above exists. Be sure to show all work.   \nUse the stepping-stone method to find the optimal shipment plan (i.e., the cheapest plan). What is the cost of this plan? Show all steps and explain how you know that you have found the cheapest plan.",
     "crumbs": [
       "Homework",
       "Homework 3"
@@ -486,7 +486,7 @@
     "href": "homework/hw3.html#problem-1",
     "title": "HW 3: Transportation Problem & Game Theory",
     "section": "",
-    "text": "Consider the tableau given below:\n\n\n\n\n\n\nUse the northwest corner rule to find an initial shipment plan. Find the cost associated with this plan.   \nUse the idea of indicator values to determine whether a cheaper plan than the one you found in (a) above exists. Be sure to show all work.   \nUse the stepping-stone method to find the optimal shipment plan (i.e., the cheapest plan). Show all steps and explain how you know that you have found the cheapest plan.",
+    "text": "Consider the tableau given below:\n\n\n\n\n\n\nUse the northwest corner rule to find an initial shipment plan. Find the cost associated with this plan.   \nUse the idea of indicator values to determine whether a cheaper plan than the one you found in (a) above exists. Be sure to show all work.   \nUse the stepping-stone method to find the optimal shipment plan (i.e., the cheapest plan). What is the cost of this plan? Show all steps and explain how you know that you have found the cheapest plan.",
     "crumbs": [
       "Homework",
       "Homework 3"
@@ -508,7 +508,7 @@
     "href": "homework/hw3.html#problem-3",
     "title": "HW 3: Transportation Problem & Game Theory",
     "section": "Problem 3",
-    "text": "Problem 3\nSweet Melodies Band is planning to hold a concert and all tickets are already sold out. Since the weather is unpredictable, the band must decide in advance on three options: to hold the concert indoors, outdoors, or set up seats both indoors and outdoors. If the show is held outdoors, the band will make a profit of $23,000 when there is no rain and a loss of $17,000 if it rains. If the show is held indoors, the band will make a $16,000 profit whether it rains or not. If they decide to set up some seats indoors and some outdoors, the band will make $13,000 if it rains and $21,000 if it doesn’t rain.\n\nCreate a payoff matrix to model this scenario. Be sure to label the matrix accordingly. Use “Band Decision” as player 1 (i.e., rows) and “Weather” as player 2 (i.e., columns). \nFind the optimum strategy for the band. \nIs the game strictly determined? How do you know?  \nWhat is the value of the game? \nSuppose the weather forecast shows that there is a 60% chance of rain. What would be the best decision for the band (i.e., what strategy would maximize the band’s profit)?",
+    "text": "Problem 3\nSweet Melodies Band is planning to hold a concert and all tickets are already sold out. Since the weather is unpredictable, the band must decide in advance on three options: to hold the concert indoors, outdoors, or set up seats both indoors and outdoors. If the show is held outdoors, the band will make a profit of $23,000 when there is no rain and a loss of $17,000 if it rains. If the show is held indoors, the band will make a $16,000 profit whether it rains or not. If they decide to set up some seats indoors and some outdoors, the band will make $13,000 if it rains and $21,000 if it doesn’t rain.\n\nCreate a payoff matrix to model this scenario. Be sure to label the matrix accordingly. Use “Band Decision” as player 1 (i.e., rows) and “Weather” as player 2 (i.e., columns). \nFind the optimum strategy for the band. \nIs the game strictly determined? How do you know?  \nIs the game fair? How do you know?  \nSuppose the weather forecast shows that there is a 60% chance of rain. What would be the best decision for the band (i.e., what strategy would maximize the band’s profit)?",
     "crumbs": [
       "Homework",
       "Homework 3"
