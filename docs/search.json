@@ -365,7 +365,7 @@
     "href": "homework/hw3.html",
     "title": "HW 3: Transportation Problem & Game Theory",
     "section": "",
-    "text": "Consider the tableau given below:\n\n\n\n\n\n\nUse the northwest corner rule to find an initial shipment plan. Find the cost associated with this plan.   \nIs there a cheaper plan than the one you found in part (b) above? How do you know (show work and explain).   \nIf the plan is not the cheapest, use the stepping stone method to find the cheapest plan. Show all steps.",
+    "text": "Consider the tableau given below:\n\n\n\n\n\n\nUse the northwest corner rule to find an initial shipment plan. Find the cost associated with this plan.   \nUse the idea of indicator values to determine whether a cheaper plan than the one you found in (a) above exists. Be sure to show all work.   \nUse the stepping-stone method to find the optimal shipment plan (i.e., the cheapest plan). Show all steps and explain how you know that you have found the cheapest plan.",
     "crumbs": [
       "Homework",
       "Homework 3"
@@ -486,7 +486,7 @@
     "href": "homework/hw3.html#problem-1",
     "title": "HW 3: Transportation Problem & Game Theory",
     "section": "",
-    "text": "Consider the tableau given below:\n\n\n\n\n\n\nUse the northwest corner rule to find an initial shipment plan. Find the cost associated with this plan.   \nIs there a cheaper plan than the one you found in part (b) above? How do you know (show work and explain).   \nIf the plan is not the cheapest, use the stepping stone method to find the cheapest plan. Show all steps.",
+    "text": "Consider the tableau given below:\n\n\n\n\n\n\nUse the northwest corner rule to find an initial shipment plan. Find the cost associated with this plan.   \nUse the idea of indicator values to determine whether a cheaper plan than the one you found in (a) above exists. Be sure to show all work.   \nUse the stepping-stone method to find the optimal shipment plan (i.e., the cheapest plan). Show all steps and explain how you know that you have found the cheapest plan.",
     "crumbs": [
       "Homework",
       "Homework 3"
@@ -497,7 +497,7 @@
     "href": "homework/hw3.html#problem-2",
     "title": "HW 3: Transportation Problem & Game Theory",
     "section": "Problem 2",
-    "text": "Problem 2\nA company supplies water from its three water purification plants (P1, P2, and P3) to four different companies (C1, C2, C3, and C4) that resell the water to office buildings. The transportation costs from each plant to each company are given in the following table:\n\n\n\n\n\nAdditionally, each supplier has a supply limit, and each consumer has a demand requirement:\n\nP1 can supply 20 units.\nP2 can supply 25 units.\nP3 can supply 15 units.\nC1 demands 10 units.\nC2 demands 15 units.\nC3 demands 5 units.\nC4 demands 15 units.\n\n\nCreate a TP tableau to model the scenario. Be sure to label the tableau accordingly. \nDetermine how many units should be transported from each supplier to consumers while minimizing the total transportation cost. What would be the minimum cost? Be sure to show/explain your work.",
+    "text": "Problem 2\nA company supplies water from its three water purification plants (P1, P2, and P3) to four different companies (C1, C2, C3, and C4) that resell the water to office buildings. The transportation costs (in thousands of dollars) from each plant to each company are given in the following table:\n\n\n\n\n\nAdditionally, each supplier has a supply limit, and each consumer has a demand requirement as listed below:\n\nP1 can supply 20 units.\nP2 can supply 25 units.\nP3 can supply 15 units.\nC1 demands 20 units.\nC2 demands 15 units.\nC3 demands 10 units.\nC4 demands 15 units.\n\n\nCreate a TP tableau to model the scenario. Be sure to label the tableau accordingly. \nDetermine how many units should be transported from each supplier to consumers while minimizing the total transportation cost. What would be the minimum transportation cost? Be sure to show/explain your work.",
     "crumbs": [
       "Homework",
       "Homework 3"
