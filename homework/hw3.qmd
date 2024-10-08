@@ -14,36 +14,36 @@ Consider the tableau given below:
 ![](/img/t1.png){fig-align="center" width="300"}
 
 a.  Use the northwest corner rule to find an initial shipment plan. Find the cost associated with this plan. <br> <br><br> \newpage
-b.  Is there a cheaper plan than the one you found in part (b) above? How do you know (show work and explain). <br> <br><br> \newpage
-c.  If the plan is not the cheapest, use the stepping stone method to find the cheapest plan. Show all steps. \newpage
+b.  Use the idea of indicator values to determine whether a cheaper plan than the one you found in (a) above exists. Be sure to show all work. <br> <br><br> \newpage
+c.  Use the stepping-stone method to find the optimal shipment plan (i.e., the cheapest plan). Show all steps and explain how you know that you have found the cheapest plan. \newpage
 
 ## Problem 2
 
-A company supplies water from its three water purification plants (P1, P2, and P3) to four different companies (C1, C2, C3, and C4) that resell the water to office buildings. The transportation costs from each plant to each company are given in the following table:
+A company supplies water from its three water purification plants (P1, P2, and P3) to four different companies (C1, C2, C3, and C4) that resell the water to office buildings. The transportation costs (in thousands of dollars) from each plant to each company are given in the following table:
 
 ![](/img/c1.png){fig-align="center" width="300"}
 
-Additionally, each supplier has a supply limit, and each consumer has a demand requirement:
+Additionally, each supplier has a supply limit, and each consumer has a demand requirement as listed below:
 
--    P1 can supply 20 units.
+-   P1 can supply 20 units.
 
--    P2 can supply 25 units.
+-   P2 can supply 25 units.
 
--    P3 can supply 15 units.
+-   P3 can supply 15 units.
 
--    C1 demands 10 units.
+-   C1 demands 20 units.
 
 -   C2 demands 15 units.
 
--    C3 demands 5 units.
+-   C3 demands 10 units.
 
--    C4 demands 15 units.
+-   C4 demands 15 units.
 
 a.  Create a TP tableau to model the scenario. Be sure to label the tableau accordingly. <br><br>
 
     \newpage
 
-b.  Determine how many units should be transported from each supplier to consumers while minimizing the total transportation cost. What would be the minimum cost? Be sure to show/explain your work.
+b.  Determine how many units should be transported from each supplier to consumers while minimizing the total transportation cost. What would be the minimum transportation cost? Be sure to show/explain your work.
 
 \newpage
 
