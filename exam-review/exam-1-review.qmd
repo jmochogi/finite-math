@@ -1,485 +1,136 @@
 ---
 title: "Exam 1 Review"
 format:
-  html: default
+  #html: default
   pdf: default
 execute:
   echo: false
 ---
 
-Come back later! <!--
-```{r}
-#| label: load-packages
-#| message: false
+## Part 1: Linear Functions
 
-library(tidyverse)
-library(openintro)
-library(scales)
-```
+1.  Find the slope of the line that passes through the points $(2, 3)$ and $(4, 5)$. Find the equation of the line in ***slope-intercept*** form. <br> <br>
+\vspace{3cm}
+2.  The table below shows the cost, $C(x)$, to a coffee selling company in dollars, of selling $x$ cups of coffee per day from a cart.
 
-```{r}
-#| label: blizzard-data-prep
+    |     |     |       |      |     |
+    |:---:|:---:|:-----:|:----:|:---:|
+    | $x$ |  0  |   5   |  10  | 50  |
+    | $y$ | 60  | 60.75 | 61.5 | 75  |
 
-blizzard_salary <- blizzard_salary |>
-  mutate(
-    annual_salary = case_when(
-      salary_type == "week" ~ current_salary * 52,
-      salary_type == "hour" ~ current_salary * 40 * 52,
-      TRUE ~ current_salary
-    ),
-    performance_rating = if_else(performance_rating == "Developing", "Poor", performance_rating)
-  ) |>
-  filter(salary_type != "week") |>
-  mutate(
-    salary_type = if_else(salary_type == "hour", "Hourly", "Salaried")
-  ) |>
-  filter(!is.na(annual_salary)) |>
-  select(percent_incr, salary_type, annual_salary, performance_rating)
-```
+    a.  Could the relationship between the cost and the number of cups sold be linear? How do you know?<br> <br>
+    \vspace{3cm}
+    b.  If the relationship is linear, find the equation of the fucntion, $C(x)$ in ***slope-intercept*** form.<br> <br>
+    \vspace{3cm}
 
-::: callout-note
-Suggested answers can be found [here](/exam-review/exam-1-review-A.qmd), but resist the urge to peek before you go through it yourself.
-:::
+3.  Suppose that the supply, in pairs, of a certain kind of sneakers can be expressed as $s(p)=3p$, where $p$ is the price in dollars per pair. Suppose also that the demand can be expressed as $d(p)=500−2p$.
 
-In 2020, employees of Blizzard Entertainment circulated a spreadsheet to anonymously share salaries and recent pay increases amidst rising tension in the video game industry over wage disparities and executive compensation. (Source: [Blizzard Workers Share Salaries in Revolt Over Pay](https://www.bloomberg.com/news/articles/2020-08-03/blizzard-workers-share-salaries-in-revolt-over-wage-disparities))
+    a.  How many units would the market demand if the price is set at \$150?<br> <br>
+    \vspace{3cm}
+    b.  Find the equilibrium point. Explain why it might be important for the manufacturer of the sneakers to know the equilibrium point.<br> <br>
+    \vspace{3cm}
 
-The name of the data frame used for this analysis is `blizzard_salary` and the variables are:
+4.  A small company produces iPhone cases. The cost of producing $x$ cases can be modeled using the linear function $C(x)=0.75x+1075$, while the revenue generated from selling $x$ cases is modeled by $R(x)=11.5x$.
 
--   `percent_incr`: Raise given in July 2020, as percent increase with values ranging from 1 (1% increase to 21.5 (21.5% increase)
+    a.  What is the marginal cost of producing the cases? Explain, in plain language, what the marginal cost means.<br> <br>
+    \vspace{3cm}
 
--   `salary_type`: Type of salary, with levels `Hourly` and `Salaried`
+    b.  Find the break-even point. Explain in plain language what this means and why it matters for the company. <br> <br>
+    \vspace{3cm}
 
--   `annual_salary`: Annual salary, in USD, with values ranging from \$50,939 to \$216,856.
+5.  Angela owns a small company that designs and prints T-shirts. Her fixed costs stand at \$525, and her total cost to produce 1000 T-shirts is \$2675. Her T-shirts sell for \$4.95 each.
 
--   `performance_rating`: Most recent review performance rating, with levels `Poor`, `Successful`, `High`, and `Top`. The `Poor` level is the lowest rating and the `Top` level is the highest rating.
+    a.  Find the cost function, $C(x)$, and the revenue function, $R(x)$. Assume that both functions are linear.<br> <br>
+    \vspace{5cm}
 
-The top ten rows of `blizzard_salary` are shown below:
+    b.  Find the break-even point.<br> <br>
+    \vspace{4cm}
 
-```{r}
-blizzard_salary |>
-  select(percent_incr, salary_type, annual_salary, performance_rating)
-```
+    c.  Suppose the company has goal of making \$5,000 in profit this month. How much T-shirts must be sold to reach this goal?<br> <br>
+    \vspace{4cm}
 
-## Question 1
+    d.  What is the profit if 500 T-shirts sold?<br> <br>
+    \newpage
 
-Which of the following is [**correct**]{.underline}? Choose all that apply.
+## Part 2: Linear Programming
 
-a.  The `blizzard_salary` dataset has 399 rows.
+6.  A company designs and makes three types of beds - Full, Queen, and King beds. Each bed requires specialized skills from three different people- Erick, Zainab, and Ben. Erick cannot work more than 80 hours per month, but the other two can each work for 200 hours. To make a Full bed takes 1 hour of Erick's time, 3 hour of Zainab's time, and 2 hours from Ben. A Queen bed, on the other hand, requires 3 hours from Erick, 5 from Zainab, and 4 from Ben. A King bed requires 5 hours of Erick, 4 from Zainab, and 8 from Ben. Each Full, Queen, and King bed sells for \$100, \$250, and \$350 profit respectively.
 
-b.  The `blizzard_salary` dataset has 4 columns.
+    a.  Create a well-labelled mixture chart to model the above scenario.<br> <br>
+    \vspace{4cm}
 
-c.  Each row represents a Blizzard Entertainment worker who filled out the spreadsheet.
+    b.  State the minimum and resource constraint inequalities.<br> <br>
+    \vspace{4cm}
 
-d.  The `percent_incr` variable is numerical and discrete.
+    c.  How many units of each must be produced in order to maximize profit? What is the maximum profit?<br> <br>
+    \vspace{4cm}
 
-e.  The `salary_type` variable is numerical.
+7.  Courtesy Calls makes telephone calls for businesses and charities. A profit of \$0.50 is made for each business calls and \$0.40 for each charity call.It takes 4 min (on average) to make a business call and 6 min (on average) to make a charity call. If there are 240 min of calling time to be distributed each day, how should that time be spent so that Courtesy Calls makes a maximum profit? What changes, if any, occur in the maximum profit and optimal production policy if they must make at least 12 business calls and 10 charity call every day?<br> <br>
+\newpage
 
-f.  The `annual_salary` variable is numerical.
+## Part 3: Transportation Problem
 
-g.  The `performance_rating` variable is categorical and ordinal.
+8.  Consider the Transportation Problem tableau below:
 
-::: {.content-visible when-format="pdf"}
-$\vspace{1cm}$
-:::
+    |        | D1  | D2  | D3  | Supply |
+    |:------:|:---:|:---:|:---:|:------:|
+    |   W1   |  6  |  8  | 10  |  100   |
+    |   W2   |  9  | 11  | 12  |  150   |
+    |   W3   |  7  |  8  | 14  |  200   |
+    | Demand | 200 | 100 | 150 |        |
 
-## Question 2
+    a.  Find the initial feasible solution (shipment plan) using the North-West Corner Rule. Calculate the cost of this plan.<br> <br>
+    \vspace{4cm}
 
-@fig-blizzard-hist-1 and @fig-blizzard-hist-2 show the distributions of annual salaries of hourly and salaried workers. The two figures show the same data, with the facets organized across rows and across columns. Which of the two figures is better for comparing the median annual salaries of hourly and salaried workers. Explain your reasoning.
+    b.  Is the shipment plan you found in part (a) above optimal? Use the concept of indicator values to prove your claim.<br> <br>
+    \vspace{4cm}
 
-::: {#fig-blizzard-hist}
-```{r}
-#| label: fig-blizzard-hist-1
-#| fig-cap: Option 1
-#| fig-width: 8
-#| fig-asp: 0.5
+    c.  If the plan in part (b) is not optimal, use the stepping stone method to find the cheapest plan.<br> <br>
+    \vspace{6cm}
 
-ggplot(blizzard_salary, aes(x = annual_salary)) +
-  geom_histogram(binwidth = 10000, color = "white") +
-  facet_wrap(~salary_type, ncol = 1) +
-  scale_x_continuous(labels = label_dollar(scale = 1/1000, suffix = "K"), breaks = seq(0, 250000, 25000)) +
-  labs(
-    x = "Annual salary (in USD)",
-    y = "Count"
-  )
-```
+9.  A company named "TransLogistics" needs to transport its products from three warehouses to four customer locations. The first, second and third warehouses can supply 50, 60 and 130 units respectively. Customers 1, 2, 3, and 4 need 50, 70, 60, and 60 respectively. The transportation costs per unit from each warehouse to each customer are as follows:
 
-```{r}
-#| label: fig-blizzard-hist-2
-#| fig-cap: Option 2
-#| fig-width: 8
-#| fig-asp: 0.3
+    |             | Customer 1 | Customer 2 | Customer 3 | Customer 4 |
+    |-------------|:----------:|:----------:|:----------:|:----------:|
+    | Warehouse 1 |    \$5     |    \$8     |    \$7     |    \$6     |
+    | Warehouse 2 |    \$4     |    \$6     |    \$3     |    \$5     |
+    | Warehouse 3 |    \$7     |    \$9     |    \$4     |    \$3     |
 
-ggplot(blizzard_salary, aes(x = annual_salary)) +
-  geom_histogram(binwidth = 10000, color = "white") +
-  facet_wrap(~salary_type, nrow = 1) +
-  scale_x_continuous(labels = label_dollar(scale = 1/1000, suffix = "K"), breaks = seq(0, 250000, 25000)) +
-  labs(
-    x = "Annual salary (in USD)",
-    y = "Count"
-  )
-```
+    Determine the optimal transportation plan that minimizes the total transportation cost.<br> <br>
+\newpage
 
-Distribution of annual salaries of Blizzard employees
-:::
+## Part 4: Game Theory
 
-{{< pagebreak >}}
-
-## Question 3
-
-Suppose your teammate wrote the following code as part of their analysis of the data.
-
-```{r}
-#| label: blizzard-summarize
-#| results: false
-
-blizzard_salary |>
-  group_by(salary_type) |>
-  summarize(
-    mean_annual_salary = mean(annual_salary),
-    median_annual_salary = median(annual_salary)
-  )
-```
-
-They then printed out the results shown below. Unfortunately one of the numbers got erased from the printout. It's indicated with `_____` below.
-
-```         
-# A tibble: 2 × 3
-  salary_type mean_annual_salary median_annual_salary
-  <chr>                    <dbl>                <dbl>
-1 Hourly                  63003.               54246.
-2 Salaried                90183.               _____
-```
-
-Which of the following is the best estimate for that erased value?
-
-a.  30,000
-
-b.  50,000
-
-c.  80,000
-
-d.  100,000
-
-## Question 4
-
-Which distribution of annual salaries has a higher standard deviation?
-
-a.  Hourly workers
-
-b.  Salaried workers
-
-c.  Roughly the same
-
-{{< pagebreak >}}
-
-## Question 5
-
-Which of the following alternate plots would also be useful for visualizing the distributions of annual salaries of hourly and salaried workers? Choose all that apply.
-
-a\. Box plots
-
-b\. Density plots
-
-c\. Pie charts
-
-d\. Waffle charts
-
-e\. Histograms
-
-f\. Scatterplots
-
-{{< pagebreak >}}
-
-## Questions 6 and 7
-
-Suppose you made the bar plot shown in @fig-performance-rating-1 to visualize the distribution of `performance_rating` and your teammate made the bar plot shown in @fig-performance-rating-2.
-
-```{r}
-#| label: fig-performance-rating
-#| layout-ncol: 2
-#| fig-cap: Distribution of performance rating
-#| fig-width: 5
-#| fig-asp: 0.5
-#| fig-subcap: 
-#|   - Option 1
-#|   - Option 2
-
-ggplot(blizzard_salary, aes(x = performance_rating)) +
-  geom_bar() +
-  labs(
-    x = "Performance rating", y = "Count",
-    title = "Performance rating of Blizzard employees"
-  )
-
-blizzard_salary |>
-  mutate(performance_rating = fct_relevel(performance_rating, "Poor", "Successful", "High", "Top")) |>
-  ggplot(aes(x = performance_rating)) +
-  geom_bar() +
-  labs(
-    x = "Performance rating", y = "Count",
-    title = "Performance rating of Blizzard employees"
-  )
-```
-
-You made your bar plot without transforming the data in any way, while your friend did first transform the data with code like the following:
-
-```{r}
-#| eval: false
-#| echo: true
-
-blizzard_salary <- blizzard_salary |>
-  _(1)_(performance_rating = fct_relevel(performance_rating, _(2)_))
-```
-
-**Question 6:** What goes in the blank (1)?
-
-a.  `arrange()`
-
-b.  `filter()`
-
-c.  `mutate()`
-
-d.  `summarize()`
-
-**Question 7:** What goes in the blank (2)?
-
-a.  `"Poor", "Successful", "High", "Top"`
-
-b.  `"Successful", "High", "Top"`
-
-c.  `"Top", "High", "Successful", "Poor"`
-
-d.  `Poor, Successful, High, Top`
-
-{{< pagebreak >}}
-
-## Questions 8 - 10
-
-Finally, another teammate creates the following two plots.
-
-```{r}
-#| label: fig-salary-performance-rating
-#| layout-ncol: 2
-#| fig-cap: Distribution of salary type by performance rating
-#| fig-width: 5
-#| fig-asp: 0.5
-#| fig-subcap: 
-#|   - Option 1
-#|   - Option 2
-
-blizzard_salary |>
-  drop_na(salary_type, performance_rating) |>
-  ggplot(aes(x = salary_type, fill = fct_rev(performance_rating))) +
-  geom_bar() +
-  scale_fill_viridis_d() +
-  labs(
-    x = "Salary type",
-    y = "Count",
-    fill = "Performance\nrating"
-  )
-
-blizzard_salary |>
-  drop_na(salary_type, performance_rating) |>
-  ggplot(aes(x = salary_type, fill = fct_rev(performance_rating))) +
-  geom_bar(position = "fill") +
-  scale_fill_viridis_d() +
-  labs(
-    x = "Salary type",
-    y = "Proportion",
-    fill = "Performance\nrating"
-  )
-```
-
-**Question 8:** Your teammate asks you for help deciding which one to use in the final report for visualizing the relationship between performance rating and salary type. In 1-3 sentences, can you help them make a decision, justify your choice, and write the narrative that should go with the plot?
-
-::: {.content-visible when-format="pdf"}
-$\vspace{2cm}$
-:::
-
-**Question 9:** A friend with a keen eye points out that the number of observations in @fig-salary-performance-rating-1 seems lower than the total number of observations in `blizzard_salary`. What might be going on here? Explain your reasoning.
-
-::: {.content-visible when-format="pdf"}
-$\vspace{2cm}$
-
-{{< pagebreak >}}
-:::
-
-**Question 10:** Below are the proportions of performance ratings for hourly and salaried workers. Place these values in the corresponding segments in @fig-salary-performance-rating-2.
-
-```{r}
-#| label: salary-type-perfecormance-table
-
-blizzard_salary |>
-  drop_na(salary_type, performance_rating) |>
-  count(salary_type, performance_rating) |>
-  pivot_wider(names_from = salary_type, values_from = n, values_fill = 0) |>
-  mutate(across(-performance_rating, ~ .x / sum(.x)))
-```
-
-::: {.content-visible when-format="pdf"}
-{{< pagebreak >}}
-:::
-
-## Questions 11 and 12
-
-The table below shows the distribution of `salary_type` and `performance_rating`.
-
-```{r}
-blizzard_salary |>
-  count(salary_type, performance_rating) |>
-  pivot_wider(names_from = performance_rating, values_from = n) |>
-  select(salary_type, Poor, Successful, High, Top, `NA`)
-```
-
-The pipeline below produces a data frame with a fewer number of rows than `blizzard_salary`.
-
-```{r}
-#| eval: false
-#| echo: true
-
-blizzard_salary |>
-  filter(salary_type _(1)_ "Hourly" _(2)_ performance_rating == "Poor") |>
-  _(3)_(annual_salary)
-```
-
-```{r}
-#| echo: false
-
-blizzard_salary |>
-  filter(salary_type != "Hourly" & performance_rating == "Poor") |>
-  arrange(annual_salary)
-```
-
-**Question 11:** Which of the following goes in blanks (1) and (2)?
-
-|     | \(1\) | \(2\) |
-|-----|:-----:|:-----:|
-| a\. | `!=`  |  `|`  |
-| b\. | `==`  |  `&`  |
-| c\. | `!=`  |  `&`  |
-| d\. | `==`  |  `|`  |
-
-::: {.content-visible when-format="pdf"}
-$\vspace{1cm}$
-:::
-
-**Question 12:** Which function or functions go into blank (3)?
-
-a.  `arrange()`
-
-b.  `mutate()`
-
-c.  `order()`
-
-d.  `sort()`
-
-::: {.content-visible when-format="pdf"}
-$\vspace{1cm}$
-:::
-
-## Question 13
-
-You're reviewing another team's work and they made the following visualization:
-
-```{r}
-#| warning: false
-#| fig-width: 10
-#| fig-asp: 0.5
-
-ggplot(blizzard_salary, aes(x = annual_salary, percent_incr)) +
-  geom_point() +
-  facet_wrap(~performance_rating)
-```
-
-And they wrote the following interpretation for the relationship between annual salary and percent increase for Top performers:
-
-> The relationship is positive, having a higher salary results in a higher percent increase. There is one clear outlier.
-
-Which of the following is/are the most accurate and helpful) peer review note for this interpretation. Choose all that apply.
-
-a.  The interpretation is complete and perfect, no changes needed!
-
-b.  The interpretation doesn't mention the direction of the relationship.
-
-c.  The interpretation doesn't mention the form of the relationship, which is linear.
-
-d.  The interpretation doesn't mention the strength of the relationship, which is somewhat strong.
-
-e.  There isn't a clear outlier in the plot. If any points stand out as potential outliers, more guidance should be given to the reader to identify them (e.g., salary and/or percent increase amount).
-
-f.  The interpretation is causal – we don't know if the cause of the high percent increase is higher annual salary based on observational data. The causal direction might be the other way around, or there may be other factors contributing to the apparent relationship.
-
-::: {.content-visible when-format="pdf"}
-$\vspace{2cm}$
-
-{{< pagebreak >}}
-:::
-
-## Question 14
-
-Below is some code and its output.
-
-```{{r}}
-# label=plot blizzard
-
-ggplot(blizzard_salary,aes(x=performance_rating,y=percent_incr))+geom_boxplot()
-labs(x="Performance rating", y = "Percent increase")
-```
-
-```{r}
-#| echo: false
-#| fig-width: 8
-#| fig-asp: 0.4
-
-ggplot(blizzard_salary,aes(x=performance_rating,y=percent_incr))+geom_boxplot()
-labs(x="Performance rating", y = "Percent increase")
-```
-
-Part 1: List at least 5 things that should be fixed or improved in the code.
-
-::: {.content-visible when-format="pdf"}
-$\vspace{5cm}$
-:::
-
-Part 2: What is the cause of the warning and what does it mean?
-
-{{< pagebreak >}}
-
-## Question 15
-
-You're working on a data analysis on salaries of Blizzard employees in a Quarto document in a project version controlled by Git. You create a plot and write up a paragraph describing any patterns in it. Then, your teammate says "render, commit, and push".
-
-Part 1: What do they mean by each of these three steps. In 1-2 sentences for each, explain in your own words what they mean.
-
-1.  Render:
-
-::: {.content-visible when-format="pdf"}
-$\vspace{2cm}$
-:::
-
-2.  Commit:
-
-::: {.content-visible when-format="pdf"}
-$\vspace{2cm}$
-:::
-
-3.  Push:
-
-::: {.content-visible when-format="pdf"}
-$\vspace{2cm}$
-:::
-
-Part 2: Your teammate is getting impatient and they interrupt you after you rendered and committed and say "I still can't see your changes in our shared GitHub repo when I look at it in my web browser." Which of the following answers is the most accurate?
-
-a.  I rendered my document, you should be seeing my changes on GitHub when you look at it in your web browser.
-
-b.  I committed my changes, you should be seeing my changes on GitHub when you look at it in your web browser.
-
-c.  I didn't yet push my changes, it's expected that you are not seeing them on GitHub when you look at it in your web browser. Wait until I push, and check again.
-
-d.  You need to pull to see my changes on GitHub in the web browser.
-
-## Bonus
-
-Pick a concept we introduced in class so far that you've been struggling with and explain it in your own words.
--->
+10. Consider the following payoff matrix for a two-player game:
+\begin{equation}
+  \left[
+  \begin{array}{cccc}
+  \phantom{-}2 & -6 & \phantom{-}3&\phantom{-}1\\
+  -2 & \phantom{-}2 &\phantom{-}5 & \phantom{-}4\\
+  \phantom{-}1 & -4 & \phantom{-}0 & \phantom{-}2
+  \end{array}
+  \right]
+\end{equation}
+
+    a.  What os the payoff if strategies (3,2) are deployed? What about (3,3)?<br> <br>
+    \vspace{4cm}
+    
+    b.  Identify the dominated strategies for player 1 and 2, if any.<br> <br>
+    \vspace{3cm}
+
+    c.  Is the game striclty determined? How do you know?<br> <br>
+    \vspace{3cm}
+
+    d.  If the game is not strictly determined, change the payoffs in the matrix so that it becomes strictly determined. Write the new payoff matrix below.<br> <br>
+    \vspace{3cm}
+    
+11. Two armies, A and B are involved in a war. Each army has available three different strategies, with payoffs as shown in the payoff matrix below. These payoffs represent square miles of land, with positive numbers representing gains by A (the rows army). Find the strategy producing the saddle point and the value of the game.
+ \begin{equation}
+    \left[
+    \begin{array}{ccc}
+    -8 & -10 & \phantom{-}4\\
+    \phantom{-}0 & -12 & \phantom{-}6 \\
+    \phantom{-}3 & -7 & \phantom{-}8
+    \end{array}
+    \right]
+    \end{equation}

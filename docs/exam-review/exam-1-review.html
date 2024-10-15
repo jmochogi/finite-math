@@ -70,12 +70,39 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="MATH 104 - Exam 1 Review">
-<meta property="og:description" content="Homepage for MATH 104 - Finite Mathematics, Fall 2024.">
 <meta property="og:site_name" content="MATH 104">
 <meta name="twitter:title" content="MATH 104 - Exam 1 Review">
-<meta name="twitter:description" content="Homepage for MATH 104 - Finite Mathematics, Fall 2024.">
 <meta name="twitter:image" content="https://jmochogi.github.io/finite-math/exam-review/img/twitter-card.png">
 <meta name="twitter:creator" content="@jmochogi">
 <meta name="twitter:card" content="summary_large_image">
@@ -210,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../problem-posing/pp1.html" class="sidebar-item-text sidebar-link">
+  <a href="../problem-posing/pp1.docx" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Problem Posing 1</span></a>
   </div>
 </li>
@@ -297,8 +324,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="exam-1-review.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#part-1-linear-functions" id="toc-part-1-linear-functions" class="nav-link active" data-scroll-target="#part-1-linear-functions">Part 1: Linear Functions</a></li>
+  <li><a href="#part-2-linear-programming" id="toc-part-2-linear-programming" class="nav-link" data-scroll-target="#part-2-linear-programming">Part 2: Linear Programming</a></li>
+  <li><a href="#part-3-transportation-problem" id="toc-part-3-transportation-problem" class="nav-link" data-scroll-target="#part-3-transportation-problem">Part 3: Transportation Problem</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jmochogi/finite-math.git/edit/main/exam-review/exam-1-review.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jmochogi/finite-math.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="exam-1-review.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -321,718 +356,178 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Come back later! <!--
-
-
-
-
-
-::: {.cell}
-
-:::
-
-::: {.cell}
-
-:::
-
-
-
-
-
-
-::: callout-note
-Suggested answers can be found [here](/exam-review/exam-1-review-A.qmd), but resist the urge to peek before you go through it yourself.
-:::
-
-In 2020, employees of Blizzard Entertainment circulated a spreadsheet to anonymously share salaries and recent pay increases amidst rising tension in the video game industry over wage disparities and executive compensation. (Source: [Blizzard Workers Share Salaries in Revolt Over Pay](https://www.bloomberg.com/news/articles/2020-08-03/blizzard-workers-share-salaries-in-revolt-over-wage-disparities))
-
-The name of the data frame used for this analysis is `blizzard_salary` and the variables are:
-
--   `percent_incr`: Raise given in July 2020, as percent increase with values ranging from 1 (1% increase to 21.5 (21.5% increase)
-
--   `salary_type`: Type of salary, with levels `Hourly` and `Salaried`
-
--   `annual_salary`: Annual salary, in USD, with values ranging from \$50,939 to \$216,856.
-
--   `performance_rating`: Most recent review performance rating, with levels `Poor`, `Successful`, `High`, and `Top`. The `Poor` level is the lowest rating and the `Top` level is the highest rating.
-
-The top ten rows of `blizzard_salary` are shown below:
-
-
-
-
-
-
-::: {.cell}
-::: {.cell-output .cell-output-stdout}
-
-```
-# A tibble: 409 × 4
-   percent_incr salary_type annual_salary performance_rating
-          <dbl> <chr>               <dbl> <chr>             
- 1          1   Salaried               1  High              
- 2          1   Salaried               1  Successful        
- 3          1   Salaried               1  High              
- 4          1   Hourly             33987. Successful        
- 5         NA   Hourly             34798. High              
- 6         NA   Hourly             35360  <NA>              
- 7         NA   Hourly             37440  <NA>              
- 8          0   Hourly             37814. <NA>              
- 9          4   Hourly             41101. Top               
-10          1.2 Hourly             42328  <NA>              
-# ℹ 399 more rows
-```
-
-
-:::
-:::
-
-
-
-
-
-
-## Question 1
-
-Which of the following is [**correct**]{.underline}? Choose all that apply.
-
-a.  The `blizzard_salary` dataset has 399 rows.
-
-b.  The `blizzard_salary` dataset has 4 columns.
-
-c.  Each row represents a Blizzard Entertainment worker who filled out the spreadsheet.
-
-d.  The `percent_incr` variable is numerical and discrete.
-
-e.  The `salary_type` variable is numerical.
-
-f.  The `annual_salary` variable is numerical.
-
-g.  The `performance_rating` variable is categorical and ordinal.
-
-::: {.content-visible when-format="pdf"}
-$\vspace{1cm}$
-:::
-
-## Question 2
-
-@fig-blizzard-hist-1 and @fig-blizzard-hist-2 show the distributions of annual salaries of hourly and salaried workers. The two figures show the same data, with the facets organized across rows and across columns. Which of the two figures is better for comparing the median annual salaries of hourly and salaried workers. Explain your reasoning.
-
-::: {#fig-blizzard-hist}
-
-
-
-
-
-::: {.cell}
-::: {.cell-output-display}
-![Option 1](exam-1-review_files/figure-html/fig-blizzard-hist-1-1.png){#fig-blizzard-hist-1 width=768}
-:::
-:::
-
-::: {.cell}
-::: {.cell-output-display}
-![Option 2](exam-1-review_files/figure-html/fig-blizzard-hist-2-1.png){#fig-blizzard-hist-2 width=768}
-:::
-:::
-
-
-
-
-
-
-Distribution of annual salaries of Blizzard employees
-:::
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Question 3
-
-Suppose your teammate wrote the following code as part of their analysis of the data.
-
-
-
-
-
-
-::: {.cell}
-
-:::
-
-
-
-
-
-
-They then printed out the results shown below. Unfortunately one of the numbers got erased from the printout. It's indicated with `_____` below.
-
-```         
-# A tibble: 2 × 3
-  salary_type mean_annual_salary median_annual_salary
-  <chr>                    <dbl>                <dbl>
-1 Hourly                  63003.               54246.
-2 Salaried                90183.               _____
-```
-
-Which of the following is the best estimate for that erased value?
-
-a.  30,000
-
-b.  50,000
-
-c.  80,000
-
-d.  100,000
-
-## Question 4
-
-Which distribution of annual salaries has a higher standard deviation?
-
-a.  Hourly workers
-
-b.  Salaried workers
-
-c.  Roughly the same
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Question 5
-
-Which of the following alternate plots would also be useful for visualizing the distributions of annual salaries of hourly and salaried workers? Choose all that apply.
-
-a\. Box plots
-
-b\. Density plots
-
-c\. Pie charts
-
-d\. Waffle charts
-
-e\. Histograms
-
-f\. Scatterplots
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Questions 6 and 7
-
-Suppose you made the bar plot shown in @fig-performance-rating-1 to visualize the distribution of `performance_rating` and your teammate made the bar plot shown in @fig-performance-rating-2.
-
-
-
-
-
-
-::: {#fig-performance-rating .cell layout-ncol="2"}
-::: {.cell-output-display}
-![Option 1](exam-1-review_files/figure-html/fig-performance-rating-1.png){#fig-performance-rating-1 width=480}
-:::
-
-::: {.cell-output-display}
-![Option 2](exam-1-review_files/figure-html/fig-performance-rating-2.png){#fig-performance-rating-2 width=480}
-:::
-
-Distribution of performance rating
-:::
-
-
-
-
-
-
-You made your bar plot without transforming the data in any way, while your friend did first transform the data with code like the following:
-
-
-
-
-
-
-::: {.cell}
-
-```{.r .cell-code}
-blizzard_salary <- blizzard_salary |>
-  _(1)_(performance_rating = fct_relevel(performance_rating, _(2)_))
-```
-:::
-
-
-
-
-
-
-**Question 6:** What goes in the blank (1)?
-
-a.  `arrange()`
-
-b.  `filter()`
-
-c.  `mutate()`
-
-d.  `summarize()`
-
-**Question 7:** What goes in the blank (2)?
-
-a.  `"Poor", "Successful", "High", "Top"`
-
-b.  `"Successful", "High", "Top"`
-
-c.  `"Top", "High", "Successful", "Poor"`
-
-d.  `Poor, Successful, High, Top`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Questions 8 - 10
-
-Finally, another teammate creates the following two plots.
-
-
-
-
-
-
-::: {#fig-salary-performance-rating .cell layout-ncol="2"}
-::: {.cell-output-display}
-![Option 1](exam-1-review_files/figure-html/fig-salary-performance-rating-1.png){#fig-salary-performance-rating-1 width=480}
-:::
-
-::: {.cell-output-display}
-![Option 2](exam-1-review_files/figure-html/fig-salary-performance-rating-2.png){#fig-salary-performance-rating-2 width=480}
-:::
-
-Distribution of salary type by performance rating
-:::
-
-
-
-
-
-
-**Question 8:** Your teammate asks you for help deciding which one to use in the final report for visualizing the relationship between performance rating and salary type. In 1-3 sentences, can you help them make a decision, justify your choice, and write the narrative that should go with the plot?
-
-::: {.content-visible when-format="pdf"}
-$\vspace{2cm}$
-:::
-
-**Question 9:** A friend with a keen eye points out that the number of observations in @fig-salary-performance-rating-1 seems lower than the total number of observations in `blizzard_salary`. What might be going on here? Explain your reasoning.
-
-::: {.content-visible when-format="pdf"}
-$\vspace{2cm}$
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-:::
-
-**Question 10:** Below are the proportions of performance ratings for hourly and salaried workers. Place these values in the corresponding segments in @fig-salary-performance-rating-2.
-
-
-
-
-
-
-::: {.cell}
-::: {.cell-output .cell-output-stdout}
-
-```
-# A tibble: 4 × 3
-  performance_rating Hourly Salaried
-  <chr>               <dbl>    <dbl>
-1 High                0.2     0.384 
-2 Successful          0.686   0.521 
-3 Top                 0.114   0.0760
-4 Poor                0       0.0190
-```
-
-
-:::
-:::
-
-
-
-
-
-
-::: {.content-visible when-format="pdf"}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-:::
-
-## Questions 11 and 12
-
-The table below shows the distribution of `salary_type` and `performance_rating`.
-
-
-
-
-
-
-::: {.cell}
-::: {.cell-output .cell-output-stdout}
-
-```
-# A tibble: 2 × 6
-  salary_type  Poor Successful  High   Top  `NA`
-  <chr>       <int>      <int> <int> <int> <int>
-1 Hourly         NA         24     7     4    28
-2 Salaried        5        137   101    20    83
-```
-
-
-:::
-:::
-
-
-
-
-
-
-The pipeline below produces a data frame with a fewer number of rows than `blizzard_salary`.
-
-
-
-
-
-
-::: {.cell}
-
-```{.r .cell-code}
-blizzard_salary |>
-  filter(salary_type _(1)_ "Hourly" _(2)_ performance_rating == "Poor") |>
-  _(3)_(annual_salary)
-```
-:::
-
-::: {.cell}
-::: {.cell-output .cell-output-stdout}
-
-```
-# A tibble: 5 × 4
-  percent_incr salary_type annual_salary performance_rating
-         <dbl> <chr>               <dbl> <chr>             
-1            0 Salaried            80000 Poor              
-2            3 Salaried            83000 Poor              
-3            0 Salaried           116000 Poor              
-4            0 Salaried           135219 Poor              
-5            0 Salaried           147500 Poor              
-```
-
-
-:::
-:::
-
-
-
-
-
-
-**Question 11:** Which of the following goes in blanks (1) and (2)?
-
-|     | \(1\) | \(2\) |
-|-----|:-----:|:-----:|
-| a\. | `!=`  |  `|`  |
-| b\. | `==`  |  `&`  |
-| c\. | `!=`  |  `&`  |
-| d\. | `==`  |  `|`  |
-
-::: {.content-visible when-format="pdf"}
-$\vspace{1cm}$
-:::
-
-**Question 12:** Which function or functions go into blank (3)?
-
-a.  `arrange()`
-
-b.  `mutate()`
-
-c.  `order()`
-
-d.  `sort()`
-
-::: {.content-visible when-format="pdf"}
-$\vspace{1cm}$
-:::
-
-## Question 13
-
-You're reviewing another team's work and they made the following visualization:
-
-
-
-
-
-
-::: {.cell}
-::: {.cell-output-display}
-![](exam-1-review_files/figure-html/unnamed-chunk-14-1.png){width=960}
-:::
-:::
-
-
-
-
-
-
-And they wrote the following interpretation for the relationship between annual salary and percent increase for Top performers:
-
-> The relationship is positive, having a higher salary results in a higher percent increase. There is one clear outlier.
-
-Which of the following is/are the most accurate and helpful) peer review note for this interpretation. Choose all that apply.
-
-a.  The interpretation is complete and perfect, no changes needed!
-
-b.  The interpretation doesn't mention the direction of the relationship.
-
-c.  The interpretation doesn't mention the form of the relationship, which is linear.
-
-d.  The interpretation doesn't mention the strength of the relationship, which is somewhat strong.
-
-e.  There isn't a clear outlier in the plot. If any points stand out as potential outliers, more guidance should be given to the reader to identify them (e.g., salary and/or percent increase amount).
-
-f.  The interpretation is causal – we don't know if the cause of the high percent increase is higher annual salary based on observational data. The causal direction might be the other way around, or there may be other factors contributing to the apparent relationship.
-
-::: {.content-visible when-format="pdf"}
-$\vspace{2cm}$
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-:::
-
-## Question 14
-
-Below is some code and its output.
-
-```dwutd
-# label=plot blizzard
-
-ggplot(blizzard_salary,aes(x=performance_rating,y=percent_incr))+geom_boxplot()
-labs(x="Performance rating", y = "Percent increase")
-```
-
-
-
-
-
-
-::: {.cell}
-::: {.cell-output .cell-output-stderr}
-
-```
-Warning: Removed 39 rows containing non-finite outside the scale range
-(`stat_boxplot()`).
-```
-
-
-:::
-
-::: {.cell-output-display}
-![](exam-1-review_files/figure-html/unnamed-chunk-15-1.png){width=768}
-:::
-
-::: {.cell-output .cell-output-stdout}
-
-```
-$x
-[1] "Performance rating"
-
-$y
-[1] "Percent increase"
-
-attr(,"class")
-[1] "labels"
-```
-
-
-:::
-:::
-
-
-
-
-
-
-Part 1: List at least 5 things that should be fixed or improved in the code.
-
-::: {.content-visible when-format="pdf"}
-$\vspace{5cm}$
-:::
-
-Part 2: What is the cause of the warning and what does it mean?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Question 15
-
-You're working on a data analysis on salaries of Blizzard employees in a Quarto document in a project version controlled by Git. You create a plot and write up a paragraph describing any patterns in it. Then, your teammate says "render, commit, and push".
-
-Part 1: What do they mean by each of these three steps. In 1-2 sentences for each, explain in your own words what they mean.
-
-1.  Render:
-
-::: {.content-visible when-format="pdf"}
-$\vspace{2cm}$
-:::
-
-2.  Commit:
-
-::: {.content-visible when-format="pdf"}
-$\vspace{2cm}$
-:::
-
-3.  Push:
-
-::: {.content-visible when-format="pdf"}
-$\vspace{2cm}$
-:::
-
-Part 2: Your teammate is getting impatient and they interrupt you after you rendered and committed and say "I still can't see your changes in our shared GitHub repo when I look at it in my web browser." Which of the following answers is the most accurate?
-
-a.  I rendered my document, you should be seeing my changes on GitHub when you look at it in your web browser.
-
-b.  I committed my changes, you should be seeing my changes on GitHub when you look at it in your web browser.
-
-c.  I didn't yet push my changes, it's expected that you are not seeing them on GitHub when you look at it in your web browser. Wait until I push, and check again.
-
-d.  You need to pull to see my changes on GitHub in the web browser.
-
-## Bonus
-
-Pick a concept we introduced in class so far that you've been struggling with and explain it in your own words.
---></p>
-
-
+<section id="part-1-linear-functions" class="level2">
+<h2 class="anchored" data-anchor-id="part-1-linear-functions">Part 1: Linear Functions</h2>
+<ol type="1">
+<li><p>Find the slope of the line that passes through the points <span class="math inline">\((2, 3)\)</span> and <span class="math inline">\((4, 5)\)</span>. Find the equation of the line in <strong><em>slope-intercept</em></strong> form. <br> <br> </p></li>
+<li><p>The table below shows the cost, <span class="math inline">\(C(x)\)</span>, to a coffee selling company in dollars, of selling <span class="math inline">\(x\)</span> cups of coffee per day from a cart.</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(x\)</span></td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">50</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(y\)</span></td>
+<td style="text-align: center;">60</td>
+<td style="text-align: center;">60.75</td>
+<td style="text-align: center;">61.5</td>
+<td style="text-align: center;">75</td>
+</tr>
+</tbody>
+</table>
+<ol type="a">
+<li>Could the relationship between the cost and the number of cups sold be linear? How do you know?<br> <br> </li>
+<li>If the relationship is linear, find the equation of the fucntion, <span class="math inline">\(C(x)\)</span> in <strong><em>slope-intercept</em></strong> form.<br> <br> </li>
+</ol></li>
+<li><p>Suppose that the supply, in pairs, of a certain kind of sneakers can be expressed as <span class="math inline">\(s(p)=3p\)</span>, where <span class="math inline">\(p\)</span> is the price in dollars per pair. Suppose also that the demand can be expressed as <span class="math inline">\(d(p)=500−2p\)</span>.</p>
+<ol type="a">
+<li>How many units would the market demand if the price is set at $150?<br> <br> </li>
+<li>Find the equilibrium point. Explain why it might be important for the manufacturer of the sneakers to know the equilibrium point.<br> <br> </li>
+</ol></li>
+<li><p>A small company produces iPhone cases. The cost of producing <span class="math inline">\(x\)</span> cases can be modeled using the linear function <span class="math inline">\(C(x)=0.75x+1075\)</span>, while the revenue generated from selling <span class="math inline">\(x\)</span> cases is modeled by <span class="math inline">\(R(x)=11.5x\)</span>.</p>
+<ol type="a">
+<li><p>What is the marginal cost of producing the cases? Explain, in plain language, what the marginal cost means.<br> <br> </p></li>
+<li><p>Find the break-even point. Explain in plain language what this means and why it matters for the company. <br> <br> </p></li>
+</ol></li>
+<li><p>Angela owns a small company that designs and prints T-shirts. Her fixed costs stand at $525, and her total cost to produce 1000 T-shirts is $2675. Her T-shirts sell for $4.95 each.</p>
+<ol type="a">
+<li><p>Find the cost function, <span class="math inline">\(C(x)\)</span>, and the revenue function, <span class="math inline">\(R(x)\)</span>. Assume that both functions are linear.<br> <br> </p></li>
+<li><p>Find the break-even point.<br> <br> </p></li>
+<li><p>Suppose the company has goal of making $5,000 in profit this month. How much T-shirts must be sold to reach this goal?<br> <br> </p></li>
+<li><p>What is the profit if 500 T-shirts sold?<br> <br> </p></li>
+</ol></li>
+</ol>
+</section>
+<section id="part-2-linear-programming" class="level2">
+<h2 class="anchored" data-anchor-id="part-2-linear-programming">Part 2: Linear Programming</h2>
+<ol start="6" type="1">
+<li><p>A company designs and makes three types of beds - Full, Queen, and King beds. Each bed requires specialized skills from three different people- Erick, Zainab, and Ben. Erick cannot work more than 80 hours per month, but the other two can each work for 200 hours. To make a Full bed takes 1 hour of Erick’s time, 3 hour of Zainab’s time, and 2 hours from Ben. A Queen bed, on the other hand, requires 3 hours from Erick, 5 from Zainab, and 4 from Ben. A King bed requires 5 hours of Erick, 4 from Zainab, and 8 from Ben. Each Full, Queen, and King bed sells for $100, $250, and $350 profit respectively.</p>
+<ol type="a">
+<li><p>Create a well-labelled mixture chart to model the above scenario.<br> <br> </p></li>
+<li><p>State the minimum and resource constraint inequalities.<br> <br> </p></li>
+<li><p>How many units of each must be produced in order to maximize profit? What is the maximum profit?<br> <br> </p></li>
+</ol></li>
+<li><p>Courtesy Calls makes telephone calls for businesses and charities. A profit of $0.50 is made for each business calls and $0.40 for each charity call.It takes 4 min (on average) to make a business call and 6 min (on average) to make a charity call. If there are 240 min of calling time to be distributed each day, how should that time be spent so that Courtesy Calls makes a maximum profit? What changes, if any, occur in the maximum profit and optimal production policy if they must make at least 12 business calls and 10 charity call every day?<br> <br> </p></li>
+</ol>
+</section>
+<section id="part-3-transportation-problem" class="level2">
+<h2 class="anchored" data-anchor-id="part-3-transportation-problem">Part 3: Transportation Problem</h2>
+<ol start="8" type="1">
+<li><p>Consider the Transportation Problem tableau below:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">D1</th>
+<th style="text-align: center;">D2</th>
+<th style="text-align: center;">D3</th>
+<th style="text-align: center;">Supply</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">W1</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">100</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">W2</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">150</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">W3</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">200</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Demand</td>
+<td style="text-align: center;">200</td>
+<td style="text-align: center;">100</td>
+<td style="text-align: center;">150</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<ol type="a">
+<li><p>Find the initial feasible solution (shipment plan) using the North-West Corner Rule. Calculate the cost of this plan.<br> <br> </p></li>
+<li><p>Is the shipment plan you found in part (a) above optimal? Use the concept of indicator values to prove your claim.<br> <br> </p></li>
+<li><p>If the plan in part (b) is not optimal, use the stepping stone method to find the cheapest plan.<br> <br> </p></li>
+</ol></li>
+<li><p>A company named “TransLogistics” needs to transport its products from three warehouses to four customer locations. The first, second and third warehouses can supply 50, 60 and 130 units respectively. Customers 1, 2, 3, and 4 need 50, 70, 60, and 60 respectively. The transportation costs per unit from each warehouse to each customer are as follows:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">Customer 1</th>
+<th style="text-align: center;">Customer 2</th>
+<th style="text-align: center;">Customer 3</th>
+<th style="text-align: center;">Customer 4</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Warehouse 1</td>
+<td style="text-align: center;">$5</td>
+<td style="text-align: center;">$8</td>
+<td style="text-align: center;">$7</td>
+<td style="text-align: center;">$6</td>
+</tr>
+<tr class="even">
+<td>Warehouse 2</td>
+<td style="text-align: center;">$4</td>
+<td style="text-align: center;">$6</td>
+<td style="text-align: center;">$3</td>
+<td style="text-align: center;">$5</td>
+</tr>
+<tr class="odd">
+<td>Warehouse 3</td>
+<td style="text-align: center;">$7</td>
+<td style="text-align: center;">$9</td>
+<td style="text-align: center;">$4</td>
+<td style="text-align: center;">$3</td>
+</tr>
+</tbody>
+</table>
+<p>Determine the optimal transportation plan that minimizes the total transportation cost.<br> <br> ## Part 4: Game Theory</p></li>
+<li><p>Consider the following payoff matrix for a two-player game: <span class="math display">\[\begin{equation}
+  \left[
+  \begin{array}{cccc}
+  \phantom{-}2 &amp; -6 &amp; \phantom{-}3&amp;\phantom{-}1\\
+  -2 &amp; \phantom{-}2 &amp;\phantom{-}5 &amp; \phantom{-}4\\
+  \phantom{-}1 &amp; -4 &amp; \phantom{-}0 &amp; \phantom{-}2
+  \end{array}
+  \right]
+\end{equation}\]</span></p>
+<ol type="a">
+<li><p>What os the payoff if strategies (3,2) are deployed? What about (3,3)?<br> <br> </p></li>
+<li><p>Identify the dominated strategies for player 1 and 2, if any.<br> <br> </p></li>
+<li><p>Is the game striclty determined? How do you know?<br> <br> </p></li>
+<li><p>If the game is not strictly determined, change the payoffs in the matrix so that it becomes strictly determined. Write the new payoff matrix below.<br> <br> </p></li>
+</ol></li>
+<li><p>Two armies, A and B are involved in a war. Each army has available three different strategies, with payoffs as shown in the payoff matrix below. These payoffs represent square miles of land, with positive numbers representing gains by A (the rows army). Find the strategy producing the saddle point and the value of the game. <span class="math display">\[\begin{equation}
+\left[
+\begin{array}{ccc}
+-8 &amp; -10 &amp; \phantom{-}4\\
+\phantom{-}0 &amp; -12 &amp; \phantom{-}6 \\
+\phantom{-}3 &amp; -7 &amp; \phantom{-}8
+\end{array}
+\right]
+\end{equation}\]</span></p></li>
+</ol>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1619,9 +1114,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/jmochogi/finite-math.git/edit/main/exam-review/exam-1-review.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jmochogi/finite-math.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jmochogi/finite-math.git/edit/main/exam-review/exam-1-review.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jmochogi/finite-math.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
-<p>This page is built with<a href="https://quarto.org/">Quarto</a>.</p>
+<p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
   </div>
 </footer>

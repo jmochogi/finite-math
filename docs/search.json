@@ -114,7 +114,7 @@
     "href": "exam-review/exam-1-review.html",
     "title": "Exam 1 Review",
     "section": "",
-    "text": "Come back later!",
+    "text": "Find the slope of the line that passes through the points \\((2, 3)\\) and \\((4, 5)\\). Find the equation of the line in slope-intercept form.   \nThe table below shows the cost, \\(C(x)\\), to a coffee selling company in dollars, of selling \\(x\\) cups of coffee per day from a cart.\n\n\n\n\\(x\\)\n0\n5\n10\n50\n\n\n\\(y\\)\n60\n60.75\n61.5\n75\n\n\n\n\nCould the relationship between the cost and the number of cups sold be linear? How do you know?  \nIf the relationship is linear, find the equation of the fucntion, \\(C(x)\\) in slope-intercept form.  \n\nSuppose that the supply, in pairs, of a certain kind of sneakers can be expressed as \\(s(p)=3p\\), where \\(p\\) is the price in dollars per pair. Suppose also that the demand can be expressed as \\(d(p)=500−2p\\).\n\nHow many units would the market demand if the price is set at $150?  \nFind the equilibrium point. Explain why it might be important for the manufacturer of the sneakers to know the equilibrium point.  \n\nA small company produces iPhone cases. The cost of producing \\(x\\) cases can be modeled using the linear function \\(C(x)=0.75x+1075\\), while the revenue generated from selling \\(x\\) cases is modeled by \\(R(x)=11.5x\\).\n\nWhat is the marginal cost of producing the cases? Explain, in plain language, what the marginal cost means.  \nFind the break-even point. Explain in plain language what this means and why it matters for the company.   \n\nAngela owns a small company that designs and prints T-shirts. Her fixed costs stand at $525, and her total cost to produce 1000 T-shirts is $2675. Her T-shirts sell for $4.95 each.\n\nFind the cost function, \\(C(x)\\), and the revenue function, \\(R(x)\\). Assume that both functions are linear.  \nFind the break-even point.  \nSuppose the company has goal of making $5,000 in profit this month. How much T-shirts must be sold to reach this goal?  \nWhat is the profit if 500 T-shirts sold?",
     "crumbs": [
       "Exam review",
       "Exam 1"
@@ -512,6 +512,61 @@
     "crumbs": [
       "Homework",
       "Homework 3"
+    ]
+  },
+  {
+    "objectID": "exam-review/exam-1-review.html#part-1-linear-functions",
+    "href": "exam-review/exam-1-review.html#part-1-linear-functions",
+    "title": "Exam 1 Review",
+    "section": "",
+    "text": "Find the slope of the line that passes through the points \\((2, 3)\\) and \\((4, 5)\\). Find the equation of the line in slope-intercept form.   \nThe table below shows the cost, \\(C(x)\\), to a coffee selling company in dollars, of selling \\(x\\) cups of coffee per day from a cart.\n\n\n\n\\(x\\)\n0\n5\n10\n50\n\n\n\\(y\\)\n60\n60.75\n61.5\n75\n\n\n\n\nCould the relationship between the cost and the number of cups sold be linear? How do you know?  \nIf the relationship is linear, find the equation of the fucntion, \\(C(x)\\) in slope-intercept form.  \n\nSuppose that the supply, in pairs, of a certain kind of sneakers can be expressed as \\(s(p)=3p\\), where \\(p\\) is the price in dollars per pair. Suppose also that the demand can be expressed as \\(d(p)=500−2p\\).\n\nHow many units would the market demand if the price is set at $150?  \nFind the equilibrium point. Explain why it might be important for the manufacturer of the sneakers to know the equilibrium point.  \n\nA small company produces iPhone cases. The cost of producing \\(x\\) cases can be modeled using the linear function \\(C(x)=0.75x+1075\\), while the revenue generated from selling \\(x\\) cases is modeled by \\(R(x)=11.5x\\).\n\nWhat is the marginal cost of producing the cases? Explain, in plain language, what the marginal cost means.  \nFind the break-even point. Explain in plain language what this means and why it matters for the company.   \n\nAngela owns a small company that designs and prints T-shirts. Her fixed costs stand at $525, and her total cost to produce 1000 T-shirts is $2675. Her T-shirts sell for $4.95 each.\n\nFind the cost function, \\(C(x)\\), and the revenue function, \\(R(x)\\). Assume that both functions are linear.  \nFind the break-even point.  \nSuppose the company has goal of making $5,000 in profit this month. How much T-shirts must be sold to reach this goal?  \nWhat is the profit if 500 T-shirts sold?",
+    "crumbs": [
+      "Exam review",
+      "Exam 1"
+    ]
+  },
+  {
+    "objectID": "exam-review/exam-1-review.html#part-2-linear-programming",
+    "href": "exam-review/exam-1-review.html#part-2-linear-programming",
+    "title": "Exam 1 Review",
+    "section": "Part 2: Linear Programming",
+    "text": "Part 2: Linear Programming\n\nA company designs and makes three types of beds - Full, Queen, and King beds. Each bed requires specialized skills from three different people- Erick, Zainab, and Ben. Erick cannot work more than 80 hours per month, but the other two can each work for 200 hours. To make a Full bed takes 1 hour of Erick’s time, 3 hour of Zainab’s time, and 2 hours from Ben. A Queen bed, on the other hand, requires 3 hours from Erick, 5 from Zainab, and 4 from Ben. A King bed requires 5 hours of Erick, 4 from Zainab, and 8 from Ben. Each Full, Queen, and King bed sells for $100, $250, and $350 profit respectively.\n\nCreate a well-labelled mixture chart to model the above scenario.  \nState the minimum and resource constraint inequalities.  \nHow many units of each must be produced in order to maximize profit? What is the maximum profit?  \n\nCourtesy Calls makes telephone calls for businesses and charities. A profit of $0.50 is made for each business calls and $0.40 for each charity call.It takes 4 min (on average) to make a business call and 6 min (on average) to make a charity call. If there are 240 min of calling time to be distributed each day, how should that time be spent so that Courtesy Calls makes a maximum profit? What changes, if any, occur in the maximum profit and optimal production policy if they must make at least 12 business calls and 10 charity call every day?",
+    "crumbs": [
+      "Exam review",
+      "Exam 1"
+    ]
+  },
+  {
+    "objectID": "exam-review/exam-1-review.html#part-3-transportation-problem",
+    "href": "exam-review/exam-1-review.html#part-3-transportation-problem",
+    "title": "Exam 1 Review",
+    "section": "Part 3: Transportation Problem",
+    "text": "Part 3: Transportation Problem\n\nConsider the Transportation Problem tableau below:\n\n\n\n\nD1\nD2\nD3\nSupply\n\n\n\n\nW1\n6\n8\n10\n100\n\n\nW2\n9\n11\n12\n150\n\n\nW3\n7\n8\n14\n200\n\n\nDemand\n200\n100\n150\n\n\n\n\n\nFind the initial feasible solution (shipment plan) using the North-West Corner Rule. Calculate the cost of this plan.  \nIs the shipment plan you found in part (a) above optimal? Use the concept of indicator values to prove your claim.  \nIf the plan in part (b) is not optimal, use the stepping stone method to find the cheapest plan.  \n\nA company named “TransLogistics” needs to transport its products from three warehouses to four customer locations. The first, second and third warehouses can supply 50, 60 and 130 units respectively. Customers 1, 2, 3, and 4 need 50, 70, 60, and 60 respectively. The transportation costs per unit from each warehouse to each customer are as follows:\n\n\n\n\nCustomer 1\nCustomer 2\nCustomer 3\nCustomer 4\n\n\n\n\nWarehouse 1\n$5\n$8\n$7\n$6\n\n\nWarehouse 2\n$4\n$6\n$3\n$5\n\n\nWarehouse 3\n$7\n$9\n$4\n$3\n\n\n\nDetermine the optimal transportation plan that minimizes the total transportation cost.  ## Part 4: Game Theory\nConsider the following payoff matrix for a two-player game: \\[\\begin{equation}\n  \\left[\n  \\begin{array}{cccc}\n  \\phantom{-}2 & -6 & \\phantom{-}3&\\phantom{-}1\\\\\n  -2 & \\phantom{-}2 &\\phantom{-}5 & \\phantom{-}4\\\\\n  \\phantom{-}1 & -4 & \\phantom{-}0 & \\phantom{-}2\n  \\end{array}\n  \\right]\n\\end{equation}\\]\n\nWhat os the payoff if strategies (3,2) are deployed? What about (3,3)?  \nIdentify the dominated strategies for player 1 and 2, if any.  \nIs the game striclty determined? How do you know?  \nIf the game is not strictly determined, change the payoffs in the matrix so that it becomes strictly determined. Write the new payoff matrix below.  \n\nTwo armies, A and B are involved in a war. Each army has available three different strategies, with payoffs as shown in the payoff matrix below. These payoffs represent square miles of land, with positive numbers representing gains by A (the rows army). Find the strategy producing the saddle point and the value of the game. \\[\\begin{equation}\n\\left[\n\\begin{array}{ccc}\n-8 & -10 & \\phantom{-}4\\\\\n\\phantom{-}0 & -12 & \\phantom{-}6 \\\\\n\\phantom{-}3 & -7 & \\phantom{-}8\n\\end{array}\n\\right]\n\\end{equation}\\]",
+    "crumbs": [
+      "Exam review",
+      "Exam 1"
+    ]
+  },
+  {
+    "objectID": "exam-review/exam-1-review.html#part-3-game-theory",
+    "href": "exam-review/exam-1-review.html#part-3-game-theory",
+    "title": "Exam 1 Review",
+    "section": "Part 3: Game Theory",
+    "text": "Part 3: Game Theory\n\nConsider the following payoff matrix for a two-player game:\n\n\n\n\nL\nM\nR\n\n\n\n\nT\n2\n3\n1\n\n\nM\n1\n2\n3\n\n\nB\n3\n1\n2\n\n\n\n\nFind the saddle point of the game. Explain what this means.\nIs there a dominant strategy for either player? Explain.\nIs there a mixed strategy that is optimal for both players? Explain.",
+    "crumbs": [
+      "Exam review",
+      "Exam 1"
+    ]
+  },
+  {
+    "objectID": "exam-review/exam-1-review.html#part-4-game-theory",
+    "href": "exam-review/exam-1-review.html#part-4-game-theory",
+    "title": "Exam 1 Review",
+    "section": "Part 4: Game Theory",
+    "text": "Part 4: Game Theory\n\nConsider the following payoff matrix for a two-player game: \\[\\begin{equation}\n  \\left[\n  \\begin{array}{cccc}\n  \\phantom{-}2 & -6 & \\phantom{-}3&\\phantom{-}1\\\\\n  -2 & \\phantom{-}2 &\\phantom{-}5 & \\phantom{-}4\\\\\n  \\phantom{-}1 & -4 & \\phantom{-}0 & \\phantom{-}2\n  \\end{array}\n  \\right]\n\\end{equation}\\]\n\nWhat os the payoff if strategies (3,2) are deployed? What about (3,3)? \nIdentify the dominated strategies for player 1 and 2, if any. \nIs the game striclty determined? How do you know? \nIf the game is not strictly determined, change the payoffs in the matrix so that it becomes strictly determined. Write the new payoff matrix below. \n\nTwo armies, A and B are involved in a war. Each army has available three different strategies, with payoffs as shown in the payoff matrix below. These payoffs represent square miles of land, with positive numbers representing gains by A (the rows army). Find the strategy producing the saddle point and the value of the game. \\[\\begin{equation}\n\\left[\n\\begin{array}{ccc}\n-8 & -10 & \\phantom{-}4\\\\\n\\phantom{-}0 & -12 & \\phantom{-}6 \\\\\n\\phantom{-}3 & -7 & \\phantom{-}8\n\\end{array}\n\\right]\n\\end{equation}\\]",
+    "crumbs": [
+      "Exam review",
+      "Exam 1"
     ]
   }
 ]
