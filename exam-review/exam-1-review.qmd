@@ -1,7 +1,7 @@
 ---
 title: "Exam 1 Review"
 format:
-  #html: default
+  html: default
   pdf: default
 execute:
   echo: false
@@ -9,84 +9,69 @@ execute:
 
 ## Part 1: Linear Functions
 
-1.  Find the slope of the line that passes through the points $(2, 3)$ and $(4, 5)$. Find the equation of the line in ***slope-intercept*** form. <br> <br>
-\vspace{3cm}
+1.  Find the slope of the line that passes through the points $(2, 3)$ and $(4, 5)$. Find the equation of the line in ***slope-intercept*** form. <br> <br> \vspace{3cm}
+
 2.  The table below shows the cost, $C(x)$, to a coffee selling company in dollars, of selling $x$ cups of coffee per day from a cart.
 
-    |     |     |       |      |     |
-    |:---:|:---:|:-----:|:----:|:---:|
-    | $x$ |  0  |   5   |  10  | 50  |
-    | $y$ | 60  | 60.75 | 61.5 | 75  |
+    |        |     |       |      |     |
+    |:------:|:---:|:-----:|:----:|:---:|
+    |  $x$   |  0  |   5   |  10  | 50  |
+    | $C(x)$ | 60  | 60.75 | 61.5 | 75  |
 
-    a.  Could the relationship between the cost and the number of cups sold be linear? How do you know?<br> <br>
-    \vspace{3cm}
-    b.  If the relationship is linear, find the equation of the fucntion, $C(x)$ in ***slope-intercept*** form.<br> <br>
-    \vspace{3cm}
+    a.  Could the relationship between the cost and the number of cups sold be linear? Why or why not?<br> <br> \vspace{3cm}
+    b.  If the relationship is linear, find the equation of the fucntion, $C(x)$ in ***slope-intercept*** form.<br> <br> \vspace{3cm}
 
 3.  Suppose that the supply, in pairs, of a certain kind of sneakers can be expressed as $s(p)=3p$, where $p$ is the price in dollars per pair. Suppose also that the demand can be expressed as $d(p)=500−2p$.
 
-    a.  How many units would the market demand if the price is set at \$150?<br> <br>
-    \vspace{3cm}
-    b.  Find the equilibrium point. Explain why it might be important for the manufacturer of the sneakers to know the equilibrium point.<br> <br>
-    \vspace{3cm}
+    a.  How many units would the market demand if the price is set at \$150?<br> <br> \vspace{3cm}
+    b.  Find the equilibrium price and quantity. Explain why it might be important for the manufacturer of the sneakers to know the equilibrium point.<br> <br> \vspace{3cm}
 
 4.  A small company produces iPhone cases. The cost of producing $x$ cases can be modeled using the linear function $C(x)=0.75x+1075$, while the revenue generated from selling $x$ cases is modeled by $R(x)=11.5x$.
 
-    a.  What is the marginal cost of producing the cases? Explain, in plain language, what the marginal cost means.<br> <br>
-    \vspace{3cm}
+    a.  What is the marginal cost of producing the cases? Explain, in plain language, what the marginal cost means.<br> <br> \vspace{3cm}
 
-    b.  Find the break-even point. Explain in plain language what this means and why it matters for the company. <br> <br>
-    \vspace{3cm}
+    b.  Find the break-even point. Explain in plain language what this means and why it matters for the company. <br> <br> \vspace{3cm}
 
 5.  Angela owns a small company that designs and prints T-shirts. Her fixed costs stand at \$525, and her total cost to produce 1000 T-shirts is \$2675. Her T-shirts sell for \$4.95 each.
 
-    a.  Find the cost function, $C(x)$, and the revenue function, $R(x)$. Assume that both functions are linear.<br> <br>
-    \vspace{5cm}
+    a.  Find the cost function, $C(x)$, and the revenue function, $R(x)$. Assume that both functions are linear.<br> <br> \vspace{5cm}
 
-    b.  Find the break-even point.<br> <br>
-    \vspace{4cm}
+    b.  Find the break-even point.<br> <br> \vspace{4cm}
 
-    c.  Suppose the company has goal of making \$5,000 in profit this month. How much T-shirts must be sold to reach this goal?<br> <br>
-    \vspace{4cm}
+    c.  Suppose the company has goal of making \$5,000 in profit this month. How much T-shirts must be sold to reach this goal?<br> <br> \vspace{4cm}
 
-    d.  What is the profit if 500 T-shirts sold?<br> <br>
-    \newpage
+    d.  What is the profit if 150 T-shirts sold?<br> <br> \newpage
 
 ## Part 2: Linear Programming
 
 6.  A company designs and makes three types of beds - Full, Queen, and King beds. Each bed requires specialized skills from three different people- Erick, Zainab, and Ben. Erick cannot work more than 80 hours per month, but the other two can each work for 200 hours. To make a Full bed takes 1 hour of Erick's time, 3 hour of Zainab's time, and 2 hours from Ben. A Queen bed, on the other hand, requires 3 hours from Erick, 5 from Zainab, and 4 from Ben. A King bed requires 5 hours of Erick, 4 from Zainab, and 8 from Ben. Each Full, Queen, and King bed sells for \$100, \$250, and \$350 profit respectively.
 
-    a.  Create a well-labelled mixture chart to model the above scenario.<br> <br>
-    \vspace{4cm}
+    a.  Create a well-labelled mixture chart to model the above scenario.<br> <br> \vspace{4cm}
 
-    b.  State the minimum and resource constraint inequalities.<br> <br>
-    \vspace{4cm}
+    b.  State the minimum and resource constraint inequalities.<br> <br> \vspace{4cm}
 
-    c.  How many units of each must be produced in order to maximize profit? What is the maximum profit?<br> <br>
-    \vspace{4cm}
+    c.  How many units of each must be produced in order to maximize profit? What is the maximum profit?<br> <br> \vspace{4cm}
 
-7.  Courtesy Calls makes telephone calls for businesses and charities. A profit of \$0.50 is made for each business calls and \$0.40 for each charity call.It takes 4 min (on average) to make a business call and 6 min (on average) to make a charity call. If there are 240 min of calling time to be distributed each day, how should that time be spent so that Courtesy Calls makes a maximum profit? What changes, if any, occur in the maximum profit and optimal production policy if they must make at least 12 business calls and 10 charity call every day?<br> <br>
-\newpage
+7.  Courtesy Calls makes telephone calls for businesses and charities. A profit of \$0.50 is made for each business calls and \$0.40 for each charity call.It takes 4 min (on average) to make a business call and 6 min (on average) to make a charity call. If there are 240 min of calling time to be distributed each day, how should that time be spent so that Courtesy Calls makes a maximum profit? What changes, if any, occur in the maximum profit and optimal production policy if they must make at least 12 business calls and 10 charity call every day?<br> <br> \newpage
 
 ## Part 3: Transportation Problem
 
-8.  Consider the Transportation Problem tableau below:
+8.  Consider the Transportation Problem tableau below. The quantities supplied/demanded are in thousands and the transportation costs in thousands of dollars.
 
-    |        | D1  | D2  | D3  | Supply |
-    |:------:|:---:|:---:|:---:|:------:|
-    |   W1   |  6  |  8  | 10  |  100   |
-    |   W2   |  9  | 11  | 12  |  150   |
-    |   W3   |  7  |  8  | 14  |  200   |
-    | Demand | 200 | 100 | 150 |        |
+    |        | D1  |  D2  |  D3  | Supply |
+    |:------:|:---:|:----:|:----:|:------:|
+    |   W1   | \$6 | \$8  | \$10 |  100   |
+    |   W2   | \$9 | \$11 | \$12 |  150   |
+    |   W3   | \$7 | \$8  | \$14 |  200   |
+    | Demand | 200 | 100  | 150  |        |
 
-    a.  Find the initial feasible solution (shipment plan) using the North-West Corner Rule. Calculate the cost of this plan.<br> <br>
-    \vspace{4cm}
+    a.  Find the initial feasible solution (shipment plan) using the North-West Corner Rule. You may want to redraw the tableau first to look like the ones we exercised with in class. Calculate the cost of this plan.<br> <br> \vspace{7cm}
 
     b.  Is the shipment plan you found in part (a) above optimal? Use the concept of indicator values to prove your claim.<br> <br>
-    \vspace{4cm}
+    \clearpage
 
-    c.  If the plan in part (b) is not optimal, use the stepping stone method to find the cheapest plan.<br> <br>
-    \vspace{6cm}
+    c.  If the plan in part (b) is not optimal, use the stepping stone method to find the cheapest plan and the associated cost.<br> <br>
+    \clearpage
 
 9.  A company named "TransLogistics" needs to transport its products from three warehouses to four customer locations. The first, second and third warehouses can supply 50, 60 and 130 units respectively. Customers 1, 2, 3, and 4 need 50, 70, 60, and 60 respectively. The transportation costs per unit from each warehouse to each customer are as follows:
 
@@ -96,36 +81,29 @@ execute:
     | Warehouse 2 |    \$4     |    \$6     |    \$3     |    \$5     |
     | Warehouse 3 |    \$7     |    \$9     |    \$4     |    \$3     |
 
-    Determine the optimal transportation plan that minimizes the total transportation cost.<br> <br>
-\newpage
+    Determine the optimal transportation plan that minimizes the total transportation cost.<br> <br> \newpage
 
 ## Part 4: Game Theory
 
-10. Consider the following payoff matrix for a two-player game:
-\begin{equation}
-  \left[
-  \begin{array}{cccc}
-  \phantom{-}2 & -6 & \phantom{-}3&\phantom{-}1\\
-  -2 & \phantom{-}2 &\phantom{-}5 & \phantom{-}4\\
-  \phantom{-}1 & -4 & \phantom{-}0 & \phantom{-}2
-  \end{array}
-  \right]
-\end{equation}
+10. Consider the following payoff matrix for a two-player game: \begin{equation}
+      \left[
+      \begin{array}{cccc}
+      \phantom{-}2 & -6 & \phantom{-}3&\phantom{-}1\\
+      -2 & \phantom{-}2 &\phantom{-}5 & \phantom{-}4\\
+      \phantom{-}1 & -4 & \phantom{-}0 & \phantom{-}2
+      \end{array}
+      \right]
+    \end{equation}
 
-    a.  What os the payoff if strategies (3,2) are deployed? What about (3,3)?<br> <br>
-    \vspace{4cm}
-    
-    b.  Identify the dominated strategies for player 1 and 2, if any.<br> <br>
-    \vspace{3cm}
+    a.  What is the payoff if strategies (3,2) are deployed? What about (3,3)?<br> <br> \vspace{4cm}
 
-    c.  Is the game striclty determined? How do you know?<br> <br>
-    \vspace{3cm}
+    b.  Identify the dominated strategies for player 1 and 2, if any.<br> <br> \vspace{3cm}
 
-    d.  If the game is not strictly determined, change the payoffs in the matrix so that it becomes strictly determined. Write the new payoff matrix below.<br> <br>
-    \vspace{3cm}
-    
-11. Two armies, A and B are involved in a war. Each army has available three different strategies, with payoffs as shown in the payoff matrix below. These payoffs represent square miles of land, with positive numbers representing gains by A (the rows army). Find the strategy producing the saddle point and the value of the game.
- \begin{equation}
+    c.  Is the game striclty determined? How do you know?<br> <br> \vspace{3cm}
+
+    d.  If the game is not strictly determined, change the payoffs in the matrix so that it becomes strictly determined. Write the new payoff matrix below.<br> <br> \vspace{3cm}
+
+11. Two armies, A and B are involved in a war. Each army has available three different strategies, with payoffs as shown in the payoff matrix below. These payoffs represent square miles of land, with positive numbers representing gains by A (the rows army). Find the strategy producing the saddle point and the value of the game. \begin{equation}
     \left[
     \begin{array}{ccc}
     -8 & -10 & \phantom{-}4\\

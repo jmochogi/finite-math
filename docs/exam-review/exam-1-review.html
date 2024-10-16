@@ -331,6 +331,7 @@ window.Quarto = {
   <li><a href="#part-1-linear-functions" id="toc-part-1-linear-functions" class="nav-link active" data-scroll-target="#part-1-linear-functions">Part 1: Linear Functions</a></li>
   <li><a href="#part-2-linear-programming" id="toc-part-2-linear-programming" class="nav-link" data-scroll-target="#part-2-linear-programming">Part 2: Linear Programming</a></li>
   <li><a href="#part-3-transportation-problem" id="toc-part-3-transportation-problem" class="nav-link" data-scroll-target="#part-3-transportation-problem">Part 3: Transportation Problem</a></li>
+  <li><a href="#part-4-game-theory" id="toc-part-4-game-theory" class="nav-link" data-scroll-target="#part-4-game-theory">Part 4: Game Theory</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/jmochogi/finite-math.git/edit/main/exam-review/exam-1-review.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jmochogi/finite-math.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="exam-1-review.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
@@ -371,7 +372,7 @@ window.Quarto = {
 <td style="text-align: center;">50</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><span class="math inline">\(y\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(C(x)\)</span></td>
 <td style="text-align: center;">60</td>
 <td style="text-align: center;">60.75</td>
 <td style="text-align: center;">61.5</td>
@@ -380,13 +381,13 @@ window.Quarto = {
 </tbody>
 </table>
 <ol type="a">
-<li>Could the relationship between the cost and the number of cups sold be linear? How do you know?<br> <br> </li>
+<li>Could the relationship between the cost and the number of cups sold be linear? Why or why not?<br> <br> </li>
 <li>If the relationship is linear, find the equation of the fucntion, <span class="math inline">\(C(x)\)</span> in <strong><em>slope-intercept</em></strong> form.<br> <br> </li>
 </ol></li>
 <li><p>Suppose that the supply, in pairs, of a certain kind of sneakers can be expressed as <span class="math inline">\(s(p)=3p\)</span>, where <span class="math inline">\(p\)</span> is the price in dollars per pair. Suppose also that the demand can be expressed as <span class="math inline">\(d(p)=500−2p\)</span>.</p>
 <ol type="a">
 <li>How many units would the market demand if the price is set at $150?<br> <br> </li>
-<li>Find the equilibrium point. Explain why it might be important for the manufacturer of the sneakers to know the equilibrium point.<br> <br> </li>
+<li>Find the equilibrium price and quantity. Explain why it might be important for the manufacturer of the sneakers to know the equilibrium point.<br> <br> </li>
 </ol></li>
 <li><p>A small company produces iPhone cases. The cost of producing <span class="math inline">\(x\)</span> cases can be modeled using the linear function <span class="math inline">\(C(x)=0.75x+1075\)</span>, while the revenue generated from selling <span class="math inline">\(x\)</span> cases is modeled by <span class="math inline">\(R(x)=11.5x\)</span>.</p>
 <ol type="a">
@@ -398,7 +399,7 @@ window.Quarto = {
 <li><p>Find the cost function, <span class="math inline">\(C(x)\)</span>, and the revenue function, <span class="math inline">\(R(x)\)</span>. Assume that both functions are linear.<br> <br> </p></li>
 <li><p>Find the break-even point.<br> <br> </p></li>
 <li><p>Suppose the company has goal of making $5,000 in profit this month. How much T-shirts must be sold to reach this goal?<br> <br> </p></li>
-<li><p>What is the profit if 500 T-shirts sold?<br> <br> </p></li>
+<li><p>What is the profit if 150 T-shirts sold?<br> <br> </p></li>
 </ol></li>
 </ol>
 </section>
@@ -417,7 +418,7 @@ window.Quarto = {
 <section id="part-3-transportation-problem" class="level2">
 <h2 class="anchored" data-anchor-id="part-3-transportation-problem">Part 3: Transportation Problem</h2>
 <ol start="8" type="1">
-<li><p>Consider the Transportation Problem tableau below:</p>
+<li><p>Consider the Transportation Problem tableau below. The quantities supplied/demanded are in thousands and the transportation costs in thousands of dollars.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -431,23 +432,23 @@ window.Quarto = {
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">W1</td>
-<td style="text-align: center;">6</td>
-<td style="text-align: center;">8</td>
-<td style="text-align: center;">10</td>
+<td style="text-align: center;">$6</td>
+<td style="text-align: center;">$8</td>
+<td style="text-align: center;">$10</td>
 <td style="text-align: center;">100</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">W2</td>
-<td style="text-align: center;">9</td>
-<td style="text-align: center;">11</td>
-<td style="text-align: center;">12</td>
+<td style="text-align: center;">$9</td>
+<td style="text-align: center;">$11</td>
+<td style="text-align: center;">$12</td>
 <td style="text-align: center;">150</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">W3</td>
-<td style="text-align: center;">7</td>
-<td style="text-align: center;">8</td>
-<td style="text-align: center;">14</td>
+<td style="text-align: center;">$7</td>
+<td style="text-align: center;">$8</td>
+<td style="text-align: center;">$14</td>
 <td style="text-align: center;">200</td>
 </tr>
 <tr class="even">
@@ -460,9 +461,9 @@ window.Quarto = {
 </tbody>
 </table>
 <ol type="a">
-<li><p>Find the initial feasible solution (shipment plan) using the North-West Corner Rule. Calculate the cost of this plan.<br> <br> </p></li>
+<li><p>Find the initial feasible solution (shipment plan) using the North-West Corner Rule. You may want to redraw the tableau first to look like the ones we exercised with in class. Calculate the cost of this plan.<br> <br> </p></li>
 <li><p>Is the shipment plan you found in part (a) above optimal? Use the concept of indicator values to prove your claim.<br> <br> </p></li>
-<li><p>If the plan in part (b) is not optimal, use the stepping stone method to find the cheapest plan.<br> <br> </p></li>
+<li><p>If the plan in part (b) is not optimal, use the stepping stone method to find the cheapest plan and the associated cost.<br> <br> </p></li>
 </ol></li>
 <li><p>A company named “TransLogistics” needs to transport its products from three warehouses to four customer locations. The first, second and third warehouses can supply 50, 60 and 130 units respectively. Customers 1, 2, 3, and 4 need 50, 70, 60, and 60 respectively. The transportation costs per unit from each warehouse to each customer are as follows:</p>
 <table class="caption-top table">
@@ -499,7 +500,12 @@ window.Quarto = {
 </tr>
 </tbody>
 </table>
-<p>Determine the optimal transportation plan that minimizes the total transportation cost.<br> <br> ## Part 4: Game Theory</p></li>
+<p>Determine the optimal transportation plan that minimizes the total transportation cost.<br> <br> </p></li>
+</ol>
+</section>
+<section id="part-4-game-theory" class="level2">
+<h2 class="anchored" data-anchor-id="part-4-game-theory">Part 4: Game Theory</h2>
+<ol start="10" type="1">
 <li><p>Consider the following payoff matrix for a two-player game: <span class="math display">\[\begin{equation}
   \left[
   \begin{array}{cccc}
@@ -510,7 +516,7 @@ window.Quarto = {
   \right]
 \end{equation}\]</span></p>
 <ol type="a">
-<li><p>What os the payoff if strategies (3,2) are deployed? What about (3,3)?<br> <br> </p></li>
+<li><p>What is the payoff if strategies (3,2) are deployed? What about (3,3)?<br> <br> </p></li>
 <li><p>Identify the dominated strategies for player 1 and 2, if any.<br> <br> </p></li>
 <li><p>Is the game striclty determined? How do you know?<br> <br> </p></li>
 <li><p>If the game is not strictly determined, change the payoffs in the matrix so that it becomes strictly determined. Write the new payoff matrix below.<br> <br> </p></li>
