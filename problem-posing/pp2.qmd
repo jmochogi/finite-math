@@ -1,9 +1,67 @@
 ---
 title: "Problem Posing 2"
 format:
-  html: default
-  pdf: default
+   html: default
+    #pdf: default
+  #docx: default
 #author: "Student Name"
 ---
 
-Coming soon!
+## Instructions:
+
+-   Download the pdf of this document. Look for a PDF link on the right of this page.
+
+-   Write your responses in the spaces provided. You may add an extra pages if you need more space. You may write digitally (using ipad/tablet) or type directly in the pdf. If your handwriting is hard to read, I suggest you type your responses. Otherwise, I may return the assignment to you.
+
+-   Scan your work (if you need to) then upload to Canvas.
+
+## Task 1
+
+Consider the following transportation problem tableau. Create an easy problem and a challenging problem based on the tableau. For each problem, describe briefly why the problem is easy/challenging. The potential solvers of the problems you write are your classmates. - Easy Problem:
+
+![](/img/tab1.png){fig-align="center" width="250"}
+
+-   Easy Problem:<br><br><br> \vspace{5cm}
+
+    Explain briefly why the problem is easy. Be as specific as possible.<br><br><br> \vspace{2cm}
+
+-   Challenging Problem:<br><br><br> \vspace{5cm}
+
+    Explain briefly why the problem is challenging. Again, be as specific as possible.<br><br><br> \clearpage
+
+## Task 2
+
+A student used the northwest corner rule to come up with a shipment plan. Accidentally, several numbers were erased from the tableau. The missing numbers are labelled as a, b, c,... to g.
+
+![](/img/tab.png){fig-align="center" width="200"}
+
+a.  Find the missing numbers $(a)$ through $(f)$. Explain briefly how you came up with the numbers.
+
+    \vspace{5cm}
+
+b.  Given that the total shipment cost for the plan in (a) is 12,200,000, find the value of $g$, the unit cost of transportation from factory III to store 4. Note that the transportation costs indicated on the tableau are in thousands of dollars.
+
+    \clearpage
+
+## Task 3
+
+Modify the following payoff matrix such that the 3 in row 2 becomes a saddle point. Explain how you arrived at your new payoff matrix.
+
+```{=tex}
+\begin{equation}
+        \left[
+        \begin{array}{cccc}
+        -9 & -7 & -9&\phantom{-}7\\
+        -1 & \phantom{-}0 &\phantom{-}8 & \phantom{-}3\\
+        \phantom{-}5 & \phantom{-}4 & -3 & -2
+        \end{array}
+        \right]
+\end{equation}
+```
+\clearpage
+
+## Task 4
+
+Pose a challenging **real-world** mathematical problem for which the payoff matrix below would be appropriate. Explain why your posed problem is challenging by highlighting possible errors that a solver could make.
+
+![](/img/mat.png){fig-align="center" width="270"}

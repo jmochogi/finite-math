@@ -147,7 +147,7 @@
     "href": "problem-posing/pp2.html",
     "title": "Problem Posing 2",
     "section": "",
-    "text": "Coming soon!",
+    "text": "Download the pdf of this document. Look for a PDF link on the right of this page.\nWrite your responses in the spaces provided. You may add an extra pages if you need more space. You may write digitally (using ipad/tablet) or type directly in the pdf. If your handwriting is hard to read, I suggest you type your responses. Otherwise, I may return the assignment to you.\nScan your work (if you need to) then upload to Canvas.",
     "crumbs": [
       "Problem Posing",
       "Problem Posing 2"
@@ -610,5 +610,60 @@
     "title": "Problem Posing 2",
     "section": "Task 4",
     "text": "Task 4\nPose a challenging real-world mathematical problem for which the payoff matrix below would be appropriate. Explain why your posed problem is challenging by highlighting possible errors that a solver could make."
+  },
+  {
+    "objectID": "problem-posing/pp2.html#instructions",
+    "href": "problem-posing/pp2.html#instructions",
+    "title": "Problem Posing 2",
+    "section": "",
+    "text": "Download the pdf of this document. Look for a PDF link on the right of this page.\nWrite your responses in the spaces provided. You may add an extra pages if you need more space. You may write digitally (using ipad/tablet) or type directly in the pdf. If your handwriting is hard to read, I suggest you type your responses. Otherwise, I may return the assignment to you.\nScan your work (if you need to) then upload to Canvas.",
+    "crumbs": [
+      "Problem Posing",
+      "Problem Posing 2"
+    ]
+  },
+  {
+    "objectID": "problem-posing/pp2.html#task-1",
+    "href": "problem-posing/pp2.html#task-1",
+    "title": "Problem Posing 2",
+    "section": "Task 1",
+    "text": "Task 1\nConsider the following transportation problem tableau. Create an easy problem and a challenging problem based on the tableau. For each problem, describe briefly why the problem is easy/challenging. The potential solvers of the problems you write are your classmates. - Easy Problem:\n\n\n\n\n\n\nEasy Problem: \nExplain briefly why the problem is easy. Be as specific as possible. \nChallenging Problem: \nExplain briefly why the problem is challenging. Again, be as specific as possible.",
+    "crumbs": [
+      "Problem Posing",
+      "Problem Posing 2"
+    ]
+  },
+  {
+    "objectID": "problem-posing/pp2.html#task-2",
+    "href": "problem-posing/pp2.html#task-2",
+    "title": "Problem Posing 2",
+    "section": "Task 2",
+    "text": "Task 2\nA student used the northwest corner rule to come up with a shipment plan. Accidentally, several numbers were erased from the tableau. The missing numbers are labelled as a, b, c,… to g.\n\n\n\n\n\n\nFind the missing numbers \\((a)\\) through \\((f)\\). Explain briefly how you came up with the numbers.\nGiven that the total shipment cost for the plan in (a) is 12,200,000, find the value of \\(g\\), the unit cost of transportation from factory III to store 4. Note that the transportation costs indicated on the tableau are in thousands of dollars.",
+    "crumbs": [
+      "Problem Posing",
+      "Problem Posing 2"
+    ]
+  },
+  {
+    "objectID": "problem-posing/pp2.html#task-3",
+    "href": "problem-posing/pp2.html#task-3",
+    "title": "Problem Posing 2",
+    "section": "Task 3",
+    "text": "Task 3\nModify the following payoff matrix such that the 3 in row 2 becomes a saddle point. Explain how you arrived at your new payoff matrix.\n\\[\\begin{equation}\n        \\left[\n        \\begin{array}{cccc}\n        -9 & -7 & -9&\\phantom{-}7\\\\\n        -1 & \\phantom{-}0 &\\phantom{-}8 & \\phantom{-}3\\\\\n        \\phantom{-}5 & \\phantom{-}4 & -3 & -2\n        \\end{array}\n        \\right]\n\\end{equation}\\]",
+    "crumbs": [
+      "Problem Posing",
+      "Problem Posing 2"
+    ]
+  },
+  {
+    "objectID": "problem-posing/pp2.html#task-4",
+    "href": "problem-posing/pp2.html#task-4",
+    "title": "Problem Posing 2",
+    "section": "Task 4",
+    "text": "Task 4\nPose a challenging real-world mathematical problem for which the payoff matrix below would be appropriate. Explain why your posed problem is challenging by highlighting possible errors that a solver could make.",
+    "crumbs": [
+      "Problem Posing",
+      "Problem Posing 2"
+    ]
   }
 ]
