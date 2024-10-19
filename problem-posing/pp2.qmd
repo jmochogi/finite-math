@@ -1,8 +1,8 @@
 ---
 title: "Problem Posing 2"
 format:
-   html: default
-    #pdf: default
+    html: default
+    pdf: default
   #docx: default
 #author: "Student Name"
 ---
