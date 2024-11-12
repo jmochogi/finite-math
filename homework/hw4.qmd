@@ -1,5 +1,43 @@
 ---
-title: "Homeowrk 1"
+title: "Homeowrk 4"
+subtitle: "Due: Nov 20, 2024"
+format:
+  html: default
+  pdf: default
 ---
 
-Coming soon!
+1.  You have figured out that you will need \$19,500 to buy a car on Oct, 5, 2025 and have decided that you want to start growing your money by investing it to earn interest. Suppose that you have \$18,000 to invest on July 01, 24). What simple interest rate would you get in order to achieve your goal? Use the banker's Rule. \vspace{1.5in}
+
+2.  Suppose you deposit \$2,500 in an account that earns an interest rate of 4% (12). After three years, you learn of a new bank that pays 5% (6) and you decide to withdraw all your money from the first bank to invest in the new bank for a further 3 years.
+
+    a.  How much will you have in total after 6 years?\vspace{1.5in}
+
+    b.  If you had let the money stay in the first account for 6 years, how much would you have? On overall, how much more/less do you make by switching your money to the new account?\vspace{4in}
+
+3.  In Jan 2022, Grace opened a 2-year Certificate of Deposit (CD) account and deposited \$50,000. The interest rate for the CD is 5.99% with daily compounding.
+
+    a.  How much interest does Grace earn from this investment? \vspace{2in}
+
+    b.  When you account for inflation, is this investment profitable? \clearpage
+
+4.  You may have noticed that financial institutions such as banks often advertise APRs for their lending products (e.g., credit cards, car loans, mortgages, etc.) but advertise APYs for investment products (e.g., Savings accounts, CDs, Money Market accounts, etc.). How would you explain this? Be sure to base your answer on content covered in this course. \vspace{2.2in}
+
+5.  Suppose you have \$10,000 to invest and you are considering two investment options:
+
+    Option 1: A savings account that pays 4.99% interest rate with monthly compounding. <br>
+
+    Option 2: A CD that pays 5.00% APY with daily compounding. <br>
+
+    Which option would you choose and why? Please justify your work mathematically. \clearpage
+
+6.  Gail bought her iPhone, tablet, computer, and headsets using her Best Buy Credit card that charges an interest rate of 21.99% compounded daily. These items cost a total of \$ 5,500. Furthermore, Gail recently went through an expensive dental procedure for which the copay (part of the bill one is responsible for) was \$8,000. She paid this amount using her Capital One credit card that charges an interest rate of 24.99% (12).
+
+    a.  How much interest will Gail pay on her Best Buy credit card if she pays off the entire balance in three years? \vspace{3in}
+
+    b.  How much interest will Gail pay on her Capital One credit card if she pays off the entire balance in 3 years?\vspace{3in}
+
+7.  Being smart, Gail (from number 6 above) has realized that she can pay less interest by taking a personal loan at a lower rate to pay off the credit card debts. Suppose Gail wants to take a personal loan to pay off the credit card debts immediately (total debt is \$13,500). Go online and search for a personal loan product that you think will be suitable for Gail. You may assume that her credit score is 780 and that she qualifies for the lowest interest rate that the lender offers.
+
+    a.  What is the name of the lender you found? What interest rate would you use. Note that I will go online to double check this rate to make sure it is accurate. \vspace{1.5in}
+    b.  How much interest will Gail pay on the personal loan if she pays it off in 3 years? \vspace{3in}
+    c.  How much cheaper is the option of taking a personal loan than the option of paying off the credit card debts directly?

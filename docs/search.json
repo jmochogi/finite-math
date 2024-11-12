@@ -2,9 +2,9 @@
   {
     "objectID": "homework/hw4.html",
     "href": "homework/hw4.html",
-    "title": "Homeowrk 1",
+    "title": "Homeowrk 4",
     "section": "",
-    "text": "Coming soon!",
+    "text": "You have figured out that you will need $19,500 to buy a car on Oct, 5, 2025 and have decided that you want to start growing your money by investing it to earn interest. Suppose that you have $18,000 to invest on July 01, 24). What simple interest rate would you get in order to achieve your goal? Use the banker’s Rule. \nSuppose you deposit $2,500 in an account that earns an interest rate of 4% (12). After three years, you learn of a new bank that pays 5% (6) and you decide to withdraw all your money from the first bank to invest in the new bank for a further 3 years.\n\nHow much will you have in total after 6 years?\nIf you had let the money stay in the first account for 6 years, how much would you have? On overall, how much more/less do you make by switching your money to the new account?\n\nIn Jan 2022, Grace opened a 2-year Certificate of Deposit (CD) account and deposited $50,000. The interest rate for the CD is 5.99% with daily compounding.\n\nHow much interest does Grace earn from this investment? \nWhen you account for inflation, is this investment profitable? \n\nYou may have noticed that financial institutions such as banks often advertise APRs for their lending products (e.g., credit cards, car loans, mortgages, etc.) but advertise APYs for investment products (e.g., Savings accounts, CDs, Money Market accounts, etc.). How would you explain this? Be sure to base your answer on content covered in this course. \nSuppose you have $10,000 to invest and you are considering two investment options:\nOption 1: A savings account that pays 4.99% interest rate with monthly compounding. \nOption 2: A CD that pays 5.00% APY with daily compounding. \nWhich option would you choose and why? Please justify your work mathematically. \nGail bought her iPhone, tablet, computer, and headsets using her Best Buy Credit card that charges an interest rate of 21.99% compounded daily. These items cost a total of $ 5,500. Furthermore, Gail recently went through an expensive dental procedure for which the copay (part of the bill one is responsible for) was $8,000. She paid this amount using her Capital One credit card that charges an interest rate of 24.99% (12).\n\nHow much interest will Gail pay on her Best Buy credit card if she pays off the entire balance in three years? \nHow much interest will Gail pay on her Capital One credit card if she pays off the entire balance in 3 years?\n\nBeing smart, Gail (from number 6 above) has realized that she can pay less interest by taking a personal loan at a lower rate to pay off the credit card debts. Suppose Gail wants to take a personal loan to pay off the credit card debts immediately (total debt is $13,500). Go online and search for a personal loan product that you think will be suitable for Gail. You may assume that her credit score is 780 and that she qualifies for the lowest interest rate that the lender offers.\n\nWhat is the name of the lender you found? What interest rate would you use. Note that I will go online to double check this rate to make sure it is accurate. \nHow much interest will Gail pay on the personal loan if she pays it off in 3 years? \nHow much cheaper is the option of taking a personal loan than the option of paying off the credit card debts directly?",
     "crumbs": [
       "Homework",
       "Homework 4"
@@ -638,7 +638,7 @@
     "href": "problem-posing/pp2.html#task-2",
     "title": "Problem Posing 2",
     "section": "Task 2",
-    "text": "Task 2\nA student used the northwest corner rule to come up with a shipment plan. Accidentally, several numbers were erased from the tableau. The missing numbers are labelled as a, b, c,… to g.\n\n\n\n\n\n\nFind the missing numbers \\((a)\\) through \\((f)\\). Explain briefly how you came up with the numbers.\nGiven that the total shipment cost for the plan in (a) is 12,200,000, find the value of \\(g\\), the unit cost of transportation from factory III to store 4. Note that the transportation costs indicated on the tableau are in thousands of dollars.",
+    "text": "Task 2\nA student used the northwest corner rule to come up with a shipment plan. Accidentally, several numbers were erased from the tableau. The missing numbers are labelled as a, b, c,… to g.\n\n\n\n\n\n\nFind the missing numbers \\((a)\\) through \\((f)\\). Explain briefly how you came up with the numbers.\nGiven that the total shipment cost for the plan in (a) is $12,200,000, find the value of \\(g\\), the unit cost of transportation from factory III to store 4. Note that the transportation costs indicated on the tableau are in thousands of dollars.",
     "crumbs": [
       "Problem Posing",
       "Problem Posing 2"
@@ -649,7 +649,7 @@
     "href": "problem-posing/pp2.html#task-3",
     "title": "Problem Posing 2",
     "section": "Task 3",
-    "text": "Task 3\nModify the following payoff matrix such that the 3 in row 2 becomes a saddle point. Explain how you arrived at your new payoff matrix.\n\\[\\begin{equation}\n        \\left[\n        \\begin{array}{cccc}\n        -9 & -7 & -9&\\phantom{-}7\\\\\n        -1 & \\phantom{-}0 &\\phantom{-}8 & \\phantom{-}3\\\\\n        \\phantom{-}5 & \\phantom{-}4 & -3 & -2\n        \\end{array}\n        \\right]\n\\end{equation}\\]",
+    "text": "Task 3\nModify the following payoff matrix such that the 3 in row 2 becomes a saddle point. You may change numbers or even signs, but keep the game order the same. Ensure that the new matrix has no dominated strategies. Explain how you arrived at your new payoff matrix.\n\\[\\begin{equation}\n        \\left[\n        \\begin{array}{cccc}\n        -9 & -7 & -9&\\phantom{-}7\\\\\n        -1 & \\phantom{-}0 &\\phantom{-}8 & \\phantom{-}3\\\\\n        \\phantom{-}5 & \\phantom{-}4 & -3 & -2\n        \\end{array}\n        \\right]\n\\end{equation}\\]",
     "crumbs": [
       "Problem Posing",
       "Problem Posing 2"
@@ -664,6 +664,17 @@
     "crumbs": [
       "Problem Posing",
       "Problem Posing 2"
+    ]
+  },
+  {
+    "objectID": "homework/hw4.html#problem-1",
+    "href": "homework/hw4.html#problem-1",
+    "title": "Homeowrk 4",
+    "section": "",
+    "text": "You have figured out that you will need $19,500 to buy a car on Oct, 5, 2025 and have decided that you want to start growing your money by investing it to earn interest. Suppose that you have $18,000 to invest on July 01, 24). What simple interest rate would you get in order to achieve your goal? Use the banker’s Rule.\nSuppose you deposit $2,500 in an account that earns 4% (12). After three years, you learn of a new bank that pays 5% (6) and you decide to withdraw all your money from the first bank to invest in the new bank for a further 3 years.\n\nHow much will you have in total after 6 years?\nIf you had let the money stay in the first account for 6 years, how much would you have? On overall, how much more/less do you make by switching your money to the new account?\n\nAt the beginning of 2022, Grace opened a 2-year Certificate of Deposit (CD) account and deposited $50,000. The interest rate for the CD is 5.99% with daily compounding.\n\nHow much interest does Grace earn from this investment?\nWhen you account for inflation, is this investment profitable?\n\nYou may have noticed that financial institutions such as banks often advertise APRs for lending products (e.g., credit cards, car loans, etc.) but advertise APYs for deposit products (e.g., Savings accounts, CDs, etc.). Why is this the case?\nSuppose you have $10,000 to invest and you are considering two investment options:\nOption 1: A savings account that pays 4.99% interest rate with monthly compounding. \nOption 2: A CD that pays 5.00% APY with daily compounding. \nWhich option would you choose and why? Be sure to justify work mathematically.\nGail bought her iphone, tablet, computer, and headsets using her Best Buy Credit card that charges an interest rate of 21.99% compounded daily. These items cost a total of $ 5,500. Furthermore, Gail recently went through an expensive dental procedure for which the copay (part of the bill one is responsible for) was $8,000. She paid this amount using her Capital One credit card that charges an interest rate of 24.99%.\n\nHow much interest will Gail pay on her Best Buy credit card if she pays off the entire balance in three years?\nHow much interest will Gail pay on her Capital One credit card if she pays off the entire balance in 3 years?\n\nBeing smart, Gail (from number 6 above) has realized that she can pay less interest by taking a personal loan at a lower rate to pay off the credit card debts. Suppose Gail wants to take a personal loan to pay off the credit card debts immediately. Go online and search for a personal loan product that you think will be suitable for Gail. You may assume that her credit score is 780 and that she qualifies for the lowest interest rate that the lender offers.\n\nWhat is the name of the lender you found? What interest rate would you use. Note that I will go online to double check this rate to make sure it is accurate.\nHow much interest will Gail pay on the personal loan if she pays it off in 3 years?\nHow much cheaper is the option of taking a personal loan that the option of paying off the credit card debts directly?",
+    "crumbs": [
+      "Homework",
+      "Homework 4"
     ]
   }
 ]

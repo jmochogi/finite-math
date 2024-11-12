@@ -39,13 +39,13 @@ a.  Find the missing numbers $(a)$ through $(f)$. Explain briefly how you came u
 
     \vspace{5cm}
 
-b.  Given that the total shipment cost for the plan in (a) is 12,200,000, find the value of $g$, the unit cost of transportation from factory III to store 4. Note that the transportation costs indicated on the tableau are in thousands of dollars.
+b.  Given that the total shipment cost for the plan in (a) is \$12,200,000, find the value of $g$, the unit cost of transportation from factory III to store 4. Note that the transportation costs indicated on the tableau are in thousands of dollars.
 
     \clearpage
 
 ## Task 3
 
-Modify the following payoff matrix such that the 3 in row 2 becomes a saddle point. Explain how you arrived at your new payoff matrix.
+Modify the following payoff matrix such that the 3 in row 2 becomes a saddle point. You may change numbers or even signs, but keep the game order the same. Ensure that the new matrix has no dominated strategies. Explain how you arrived at your new payoff matrix.
 
 ```{=tex}
 \begin{equation}
