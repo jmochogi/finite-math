@@ -1,7 +1,88 @@
 ---
-title: "Longterm Financial Planning"
+title: "Budget Project"
 #subtitle: "Milestone 1"
+format:
+  #html: default
+  pdf: default
 categories: "Project"
 ---
 
-Come back later!
+## Project Description
+
+The goal of this project is to create a budget for your anticipated household expenses for your first year after college. Try to be as realistic as possible so you will be able to use this as a reference. 
+
+Here are some of the things you want to consider:
+
+- ***Location:*** What part of the world are you going to live in? (For this project, you must pick a place in the US so that budgets are done in US Dollars.) This influences the cost of housing, but also how much you may make in your job, the price of groceries, transportation, etc. Look up online a comparison of "cost of living" between where you decide to live and Ithaca. Often these are broken down into different categories.
+- ***Employment:*** Decide what kind of job you think you might have. Find a reference of starting salaries for that job --- print a copy of your reference.
+- ***Housing:*** Look up the cost of rent in the area you are considering. You will need to decide if you will have roommates or live alone. You will also need to consider utilities, internet, and renter's insurance, etc.
+You can find an apartment to rent via an online advertisement. Print a picture of the place along with the particulars.
+- ***Transportation:*** Will you need a car? If so, how much will it cost? If not, how much will public transportation cost? Will you need to fly home for holidays? How much will that cost? If you will need a car, will it be financed? Note that having a car means you will need to pay for insurance, gas, maintenance, etc. Consider all these in your budget.
+- ***Food:*** How much do you think you will spend on groceries? Eating out? Coffee? (You can look up the cost of groceries in the area you are considering.)
+- ***Healthcare:*** How much will health and dental insurance cost? Will you be under your parents' plan? Will you need to pay for prescriptions? How much will doctor visits cost?
+- ***Entertainment:*** How much will you spend on entertainment? Here, you may consider things like movies, concerts, going out with friends, gym memberships, and subscriptions (e.g., Netflix, Spotify, etc).
+
+
+## Resources and Strategies
+
+- ***Budgeting rule of thumb:*** Check Internet sites that provide budgeting advice, and take into account relative "cost of living" considerations. Be sure to list your sources. Write two paragraphs summarizing *helpful strategies* and tips you used in creating your budget.
+- ***Using a spreadsheet:*** Using a spreadsheet software (Excel, or Numbers, or Google Sheets...), prepare a monthly ***and*** yearly budget based on what you have learned. Use the spreadsheet to calculate the totals for each category of your budget. Write a formula in the spreadsheet to convert the monthly figures to yearly figures.
+
+- ***Sample Completed Project***: The sample completed project may only be used as a guide. Do not follow/copy the content of the sample project to use as your own. The sample project is available [here](https://drive.google.com/file/d/123W7Kawkq8L_xifyXLOceulB0omtDy4l/view?usp=sharing). 
+
+
+## Project Requirements
+
+You will be required to submit a final report including the following:
+- an explanation of your employment plans---include why you want the job, what training is required for it, and project how much money you will earn each month from the starting pay. Your salary should be realistic for the job you are considering.
+
+- two paragraphs summarizing helpful strategies and tips you used in creating your budget;
+
+- the spreadsheet of your monthly and yearly budget, pasted electronically into your report; 
+
+- copies of your sources for starting pay, your apartment, and bills;
+- a bibliography of the Internet addresses and other sources you referenced.
+
+## Grading Rubric
+
+***Opening Statement [5 points]***
+
+- Provides a *short overview* of the scenario for which you are budgeting.
+- The opening statement is clear and concise, free of grammatical errors.
+- A brief summary of helpful tips and strategies for your budget.
+
+***Employment Plans [10 points]***
+
+- Your employment plans are explained (in a paragraph) and are realistic. (See description in "Project Requirements")
+- Income is justified and realistic.
+
+***Monthly and Yearly Budget [20 points]***
+
+- At least two paragraphs detailing expenses considered and the helpful strategies and tips you used in creating your budget.
+- The projected income for you budget is justified, and considers taxes. It is helpful to budget on net income (not gross).
+- The budget is well-organized and easy to read, done on a spreadsheet.
+- The budget is based on accurate information.
+- The budget is complete and includes all necessary categories applicable for your scenario.
+
+***Budget Documentation [10 points]***
+
+- Documentation is provided for the starting pay for your job.
+
+- Documentation is provided for the apartment and transportation means you are considering.
+
+- Documentation is provided for the bills you are considering.
+
+- Ample evidence is provided for all other expenses in the budget.
+
+***Bibliography [5 points]***
+
+- Your sources (websites, published or unpublished documents, personal communication) are cited in a bibliography. Any format is fine as long as I can find the resources (e.g., websites or documents) or know where your information came from (e.g., personal communication).
+
+- Online sources provide clickable links in the project report.
+
+## Project Deadlines
+
+- A rough draft is due on Wed, **Dec 4th**. A tentative grade will be attached to the draft but it is not final. The final grade will be given after the final project is submitted.
+
+- The final version of the project is due by the end of day on Friday, **Dec 06th**.
+

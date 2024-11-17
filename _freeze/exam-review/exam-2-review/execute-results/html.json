@@ -1,0 +1,15 @@
+{
+  "hash": "9a06296d1d13aed0d572fbe2c9512577",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Exam 2 Review\"\nsubtitle: \"Suggested answers\"\n---\n\n\n\n\n1.  Greg borrows \\$1,000 from a bank at an annual interest rate of 5.5%. He plans to pay back the loan in 3 years. How much interest will he pay in total? Remember to use the Banker's Rule.\n\n\n\n\n    ::: {.cell}\n    \n    ```{.r .cell-code}\n    P <- 1000\n    r <- 0.055\n    t <- 3\n    I <- P * r * t\n    I\n    ```\n    \n    ::: {.cell-output .cell-output-stdout}\n    \n    ```\n    [1] 165\n    ```\n    \n    \n    :::\n    :::\n\n\n\n\n    Greg will pay \\$165 in interest. \n2. On March 20, 2025, Sophia plans to invest \\$8,990 in a bank account that pays simple interest at an annual rate of 3.09%. How much money would be in this account on Dec 2, 2023? Assume that Sophia makes no withdrawals in between. Remember to use the Banker's Rule.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
