@@ -1,6 +1,5 @@
 ---
 title: "Exam 2 Review"
-subtitle: "Suggested answers"
 ---
 
 1.  Greg borrowed \$1,000 from a bank on Feb 02, 2024 at a simple interest rate of 5.5%. 

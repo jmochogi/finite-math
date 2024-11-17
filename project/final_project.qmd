@@ -1,8 +1,7 @@
 ---
 title: "Budget Project"
-#subtitle: "Milestone 1"
 format:
-  #html: default
+  html: default
   pdf: default
 categories: "Project"
 ---
